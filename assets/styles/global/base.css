@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+  @media screen and (width >= 600px) {
+    :root{
+      --bfs: 1.2rem;
+    }
+    
+    
+  }
+
 html {
   background-color: var(--lightest);
   scroll-behavior: smooth;

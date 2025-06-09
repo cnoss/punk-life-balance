@@ -50,7 +50,7 @@
     right: 0;
     display: block;
     width: var(--menu-button-width);
-    height: calc(var(--menu-button-width) * 0.75);
+    height: calc(var(--menu-button-width) * 0.2);
     align-self: flex-start;
     border: none;
     margin-top: var(--fluid-space-xs);
@@ -80,11 +80,11 @@
 
     span:nth-child(2),
     span:nth-child(3) {
-      top: 18px;
+      top: calc(var(--menu-button-width) * 0.2);
     }
 
     span:nth-child(4) {
-      top: 36px;
+      top: calc(var(--menu-button-width) * 0.4);
     }
 
     &.is-open span {
@@ -92,7 +92,7 @@
     }
 
     &.is-open span:nth-child(1) {
-      top: 18px;
+      top: calc(var(--menu-button-width) * 0.2);;
       left: 50%;
       width: 0%;
     }
@@ -106,7 +106,7 @@
     }
 
     &.is-open span:nth-child(4) {
-      top: 18px;
+      top: calc(var(--menu-button-width) * 0.2);;
       left: 50%;
       width: 0%;
     }
@@ -155,10 +155,6 @@
       display: none;
     }
 
-    .menu-button {
-      right: calc(var(--main-padding-left) * 0.6);
-    }
-
     .title-group {
       flex-grow: inherit;
     }
@@ -170,13 +166,15 @@
     }
   }
 
+  .menu{
+    *{
+      line-height: var(--lh-normal);
+      text-align: center;;
+    }
+  }
+
 
 }
-
-
-/* Split View
-############################################################################ */
-
 
 
 

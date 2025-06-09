@@ -7,7 +7,7 @@
 
   /* Sizes and Spacing
   ----------------------------------------------------------------------- */
-  --bfs: 1.2rem;
+  --bfs: 0.9rem;
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -40,7 +40,7 @@
   --max-width-image-s: calc(var(--m) * 5);
   --max-width-navigation: calc(var(--m) * 20);
   --max-width-aside: calc(var(--m) * 20);
-  --menu-button-width: 8ch;
+  --menu-button-width: 5rem;
 
   /* Colors
   ----------------------------------------------------------------------- */
