@@ -1,0 +1,1 @@
+<a data-js-back class="bottom-back-button" href="#"><i class="icon icon-inline">arrow_back</i> <?= I18n::translate('zurueck') ?></a>

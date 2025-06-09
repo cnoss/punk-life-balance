@@ -1,0 +1,104 @@
+Title: Impressum
+
+----
+
+Teasertext: 
+
+----
+
+Teaserimage: 
+
+----
+
+Blocks:
+
+[
+    {
+        "content": {
+            "level": "h2",
+            "text": "Angaben gem. § 5 TMG"
+        },
+        "id": "f6470908-afd5-42d9-975b-cdb697875b13",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Michael Hanschmidt</p>"
+        },
+        "id": "3854aa8e-64f3-4a82-a712-ac8aa21b3285",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "Anschrift"
+        },
+        "id": "3d916ad9-4e54-4c82-b8ec-8483baac083f",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Eisheiligenstraße 25<br>50825 Köln</p>"
+        },
+        "id": "0d545803-282e-4839-9bb8-536136ac5b0a",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "Kontakt"
+        },
+        "id": "c18caacf-c756-4662-a271-6d743b0cd8d3",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Telefon: 0163-2878191<br>E-Mail: keep-on-pushing@punklivebalance.com<br></p>"
+        },
+        "id": "88478fa7-c366-44d6-a512-75db904ffaec",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "level": "h2",
+            "text": "Bilder und Videos auf der Website"
+        },
+        "id": "e480b5d0-dc96-40a6-8798-921c9a86df0f",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "<p>Alle Bilder und Videos sind von Punk Life Balance erstellt, außer das Bild von Ian Maxwell welches <a href=\"https://www.keegan-music.com/contact\">https://www.keegan-music.com</a> entnommen wurde.</p>"
+        },
+        "id": "c4ccd42c-fafd-4653-abe1-d4a0ec8deb83",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Backgroundvideourl: videos/impressum-piano.mp4
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: FaPZ1xbCqTiHPySY

@@ -1,0 +1,26 @@
+@media print {
+  :root {
+    --bfs: 11pt;
+  }
+
+  #scroll-to-top,
+  .main-footer,
+  .main-header
+  {
+    visibility: hidden;
+  }
+  
+  @page { margin: 2cm 1.5cm 3cm }
+
+  h1, h2, .modulbeschreibung.print header {
+    page-break-before: always;
+  }
+
+  .competence-list{
+    display: none;
+  }
+
+  .icon{
+    display: none;
+  }
+}

@@ -1,0 +1,72 @@
+title: Content Blocks
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      aboutliablocks:
+        label: Einträge
+        type: fields
+        fields:
+          teaserData:
+            label: Teaser Info
+            type: headline
+          teaserText:
+            label: Teaser Text
+            type: textarea
+            size: small
+          teaserImage: fields/cover
+
+          ContentData:
+            label: Content
+            type: headline
+          blocks:
+            label: Content Blöcke
+            type: blocks
+            pretty: true
+            fieldsets:
+              text:
+                label: Text
+                type: group
+                fieldsets:
+                  - heading
+                  - text
+                  - list
+                  - type: hero
+                    name: Hero
+                    icon: text
+                    preview: fields
+                    fields:
+                      text:
+                        type: textarea
+              media:
+                label: Media
+                type: group
+                fieldsets:
+                  - image
+                  - video
+  sidebar:
+    width: 1/3
+    sections:
+      videofields:
+        type: fields
+        fields:
+          videoSettings:
+            label: Einstellungen zum Hintergrundvideo
+            type: headline
+          backgroundVideoUrl:
+            label: URL zum Hintergrundvideo
+            type: text
+          startOfBackgroundVideo:
+            label: Startzeitpunkt
+            type: number
+          durationOfBackgroundVideo:
+            label: Dauer des Videos in Sekunden
+            type: number
+          videoOptions:
+            label: Darstellungsoptionen
+            type: checkboxes
+            options:
+              grayscale: schwarz-weiß
+              lighten: heller
+              darken: dunkler

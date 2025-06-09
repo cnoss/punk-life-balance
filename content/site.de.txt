@@ -1,0 +1,74 @@
+Title: Punk Life Balance
+
+----
+
+Tagline: Post-Punk Indie
+
+----
+
+Headof: Punk Life Balance
+
+----
+
+Headofemail: hello@punklifebalance.com
+
+----
+
+Adress: Alte Hofstraße
+
+----
+
+Pagetitle: Punk Life Balance // Post-Punk Indie
+
+----
+
+Desc: Musik ist Erinnerung. Und gute Musik ist zeitlos. Punk Life Balance ist beides. Aber das Kuriose an zeitloser Musik ist, dass *zeitlos* davon abhängt, wer zuhört, woher man kommt, was man gemacht hat.
+
+----
+
+Socialimage: 
+
+----
+
+Youtube: 
+
+----
+
+Facebook: 
+
+----
+
+Instagram: 
+
+----
+
+Cover:
+
+- 
+  id: lia-im-kleid.jpg
+  image:
+    back: pattern
+    color: orange-500
+    cover: false
+    icon: image
+    url: >
+      http://localhost:3000/media/site/baa1508d8d-1703746842/lia-im-kleid.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost:3000/media/site/baa1508d8d-1703746842/lia-im-kleid-38x.jpg
+      38w,
+      http://localhost:3000/media/site/baa1508d8d-1703746842/lia-im-kleid-76x.jpg
+      76w
+  info: ""
+  link: /site/files/lia-im-kleid.jpg
+  sortable: true
+  text: lia-im-kleid.jpg
+  uuid: file://kJ4zypIp49ZTiOr5
+  dragText: '(image: lia-im-kleid.jpg)'
+  filename: lia-im-kleid.jpg
+  type: image
+  url: >
+    http://localhost:3000/media/site/baa1508d8d-1703746842/lia-im-kleid.jpg
+
+----

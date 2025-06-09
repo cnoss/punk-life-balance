@@ -1,0 +1,78 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Mission Statement
+###########################################################################  */
+
+.mission-statement {
+  padding: var(--fluid-space-l) var(--fluid-space-xxl) var(--fluid-space-xl) var(--fluid-space-xxl);
+  background-image: linear-gradient(-45deg, rgb(0 0 0 / 90%), rgb(255 255 255 / 10%)),
+    url("/assets/images/bg-rusty.webp");
+
+  &>* {
+    margin-bottom: var(--s);
+  }
+}
+
+/* Funky Links
+###########################################################################  */
+
+.funky-link, em {
+  a {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation-name: wobble;
+
+    /* Tweak range when effect should run */
+    animation-range: entry 0% cover 50%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    text-decoration: none;
+
+    /* Create View Timeline */
+    view-timeline-name: --appear-in-viewport;
+  }
+
+  &:hover a {
+    background-color: var(--color-accent);
+
+  }
+}
+
+/* Title Group
+###########################################################################  */
+
+.title-group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l);
+  background-color: var(--color-accent);
+
+
+  * {
+    font-size: var(--m);
+  }
+}
+
+.page-title {
+  padding-right: var(--xs);
+  font-weight: var(--fw-black);
+
+  
+  a {
+    color: var(--lightest);
+    text-decoration: none;
+  }
+
+  @container (min-inline-size: 80ch) {
+    font-size: 2vw;
+  }
+}
+
+.page-tagline {
+  padding-left: var(--xs);
+}
+

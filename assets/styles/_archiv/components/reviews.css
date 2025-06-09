@@ -1,0 +1,38 @@
+/* Review Wrap
+############################################################################ */
+
+.review-wrap{
+  display: flex;
+  justify-content: center;
+  padding: calc(var(--fluid-space-xxl) * 3) var(--fluid-space-xxl);
+  font-size: var(--xl);
+  line-height: var(--lh-normal);
+
+  blockquote{
+    max-width: 60ch;
+    font-weight: var(--fw-bold);
+    hyphens: none;
+
+    p{
+      &::before{
+        display: inline-block;
+        padding-right: calc(var(--quat)/2);
+        margin-left: -1ch;
+        color: var(--lighten-strong);
+        content: "«";
+      }
+
+      &::after{
+        display: inline-block;
+        padding-left: calc(var(--quat)/2);
+        color: var(--lighten-strong);
+        content: "»";
+      }
+    }
+  }
+
+  footer{
+    padding-top: var(--fluid-space-s);
+    font-weight: var(--fw-normal);
+  }
+}

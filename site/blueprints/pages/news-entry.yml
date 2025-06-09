@@ -1,0 +1,102 @@
+title: News & Termine Eintrag
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          date:
+            label: Angezeigtes Datum
+            type: date
+            calendar: true
+            required: true            
+          text:
+            label: Mengentext
+            type: textarea
+            required: false
+          kind:
+            label: News oder Termin
+            type: radio
+            default: news
+            options:
+              news: News
+              termin: Termin
+            columns: 2
+
+          line:
+            type: line
+          furtherFields:
+            label: Optionale Inhalte
+            type: headline            
+          subtitle:
+            label: Zweite Überschrift
+            type: text
+          linktext:
+            label: Linktext zu anderer Seite, falls erforderlich
+            type: text
+          link:
+            label: Link zu anderer Seite, falls erforderlich
+            type: url
+          youtube:
+            label: ID des YouTube Videos
+            type: text
+
+          cover: fields/cover
+
+          line2:
+            type: line
+          fieldsForDates:
+            label: Für Termine
+            type: headline
+          dateOfGig:
+            label: Datum des Termins
+            type: date
+            calendar: true
+          venue:
+            label: Ort des Termins
+            type: text
+          price:
+            label: Eintritt
+            type: text    
+          begin:
+            label: Beginn
+            type: time       
+
+          line3:
+            type: line
+          headlineFieldsForMultipeDates:
+            label: Für Serientermine
+            type: headline
+          fieldsForMultipeDates:
+            label: Termindaten
+            type: structure
+            fields:
+              dateOfGig:
+                label: Datum des Termins
+                type: date
+                calendar: true
+                placeholder: "{{page.dateOfGig}}"
+
+              venue:
+                label: Ort des Termins
+                type: text
+                placeholder: "{{ page.venue }}"
+
+              price:
+                label: Eintritt
+                type: text
+                placeholder: "{{ page.price }}"
+
+
+              begin:
+                label: Beginn
+                type: time
+                placeholder: "{{page.begin}}"                                  
+
+  - width: 1/2
+    sections:
+      gallery:
+        type: files
+        query: page.images
+        template: image

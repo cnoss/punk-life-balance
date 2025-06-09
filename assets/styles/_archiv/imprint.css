@@ -1,0 +1,13 @@
+.impressum{
+  .block-type-heading{
+    padding-bottom: 0 !important;
+
+    h2{
+      margin-bottom: var(--s);
+    }
+  }
+
+  main > *{
+    max-width: 80ch;
+  }
+}

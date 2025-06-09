@@ -1,0 +1,15 @@
+/* Default
+############################################################################ */
+
+[data-template="default"]{
+  main{
+    background-color: var(--darker);
+
+    & > *{
+      max-width: 80ch;
+      margin-right: var(--fluid-space-s);
+      margin-bottom: var(--fluid-space-xxl);
+      margin-left: var(--fluid-space-s);
+    }
+  }
+}

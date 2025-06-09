@@ -1,0 +1,75 @@
+title: Site
+
+columns:
+  - width: 1/2
+    sections:
+      pages:
+        type: pages
+        templatesIgnore: documentation
+      documentation:
+        type: pages
+        template: documentation
+      owner:
+        type: fields
+        fields:
+          contact:
+            label: Basisdaten
+            type: headline
+          tagline:
+            label: Untertitel
+            type: text
+            required: true            
+          headof:
+            label: Name
+            type: text
+            required: true
+          headofemail:
+            label: E-mail
+            type: email
+            required: true
+          adress:
+            label: Anschrift
+            type: textarea
+            required: true 
+  - width: 1/2
+    sections: 
+      meta:
+        type: fields
+        fields:
+          medatdaten:
+            label: Metadaten der Website
+            type: headline
+          info:
+            label: Info
+            type: info
+            text: Die folgenden Felder werden teils nicht direkt angezeigt, sondern werden von Suchmaschinen und Drittanbietern verwendet.
+          pagetitle:
+            label: Titel der Website
+            help: Wird im Tab des Browsers gezeigt und in Ergebnissen von Suchmaschinen gezeigt und sollte möglichst kurz sein.
+            type: text
+            required: true
+          desc:
+            label: Kurzbeschreibung der Website
+            help: Wird in Ergebnissen von Suchmaschinen gezeigt und sollte zwischen 80 und 145 Zeichen umfassen.
+            type: textarea
+            required: true
+          line:
+            type: line
+          socalmedia:
+            label: Social Media Daten und Accounts
+            type: headline        
+          socialimage: fields/social-share
+          youtube:
+            label: YoutTube Kanal
+            help: Link zum Youtube Kanal
+            type: url
+          facebook:
+            label: Facebook
+            help: Link zur Facebook Seite
+            type: url
+          instagram:
+            label: Instagram
+            help: Link zur Instagram Seite
+            type: url            
+
+            

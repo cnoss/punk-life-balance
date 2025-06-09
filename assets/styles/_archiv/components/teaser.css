@@ -1,0 +1,57 @@
+/* stylelint-disable custom-property-pattern */
+
+
+/* Teaser Block
+############################################################################ */
+
+.teaser-section{
+  .section-title{
+    padding: var(--fluid-space-l);
+    padding-top: var(--fluid-space-xxl);
+    color: var(--darken-strong);
+  }
+}
+
+
+/* Teaser Card
+############################################################################ */
+
+.teaser-card{
+  position: relative;
+  overflow: hidden;  
+  
+  a{
+    display: block;
+    text-decoration: none;
+  }
+
+  figcaption{
+    *{
+      color: var(--lightest);
+    }
+
+    .teaser-card-text{
+      padding: 0 10% var(--fluid-space-xl) 0;
+    }
+  }
+
+
+  img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+
+/* Teaser Overview
+############################################################################ */
+ul.teaser-overview{
+  display: grid;
+  gap: var(--fluid-space-s);
+
+  @media screen and (width >= 120ch) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

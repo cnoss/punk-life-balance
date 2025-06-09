@@ -1,0 +1,25 @@
+Title: Mediathek
+
+----
+
+Copytext: 
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: lHAVNFFw2kb9BokG

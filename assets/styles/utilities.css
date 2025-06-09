@@ -1,0 +1,215 @@
+/* Link
+############################################################################ */
+
+.simple-link {
+  text-decoration: none;
+
+  .arrow-right {
+    display: inline-block;
+    height: 1em;
+    transition: padding var(--tr-fast);
+    vertical-align: middle;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .arrow-right {
+      padding-left: var(--xs);
+    }
+  }
+
+}
+
+/* Link without Style
+############################################################################ */
+.has-no-link-style {
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+
+/* Hidden
+############################################################################ */
+.is-hidden {
+  display: none;
+}
+
+/* Backgrounds
+############################################################################ */
+.is-dark {
+  background-color: var(--dark);
+
+  --text-color: var(--light);
+  --headline-color: var(--light);
+}
+
+.is-light {
+  background-color: var(--lightest);
+}
+
+.is-blue {
+  background-color: var(--km-blau);
+
+  & * {
+    color: var(--lightest);
+  }
+}
+
+
+/* Observe
+############################################################################ */
+
+.is-screwed[data-js-observe] {
+  transform: skewY(25deg) scale(0.5) scaleX(0.8);
+  transition: transform var(--tr-slow);
+}
+
+.is-screwed[data-js-observe="in-view"] {
+  transform: skewY(0deg) scaleX(1);
+}
+
+/* Text
+############################################################################ */
+
+.rev {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+/* Images
+############################################################################ */
+
+.is-4-to-3 {
+  aspect-ratio: 4/3 !important;
+}
+
+.is-5-to-4 {
+  aspect-ratio: 5/4 !important;
+}
+
+.is-16-to-10 {
+  aspect-ratio: 16/10 !important;
+}
+
+/* Fullsize Sticky
+############################################################################ */
+
+.is-fullsize-sticky {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+/* Sticky
+############################################################################ */
+
+.is-sticky {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+/* Background Colors
+############################################################################ */
+
+.has-bg-color-1 {
+  background-color: var(--color-1);
+}
+
+.has-bg-color-2 {
+  background-color: var(--color-highlight);
+  color: var(--darkest) !important;
+
+  * {
+    color: var(--darkest) !important;
+  }
+}
+
+/* Torn Edge
+############################################################################ */
+
+.has-torn-edge {
+  &::before {
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-image: url('/assets/images/torn-edge.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: "";
+  }
+
+  &.black-edge {
+    &::before {
+      background-image: url('/assets/images/edge.png');
+      background-size: 100% 40px;
+    }
+  }
+
+  &.line-edge {
+    &::before {
+      background-image: url('/assets/images/line-edge.svg');
+      background-size: auto 40px;
+    }
+  }
+}
+
+
+/* Grid
+############################################################################ */
+
+.has-grid {
+  display: grid;
+  gap: var(--fluid-space-l);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  &[data-cols="2"] {
+    @media screen and (width >=160ch) {
+      gap: var(--fluid-space-m);
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &[data-cols="3"] {
+    @media screen and (width >=160ch) {
+      gap: var(--fluid-space-m);
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+  &[data-cols="4"] {
+    @media screen and (width >=160ch) {
+      gap: var(--fluid-space-m);
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &[data-cols="5"] {
+    @media screen and (width >=160ch) {
+      gap: var(--fluid-space-m);
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}

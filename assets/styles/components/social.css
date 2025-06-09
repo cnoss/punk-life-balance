@@ -1,0 +1,38 @@
+/* Social
+############################################################################ */
+
+ul.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--fluid-space-s) 0;
+  gap: var(--m);
+
+  li{
+    margin-bottom: var(--half);
+
+    svg{
+      display: inline-block;
+      max-width: var(--xl);
+      max-height: var(--xl);
+      margin-right: var(--quat);
+      vertical-align: middle;
+    }
+  
+    .text{
+      font-size: var(--s);
+    }
+
+    a{
+      display: block;
+      border-radius: var(--border-radius-m);
+      text-decoration: none;
+      transition: all var(--tr-fast);
+
+      &:hover{
+        background-color: var(--darker);
+        color: var(--lightest);
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+body{
+  display: flex;
+  flex-direction: column;
+  container-type: inline-size;
+
+  main, footer{
+      z-index: var(--z-level-front);
+      flex-grow: 2;
+      container-type: inline-size;
+      transition: all var(--tr-fast);
+  }
+}
+
+
+section{
+  position: relative;
+
+  &.is-loose{
+      padding-bottom: var(--fluid-space-xl);
+  }
+}
+
+table{
+  max-width: var(--max-width-table);
+}
+
+
+/* Base Layout
+############################################################################ */
+
+[data-template]:not([data-template="home"]) {
+  main {
+    padding: var(--fluid-space-m) var(--fluid-padding-m) var(--fluid-padding-l) var(--fluid-padding-m);
+
+    p{
+      padding-bottom: var(--fluid-space-m);
+    }
+
+
+    h1 {
+      padding-top: var(--fluid-space-l);
+    }
+
+    &>* {
+      transition: all var(--tr-fast) ease-in;
+    }
+
+    @container (min-inline-size: 60ch) {
+      h1 {
+        padding-bottom: var(--fluid-space-xxl);
+      }
+
+      h2 {
+        padding: 0;
+      }
+
+    }
+
+    figure{
+      figcaption{
+        padding: var(--quat) 0 var(--fluid-space-m);
+        font-size: var(--s);
+      }
+    }
+
+  }
+
+}

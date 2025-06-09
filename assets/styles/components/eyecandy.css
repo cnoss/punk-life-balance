@@ -1,0 +1,85 @@
+@keyframes wobble {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(-5deg); }
+  40%  { transform: rotate(5deg); }
+  60%  { transform: rotate(-3deg); }
+  80%  { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+@keyframes scale-rotate-in {
+  from {
+    opacity: 0;
+    transform: scale(0) rotate3d(1,1,0, 90deg);
+  }
+
+  to {
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+
+  to {
+    opacity: 1; 
+    transform: scaleY(1);
+  }
+}
+
+@keyframes skew {
+  from {
+    transform: skew(0) scaleY(1);
+  }
+
+  to {
+    opacity: 1; 
+    transform: skew(90deg) scaleY(2);
+  }
+}
+
+/* Global Effects
+############################################################################ */
+
+body > main > * > *{
+  /* Attach animation, linked to the  View Timeline */
+  animation-name: scale-rotate-in;
+    
+  /* Tweak range when effect should run */
+  animation-range: entry 0% cover 20%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: linear;
+
+  /* Create View Timeline */
+  view-timeline-name: --appear-in-viewport;
+}
+
+body[data-template="home"] > main > * {
+  /* Attach animation, linked to the View Timeline */
+  animation-name: zoom-in;
+    
+  /* Tweak range when effect should run */
+  animation-range: entry 25% entry 75%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: linear;
+
+  /* Create View Timeline */
+  view-timeline-name: --appear-in-viewport;
+}
+
+/* Torn Edge
+############################################################################ */
+
+.has-torn-edge.line-edge::before {
+  animation-name: skew;
+  animation-range: cover 5% cover 75%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: linear;
+  view-timeline-name: --appear-in-viewport;
+}

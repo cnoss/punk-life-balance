@@ -1,0 +1,29 @@
+Title: News & Termine
+
+----
+
+Headline: Was geht?
+
+----
+
+Intro: Gerade gar nicht mal so wenig. Neuwahlen, Ruck nach rechts und mehr und mehr Leute in Positionen, wo sie besser nicht wären. Dagegen ist unser kleiner Kosmos erschreckend vernünftig und liefert hoffentlich eine Portion positive Energie. Inne halten – Klappe halten – Zuhören 🤓.
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: lighten
+
+----
+
+Uuid: EgfXk155nyUvqqA1

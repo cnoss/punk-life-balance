@@ -1,0 +1,58 @@
+.icon {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  direction: ltr;
+  font-family: var(--ff-icons);
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: inherit;
+  text-rendering: optimizelegibility;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: normal;
+
+  &--s {
+    font-size: var(--s);
+    line-height: var(--s);
+  }
+
+  &--m {
+    font-size: var(--m);
+    line-height: var(--m);
+  }
+
+  &--l {
+    font-size: var(--l);
+    line-height: var(--l);
+  }
+
+  &--xl {
+    font-size: var(--xl);
+    line-height: var(--xl);
+  }
+
+  &.md-dark { color: var(--darkest); }
+  &.md-light { color: var(--lightest); }
+
+  &--inline {
+    margin-right: var(--xs);
+    transform: scale(0.7);
+    transition: all var(--tr-fast);
+    vertical-align: text-bottom;
+
+
+    &:hover{
+      transform: scale(1);
+    }
+  }
+
+  &::before {
+    content: attr(data-icon);
+  }
+}

@@ -1,0 +1,38 @@
+/* Tags
+############################################################################ */
+
+.tag {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: var(--quat) var(--quat);
+  border: solid var(--border-width-s) var(--color-accent);
+  border-radius: var(--border-radius-m);
+  margin: 0 var(--quat) var(--half) 0;
+  color: var(--lightest);
+  line-height: var(--lh-tight);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.is-active {
+    color: var(--darkest);
+
+    &::before {
+      background-color: var(--lightest);
+      opacity: 1;
+    }
+  }
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-left: 0;
+    background-color: var(--color-accent);
+    content: "";
+    inset: 0;
+    opacity: 0.1;
+  }
+}

@@ -1,0 +1,53 @@
+/* Bottom Back Button
+############################################################################ */
+
+.bottom-back-button{
+  z-index: var(--z-level-front);
+  display: inline-block;
+  padding: var(--main-padding-top) var(--main-padding-right) var(--main-padding-top) var(--main-padding-left);
+  background-color: var(--color-accent);
+  color: var(--lightest);
+  container-type: inline-size;
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  transition: all var(--tr-fast);
+
+  @container (min-inline-size: 60ch) {
+      --main-padding-top: var(--fluid-space-l);
+      --main-padding-right: var(--fluid-space-l);
+      --main-padding-bottom: var(--fluid-space-xl);
+      --main-padding-left: var(--fluid-space-l);
+  }
+
+}
+
+/* More Button
+############################################################################ */
+.more-button{
+  display: inline-block;
+  font-weight: var(--fw-bold);
+
+  &.has-padding{
+    padding-top: var(--xl);
+    padding-bottom: var(--xl);
+  }
+}
+
+/* Scroll Down Button
+############################################################################ */
+.scroll-down-button{
+  display: flex;
+  height: var(--fluid-space-xxl);
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--tr-fast);
+
+  &:hover{
+    margin-bottom: var(--fluid-space-m);
+  }
+
+  svg{
+    width: calc(var(--menu-button-width) * 0.75);
+  }
+}

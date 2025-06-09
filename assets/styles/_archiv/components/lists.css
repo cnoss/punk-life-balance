@@ -1,0 +1,96 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Einfache Liste
+############################################################################ */
+
+ul:not([class]) {
+  padding-left: 0;
+  margin-bottom: var(--fluid-space-s);
+
+  & > li {
+    display: block;
+    margin-left: 1.5ch;
+
+    &::before {
+      display: inline-block;
+      width: 1.5ch;
+      margin-left: -1.5ch;
+      color: var(--mi-gruen);
+      content: "»";
+    }
+
+    & + li {
+      margin-top: 0.5%;
+    }
+  }
+
+  /* Nested lists */
+  ul{
+    margin-bottom: var(--quat);
+
+    li{
+      &::before{
+        content: "-";
+      }
+    }
+  }
+}
+
+ol:not([class]){
+  padding-left: 2ch;
+  margin-bottom: var(--fluid-space-s);
+  
+  li{
+    margin-left: 1ch;
+
+    &::marker{
+      color: var(--light);
+    }
+  }
+
+  li + li {
+    margin-top: 0.5%;
+
+  }
+
+}
+
+
+/* Liste mit wenig Abstand
+############################################################################ */
+
+ul.is-tight {
+  li + li{
+    margin-top: 0;
+  }
+}
+
+
+/* Fette Liste!
+############################################################################ */
+
+ul.hero-list {
+  padding-bottom: var(--fluid-space-m);
+  padding-left: 0;
+  
+  & > li {
+    display: block;
+    margin-bottom: var(--s);
+    margin-left: 1.5ch;
+    font-size: var(--l);
+
+    &::before {
+      display: inline-block;
+      width: 1.5ch;
+      margin-left: -1.5ch;
+      color: var(--mi-lila);
+      content: "»";
+      font-weight: var(--fw-bold);
+    }
+
+    & + li {
+      margin-top: var(--quat);
+    }
+  }
+
+}

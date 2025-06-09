@@ -1,0 +1,142 @@
+/* Mediathek
+###########################################################################  */
+
+.mediathek {
+  .hero-text {
+    margin-bottom: var(--fluid-space-xxl);
+  }
+
+  &-item,
+  &-entry {
+    padding: var(--m) 0 var(--xxl) 0;
+    border-top: solid var(--border-width-m) var(--lighten);
+    container-type: inline-size;
+
+    .title {
+      font-size: var(--xl);
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin-bottom: var(--fluid-space-l);
+    }
+
+    .date {
+      margin-top: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .media {
+      margin: var(--xl) 0;
+      box-shadow: var(--shadow-l);
+    }
+
+
+    @container (min-inline-size: 80ch) {
+      article {
+        margin-top: var(--fluid-space-m);
+
+        a{
+          display: grid;
+          gap: var(--fluid-space-s);
+          grid-template-columns: 1fr 1fr;
+        }
+      } 
+
+      .media{
+        height: max-content;
+        margin: 0;
+      }
+
+      h3{
+        padding: 0;
+      }
+
+    }
+
+  }
+
+  main {
+    &>* {
+      transition: all var(--tr-fast) ease-in;
+    }
+
+    @container (min-inline-size: 60ch) {
+      &>* {
+        padding: var(--fluid-space-xxl) var(--fluid-space-xl) var(--fluid-space-xxl) var(--fluid-space-xl);
+      }
+    }
+  }
+}
+
+
+/* Mediathek Preview
+###########################################################################  */
+
+ul.mediathek-preview {
+  display: grid;
+  padding-bottom: var(--fluid-space-xl);
+  gap: var(--xs);
+  grid-template-columns: repeat(auto-fill, minmax(calc(var(--m) * 10), 1fr));
+  
+  .mediathek-preview-item {
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+}
+
+/* Mediathek Page
+###########################################################################  */
+
+[data-template="mediathek-entry"] main {
+  & > * {
+    max-width: 100ch;
+    transition: all var(--tr-slow) ease-in;
+  }
+
+  padding-bottom: var(--fluid-space-xl);
+
+  .subtitle {
+    padding-top: var(--half);
+  }
+
+  header {
+    margin-bottom: var(--fluid-space-l);
+  }
+
+  .media {
+    margin-bottom: var(--fluid-space-s);
+
+    &.is-grid{
+      display: grid;
+      gap: var(--fluid-space-s);
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+  @container (min-inline-size: 60ch) {
+    padding-top: var(--fluid-space-m);
+    
+  }
+
+  .breadcrumb{
+    margin-bottom: var(--fluid-space-l);
+  }
+}

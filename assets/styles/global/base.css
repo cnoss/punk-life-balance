@@ -1,0 +1,193 @@
+* {
+  /* TODO: Zeigen */
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--lightest);
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--darkest);
+  color: var(--color-text);
+  font-family: var(--ff-normal);
+  font-size: var(--m);
+  font-weight: var(--fw-normal);
+  hyphens: auto;
+  line-height: var(--lh-normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-headline);
+  font-family: var(--ff-headline);
+  font-weight: bold;
+  hyphens: none;
+  line-height: var(--lh-tight);
+}
+
+h1 {
+  padding-top: var(--fluid-space-m);
+  margin-bottom: var(--fluid-space-m);
+  font-size: var(--xl);
+  
+}
+
+h2 {
+  padding-top: var(--fluid-space-s);
+  font-size: var(--l);
+}
+
+h3 {
+  padding-top: var(--fluid-space-xs);
+  margin-bottom: var(--fluid-space-xs);
+  color: var(--lightest);
+  font-size: var(--l);
+  font-weight: var(--fw-medium);
+}
+
+h4,
+h5,
+h6 {
+  padding-top: var(--fluid-space-xs);
+  margin-bottom: var(--half);
+  font-size: var(--m);
+}
+
+h5,
+h6 {
+  padding-top: var(--xs);
+}
+
+p,
+div {
+  hyphens: auto;
+
+  & > mark,
+  & > em {
+    background-color: transparent;
+    font-weight: var(--fw-medium);
+  }
+}
+
+p, dd{
+  line-height: var(--lh-loose);
+}
+
+p, li, dd {
+  color: var(--light);
+}
+
+a:not(:has(img)) {
+  position: relative;
+  display: inline-block;
+  color: var(--lighter);
+  text-decoration-color:  var(--color-accent);
+  text-decoration-style: dotted;
+  text-decoration-thickness: var(--border-width-m);
+  text-underline-offset: 0.4em;
+  transition: all var(--tr-fast) ease-in-out;
+
+  &:visited{
+    color: var(--light);
+  }
+
+  &:hover{
+    animation: wobble 0.6s ease;
+    animation-fill-mode: none;
+    color: var(--lightest);
+    cursor: pointer !important;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+  }
+
+}
+
+small {
+  font-size: 80%;
+  opacity: var(--op-medium);
+}
+
+strong{
+  font-weight: var(--fw-bold);
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + *,
+.block-type-text  > * + *{
+  margin-top: 1ch;
+}
+
+p + h2,
+p + h3,
+p + h4,
+ul + h2,
+ul + h3,
+ul + h4{
+  margin-top: var(--fluid-space-s);
+}
+
+p + h5,
+p + h6,
+ul + h5,
+ul + h6{
+  margin-top: var(--half);
+}
+
+hr{
+  margin-top: var(--fluid-space-l);
+  margin-bottom: var(--fluid-space-l);
+}
+
+figure{
+  img{
+    width: 100%;
+  }
+}
+
+main{
+  position: relative;
+  z-index: var(--z-level-middle);
+  background-color: var(--darkest);
+  
+a:not(.simple-link)::after{
+    display: inline-block;
+    margin-left: 0.4em;
+    color: var(--color-highlight);
+    content: "→";
+  }
+
+  a.back::after{
+    margin-right: 0.4em;
+    margin-left: 0;
+    content: "←";
+  }
+
+
+}
+
+footer{
+  position: relative;
+  z-index: var(--z-level-middle);
+  padding: var(--fluid-space-m) var(--fluid-padding-m) var(--fluid-space-m) var(--fluid-padding-m);
+  background-color: var(--darkest);
+  color: var(--light);
+}
+
+
+/* Einrückung und Headlines
+############################################################################ */
+
+/* .content{
+  & > *:not(h1,h2,h3, h4){
+    margin-left: var(--fluid-space-m);
+  }
+
+} */

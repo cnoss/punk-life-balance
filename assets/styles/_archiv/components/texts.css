@@ -1,0 +1,33 @@
+/* Hero Text
+############################################################################ */
+
+.hero-text{
+  & > * {
+    max-width: var(--max-width-content);
+    font-size: var(--fluid-space-m);
+    line-height: var(--lh-normal);
+  
+    em{
+      font-size: var(--m);
+      font-style: normal;
+    }
+  }
+
+}
+
+
+/* Intro Text
+############################################################################ */
+
+.intro-text{
+  max-width: var(--max-width-content);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-normal);
+}
+
+/* Copy Text
+############################################################################ */
+
+.copytext{
+  margin-bottom: var(--fluid-space-m);
+}

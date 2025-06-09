@@ -1,0 +1,10 @@
+/* Audiio
+############################################################################ */
+
+.audio{
+  padding-bottom: var(--fluid-space-m);
+
+  .title{
+    font-weight: var(--fw-black);
+  }
+}

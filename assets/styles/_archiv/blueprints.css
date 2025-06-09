@@ -1,0 +1,49 @@
+/* Button
+############################################################################ */
+
+.button{
+  display: inline-block;
+  padding: var(--s);
+  border-radius: var(--border-radius-s);
+  background-color: var(--color-accent);
+  color: var(--darkest);
+  font-size: var(--m);
+  transition: transform var(--tr-fast) ease-in-out;
+  vertical-align: top;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+
+  i{
+    display: flex;
+    width: var(--m);
+    height: var(--m);
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+  }
+}
+
+/* CTA
+############################################################################ */
+
+.cta{
+  display: inline-block;
+  padding: var(--s);
+  border-radius: var(--border-radius-s);
+  background-color: var(--color-accent);
+  color: var(--darkest);
+  font-size: var(--m);
+  transition: transform var(--tr-fast) ease-in-out;
+  vertical-align: top;
+
+  i{
+    display: flex;
+    width: var(--m);
+    height: var(--m);
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+  }
+}

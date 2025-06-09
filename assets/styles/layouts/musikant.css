@@ -1,0 +1,30 @@
+[data-template="musikant"] {
+  main#main-content {
+    padding-bottom: var(--fluid-padding-l);
+
+    h1 {
+      padding-bottom: 0;
+      margin-bottom: var(--quat);
+    }
+
+
+    figure{
+      &.is-small{
+        margin: 0 auto;
+
+        @media screen and (width >= 160ch){
+          img{
+            max-width: 15vw;
+          }
+        }
+      }
+
+      figcaption{
+        padding: var(--quat) 0 var(--fluid-space-m);
+        font-size: var(--s);
+      }
+    }
+
+  }
+
+}

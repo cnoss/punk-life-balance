@@ -1,0 +1,64 @@
+title: Mediathek Eintrag
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          artist:
+            label: Künstler
+            type: text
+            required: true
+          text:
+            label: Erläuterungstext
+            type: textarea
+            required: true
+          publisher:
+            label: Herausgeber
+            type: text
+            required: true
+          cover: fields/cover
+
+          line:
+            type: line
+          furtherFields:
+            label: Optionale Inhalte
+            type: headline            
+          url:
+            label: Link zu weiteren externen Infos, falls erforderlich
+            type: url    
+                                 
+  - width: 1/2
+    sections:
+      longtext:
+        type: fields
+        fields:
+          copytext:
+            label: Text
+            type: textarea
+            size: large
+          youtube:
+            label: ID des YouTube Videos
+            type: text
+          audioExamples:
+            label: Audiobeispiele
+            type: structure
+            fields:
+                title:
+                    label: Titel
+                    type: text          
+                desc:
+                    label: Beschreibung
+                    type: text
+                audiodata:
+                    label: Audio-Datei
+                    type: files
+                    query: page.audio
+                    multiple: false
+      gallery:
+        type: files
+        query: page.images
+        template: image
+
+

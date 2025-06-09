@@ -1,0 +1,29 @@
+Title: Doku
+
+----
+
+docuContent: [{"content":{"text":"<p>Kleiner Text</p>"},"id":"db029534-4bdf-4c7e-9b77-5af5fb97fa7b","isHidden":false,"type":"text"},{"content":{"text":"Bolle","citation":""},"id":"a6ad9590-6847-4bda-8a69-af14a507ac65","isHidden":false,"type":"quote"}]
+
+----
+
+Text: asas
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: 1WRlTjXQpRCyiY3f

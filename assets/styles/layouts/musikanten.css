@@ -1,0 +1,33 @@
+[data-template="musikanten"] {
+  main {
+    @container (min-inline-size: 60ch) {
+      .musikanten-overview{
+        margin-left: 25%;
+      }
+
+      .intro-text{
+        padding-bottom: var(--fluid-space-xl);
+      }
+    }
+
+    padding-bottom: var(--fluid-padding-l);
+
+  }
+
+  .musikanten-overview{
+    max-width: var(--max-width-content);
+    margin-top: var(--fluid-space-xl);
+    gap: var(--fluid-space-xl) !important;
+
+    img{
+      width: 100%;
+    }
+
+    .grid-item:nth-child(2),
+    .grid-item:nth-child(3){
+      padding-top: var(--fluid-space-m);
+    }
+
+  }
+
+}

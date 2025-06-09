@@ -1,0 +1,58 @@
+/* Title & Subtitle
+###########################################################################  */
+
+/* .title + .subtitle{
+  margin-top: calc(var(--fluid-space-l) * -0.8);
+  color: var(--lighter);
+}
+
+.title + h4.subtitle{
+  margin-top: calc(var(--fluid-space-l) * -0.6);
+} */
+
+.subtitle{
+  padding-top: 0;
+}
+
+/* Hero Text
+############################################################################ */
+
+.hero-text{
+  & > * {
+    max-width: var(--max-width-content);
+    font-size: var(--fluid-space-m);
+    line-height: var(--lh-normal);
+  
+    em{
+      font-size: var(--m);
+      font-style: normal;
+    }
+  }
+
+}
+
+
+/* Intro Text
+############################################################################ */
+
+.intro-text{
+  max-width: var(--max-width-content);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-normal);
+}
+
+/* Copy Text
+############################################################################ */
+
+.copytext{
+  margin-bottom: var(--fluid-space-m);
+}
+
+/* Headlines
+############################################################################ */
+
+h1.title{
+  color: var(--lightest);
+  font-size: var(--xxl);
+  font-weight: var(--fw-bold);
+}

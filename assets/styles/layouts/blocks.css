@@ -1,0 +1,53 @@
+/* Block type text
+############################################################################ */
+
+.block-type-text{
+  max-width: var(--max-width-content);
+  padding-bottom: var(--fluid-space-m);
+}
+
+.block-type-hero{
+  max-width: var(--max-width-content);
+  padding-bottom: calc(var(--fluid-space-xl) *2);
+  font-size: var(--xl);
+  line-height: var(--lh-normal);
+}
+
+.block-type-image{
+  width: 66.6%;
+  margin-bottom: calc(var(--fluid-space-xl) *2);
+}
+
+@media screen and (width >= 160ch){
+  .block-type-text, .block-type-hero{
+    margin-left: 25%;
+  }
+  
+}
+
+[data-template="blocks"] {
+  main {
+    @container (min-inline-size: 60ch) {
+      .block-type-heading{
+        padding-bottom: var(--fluid-space-s);
+      }
+
+      .block-type-text *{
+        padding-left: 0;
+      }
+
+      .block-type-text + .block-type-text{
+        margin-top: calc(var(--fluid-space-m) * -1);
+      }
+    }
+
+    figure{
+      figcaption{
+        padding: var(--quat) 0 var(--fluid-space-m);
+        font-size: var(--s);
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,49 @@
+/* Navigation
+############################################################################ */
+
+.inline-navigation{
+  .navigation-title{
+    padding-top: 0;
+    font-size: var(--m);
+  }
+
+  li{
+    position: relative;
+    line-height: var(--lh-tight);
+
+    a{
+      display: block;
+      padding-top: var(--quat);
+      padding-right: var(--fluid-space-s);
+      padding-bottom: var(--quat);
+      border-left: solid var(--border-width-m) transparent;
+      text-decoration: none;
+      transition: padding var(--tr-fast);
+
+      &:hover, &.is-active{
+        padding-right: var(--fluid-space-xs);
+        padding-left: var(--half);
+        border-left: solid var(--border-width-m) var(--color-accent);
+        background-color: var(--lighten);
+      }
+    }
+  }
+
+  li + li {
+    border-top: solid var(--border-width-s) var(--lighten);
+  }
+
+  @media screen and (width <= 160ch){
+    &::before {
+      display: block;
+      width: 10%;
+      padding-top: var(--fluid-space-l);
+      border-top: solid var(--border-width-l) var(--mi-blau);
+      margin-top: var(--fluid-space-l);
+      content: "";
+    }
+
+    padding-bottom: var(--fluid-space-l);
+  }
+  
+}

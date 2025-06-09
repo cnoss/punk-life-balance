@@ -1,0 +1,237 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Tables
+###########################################################################  */
+
+table {
+  th {
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: var(--xs);
+  }
+
+  tbody {
+    tr td,
+    tr th {
+      border-top: solid var(--border-width-s) var(--lighten);
+    }
+  }
+
+  &.is-narrow {
+    th,
+    td {
+      padding: var(--quat);
+    }
+  }
+}
+
+/* Table Module List
+###########################################################################  */
+
+.table-module-list {
+  position: relative;
+  z-index: var(--z-level-front);
+  background-color: var(--darker);
+  border-collapse:collapse;
+
+  * {
+    line-height: var(--lh-semi-tight);
+    vertical-align: top;
+  }
+
+  .module-title {
+    padding-top: 0;
+    margin-bottom: var(--quat);
+    font-size: var(--m);
+    font-weight: var(--fw-medium);
+  }
+
+  .module-exam {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: var(--half);
+  }
+
+  .is-small {
+    font-size: smaller;
+  }
+
+  th:first-child,
+  td:first-child {
+    padding-left: 0;
+
+  }
+
+  tr[class*="is-"]:not([class="is-ok"]) td:first-child{
+    padding-left: var(--half);
+  }
+}
+
+/* Table Curriculum
+###########################################################################  */
+
+.table-curriculum {
+  position: relative;
+  z-index: var(--z-level-front);
+  width: 100%;
+  background-color: var(--darker);
+  border-spacing: 0;
+
+  thead {
+    background-color: var(--darkest);
+
+    * {
+      color: var(--lightest);
+    }
+
+    th{
+      border-bottom: solid var(--border-width-s) var(--dark);
+    }
+  }
+
+  .unit {
+    background-color: var(--lighter);
+
+    * {
+      color: var(--darker);
+    }
+  }
+
+  th {
+    padding-top: var(--quat);
+    padding-bottom: var(--quat);
+    font-weight: var(--fw-normal);
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .is-fs-1,
+  .is-fs-3,
+  .is-fs-5,
+  .is-fs-7,
+  .is-fs-9 {
+    background-color: var(--lighten-light);
+  }
+
+  th.is-vertical {
+    /* Something you can count on */
+    height: 30ch;
+    white-space: nowrap;
+
+    & > div {
+      width: 30px;
+      transform: 
+        /* Magic Numbers */
+        translate(0, 11ch)
+        /* 45 is really 360 - 45 */
+        rotate(-90deg);
+
+      & > span {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+
+/* Table Modul Matrix
+###########################################################################  */
+
+.modulmatrix-wrap{
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-modulmatrix {
+  position: relative;
+  z-index: var(--z-level-front);
+  min-width: 120ch;
+  background-color: var(--darker);
+  border-spacing: 0;
+  line-height: var(--lh-tight);
+  
+  thead {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: var(--darkest);
+
+    * {
+      color: var(--lightest);
+    }
+
+    tr:last-child{
+      th{
+        border-bottom: solid var(--border-width-m) var(--mi-lila);
+      }
+    }
+
+  }
+
+  tbody{
+    z-index: 0;
+  }
+
+  th {
+    border-left: dotted var(--border-width-s) var(--light);
+    font-weight: var(--fw-normal);
+  }
+
+  th, td{
+    border-top: solid var(--border-width-s) var(--lighten);
+
+    &:first-child{
+      border-left: none;
+    }
+  }
+
+  td {
+    position: relative;
+    height: 2em;
+    border-left: dotted var(--border-width-s) var(--light);
+    text-align: center;
+  }
+
+  th.is-vertical {
+    position: relative;
+    width: 3ch;
+
+    /* Something you can count on */
+    height: 34ch;
+    white-space: nowrap;
+
+    & > div {
+      position: absolute;
+      bottom: 1ch;
+      left: 0;
+      width: 30px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  th.module-name{
+    width: fit-content;
+    text-align: left;
+  }
+
+  .is-checked{
+    position: absolute;
+    background-color: color-mix(in srgb, var(--mi-gruen), var(--darkest) 80%);
+    inset: 0;
+
+    &::before{
+      line-height: 2ch;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--darken);
+  }
+}

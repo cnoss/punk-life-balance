@@ -1,0 +1,26 @@
+title: Rezensionen
+
+sections:
+  content:
+    label: Einträge
+    type: fields
+    fields:
+      intro:
+        label: Intro Text
+        type: textarea
+        size: small
+      items:
+        label: Einzelne Rezensionen
+        type: structure
+        fields:
+          author:
+            label: Rezensient
+            type: text            
+          copy:
+            label: Mengentext
+            type: textarea
+            size: large
+            required: true
+          url:
+            label: Link
+            type: url

@@ -1,0 +1,59 @@
+/* Hero
+############################################################################ */
+
+.home {
+  .sticky-video-wrap{
+    height: 100svh;
+  }
+
+  .hero {
+    &-text {
+      padding: calc(var(--fluid-space-xxl) * 2) var(--fluid-space-s) calc(var(--fluid-space-xxl) * 2);
+      background: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 70%));
+      color: var(--darkest);
+      font-size: var(--l);
+  
+      * {
+        line-height: var(--lh-normal);
+      }
+    }
+  }
+
+}
+
+/* Preview Section
+###########################################################################  */
+
+.preview-section{
+  padding: var(--fluid-padding-m);
+  padding-bottom: calc(var(--fluid-padding-m) * 2);
+  background-color: var(--color-highlight);
+
+  h2{
+    margin-bottom: var(--fluid-space-m);
+  }
+
+  & > *{
+      max-width: var(--max-width-content-l);
+  }
+
+
+    p{
+      max-width: var(--max-width-content-s);
+    }
+
+  .preview-item {
+    transition: transform var(--tr-fast) ease-in-out;
+
+
+
+    em{
+      font-style: normal;
+      font-weight: var(--fw-bold);
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

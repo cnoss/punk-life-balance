@@ -1,0 +1,15 @@
+/* Breadcrumb
+############################################################################ */
+
+ul.breadcrumb-list{
+  margin-top: var(--half);
+
+  li{
+    display: inline-block;
+
+    & + li::before{
+      color: var(--lighten-strong);
+      content: "//";
+    }
+  }
+}
