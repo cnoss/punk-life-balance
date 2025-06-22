@@ -4,7 +4,7 @@
 ############################################################################ */
 
 .home {
-  .sticky-video-wrap{
+  .sticky-video-wrap {
     height: 100svh;
   }
 
@@ -14,7 +14,7 @@
       background: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 70%));
       color: var(--darkest);
       font-size: var(--l);
-  
+
       * {
         line-height: var(--lh-normal);
       }
@@ -26,30 +26,31 @@
 /* Preview Section
 ###########################################################################  */
 
-.preview-section{
+.preview-section {
   padding: var(--fluid-padding-m);
   padding-bottom: calc(var(--fluid-padding-m) * 2);
   background-color: var(--color-highlight);
 
-  h2{
+  h2 {
     margin-bottom: var(--fluid-space-m);
   }
 
-  & > *{
-      max-width: var(--max-width-content-l);
+  &>* {
+    max-width: var(--max-width-content-l);
   }
 
 
-    p{
-      max-width: var(--max-width-content-s);
-    }
+  div >p {
+    max-width: var(--max-width-content-s);
+    margin-bottom: var(--fluid-padding-m);
+  }
 
   .preview-item {
     transition: transform var(--tr-fast) ease-in-out;
 
 
 
-    em{
+    em {
       font-style: normal;
       font-weight: var(--fw-bold);
     }
