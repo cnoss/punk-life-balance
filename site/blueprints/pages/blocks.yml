@@ -15,15 +15,38 @@ columns:
             label: Teaser Text
             type: textarea
             size: small
-          teaserImage: fields/cover
+          teaserImage:
+            label: Teaser Bild
+            type: files
+            multiple: false
+
+            size: small
+            width: 1/2
+            image:
+              cover: true
+            uploads:
+              template: image
+
+
+          date:
+            label: Angezeigtes Datum
+            type: date
+            calendar: true
+            required: false  
+            width: 1/2
 
           ContentData:
             label: Content
             type: headline
-          blocks:
-            label: Content Blöcke
-            type: blocks
-            pretty: true
+
+          layout:
+            type: layout
+            layouts:
+              - "1/1"
+              - "1/2, 1/2"
+              - "1/3, 1/3, 1/3"
+              - "2/3, 1/3"
+              - "1/3, 2/3"               
             fieldsets:
               text:
                 label: Text
@@ -45,6 +68,7 @@ columns:
                 fieldsets:
                   - image
                   - video
+                  - gallery
   sidebar:
     width: 1/3
     sections:

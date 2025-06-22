@@ -1,0 +1,37 @@
+Title: Live im LO FI in Köln
+
+----
+
+Teasertext: Leute, streicht euch den 05.12. fett im Kalender an. Wir spielen ein Instore-Gig im Lo-Fi Store Köln! Zwischen Vinyl, Shirts und anderem coolen Kram gibt’s Post-Punk direkt auf die Ohren – roh, laut und ohne Netz und doppelten Boden.
+
+----
+
+Teaserimage: - file://x8MSNruZz2DP3OQj
+
+----
+
+Date: 2024-12-05
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Leute, streicht euch den 05.12. fett im Kalender an. Wir spielen ein Instore-Gig im Lo-Fi Store Köln! Zwischen Vinyl, Shirts und anderem coolen Kram gibt’s Post-Punk direkt auf die Ohren – roh, laut und ohne Netz und doppelten Boden.</p><p>Kommt rum, stöbert, trinkt ein Bier und lasst euch von uns die Realität aus dem Schädel pusten. Kein Schnickschnack. Nur Musik.</p>"},"id":"d2238a5e-4d59-4b8a-b25e-081c6da231f8","isHidden":false,"type":"text"}],"id":"2b56c4fc-dd44-4e6a-bdff-5875a16dbdde","width":"2/3"},{"blocks":[{"content":{"images":["file://x8MSNruZz2DP3OQj","file://GeiEPD1XYwdbc0QR","file://ZURA1xnU6bkDrxta"],"caption":"","ratio":"","crop":"false"},"id":"8c4bc3dc-7a01-4135-baf0-8ce7147bf15c","isHidden":false,"type":"gallery"}],"id":"75c476d3-bdae-47fa-a5d2-9790fc17b854","width":"1/3"}],"id":"9277c2ab-b4bf-4933-9510-246aa165d96b"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: TSb3wWtVmJHrsqYJ

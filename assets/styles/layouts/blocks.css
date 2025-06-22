@@ -4,6 +4,11 @@
 .block-type-text{
   max-width: var(--max-width-content);
   padding-bottom: var(--fluid-space-m);
+
+  strong{
+    color: var(--color-headline);
+    font-weight: 800
+  }
 }
 
 .block-type-hero{
@@ -18,15 +23,22 @@
   margin-bottom: calc(var(--fluid-space-xl) *2);
 }
 
-@media screen and (width >= 160ch){
-  .block-type-text, .block-type-hero{
-    margin-left: 25%;
-  }
-  
-}
 
 [data-template="blocks"] {
   main {
+    .subtitle{
+      margin-bottom: var(--fluid-space-xl);
+      color: var(--color-highlight);
+      font-size: var(--xl);
+    }
+
+    &:has(.subtitle){
+      .title{
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+    }
+
     @container (min-inline-size: 60ch) {
       .block-type-heading{
         padding-bottom: var(--fluid-space-s);

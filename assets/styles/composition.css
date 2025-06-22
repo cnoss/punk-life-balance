@@ -1,26 +1,27 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   container-type: inline-size;
 
-  main, footer{
-      z-index: var(--z-level-front);
-      flex-grow: 2;
-      container-type: inline-size;
-      transition: all var(--tr-fast);
+  main,
+  footer {
+    z-index: var(--z-level-front);
+    flex-grow: 2;
+    container-type: inline-size;
+    transition: all var(--tr-fast);
   }
 }
 
 
-section{
+section {
   position: relative;
 
-  &.is-loose{
-      padding-bottom: var(--fluid-space-xl);
+  &.is-loose {
+    padding-bottom: var(--fluid-space-xl);
   }
 }
 
-table{
+table {
   max-width: var(--max-width-table);
 }
 
@@ -32,7 +33,7 @@ table{
   main {
     padding: var(--fluid-space-m) var(--fluid-padding-m) var(--fluid-padding-l) var(--fluid-padding-m);
 
-    p{
+    p {
       padding-bottom: var(--fluid-space-m);
     }
 
@@ -56,13 +57,55 @@ table{
 
     }
 
-    figure{
-      figcaption{
+    figure {
+      figcaption {
         padding: var(--quat) 0 var(--fluid-space-m);
         font-size: var(--s);
       }
     }
 
+  }
+
+}
+
+/* Layout Blocks
+############################################################################ */
+
+.layout-grid {
+  display: grid;
+  margin-bottom: var(--fluid-space-m);
+  gap: var(--fluid-space-m);
+}
+
+@media screen and (width >=800px) {
+  [data-grid="6"] {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  [data-column-span="2"] {
+    grid-column: span 2;
+  }
+
+  [data-column-span="3"] {
+    grid-column: span 3;
+  }
+
+  [data-column-span="4"] {
+    grid-column: span 4;
+  }
+
+  [data-column-span="5"] {
+    grid-column: span 5;
+  }
+
+  [data-column-span="6"] {
+    grid-column: span 6;
+
+    h3 {
+      color: var(--color-hero);
+      font-size: var(--l);
+      line-height: var(--lh-normal);
+    }
   }
 
 }

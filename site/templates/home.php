@@ -8,13 +8,6 @@
 
 <main id="main-content">
 
-
-  <!--div class="review-section">
-    <?php
-        //  snippet('review');
-?>
-  </div-->
-
   <div class="mission-statement hero-text is-fullsize-sticky has-full-width">
     <?php echo $page->text()->kt()?>
   </div>
@@ -39,17 +32,7 @@
 
   <?php endif; ?>
 
-  <section class="title-group">
-    <p class="page-title">
-      <a class="logo" href="<?php echo $site->url()?>">
-        <?php echo $site->title()->esc()?>
-      </a>
-    </p>
-    //
-    <p class="page-tagline">
-      <?php echo $site->tagline()->esc()?>
-    </p>
-  </section>
+  <?php snippet('title-group'); ?>
 </main>
 
 <?php snippet('footer')?>

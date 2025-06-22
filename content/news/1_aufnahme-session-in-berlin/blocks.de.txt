@@ -1,0 +1,52 @@
+Title: Aufnahme Session in Berlin
+
+----
+
+Teasertext: Berlin, Lakeside Studios – Es passiert. Punk Life Balance sind im Studio. Mit niemand Geringerem als Dirk Burke an den Reglern nehmen wir gerade unsere ersten Songs auf. Es knarzt, es hämmert, es atmet. Der Sound? Roh, direkt, ohne Bullshit. Wie es sich gehört. Ihr könnt euch also schon mal warmzittern – da kommt was. Stay tuned.
+
+----
+
+Teaserimage: - file://8AoVZsCKf9Zk7d2H
+
+----
+
+Date: 2025-03-01
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Berlin, Lakeside Studios – Es passiert. Punk Life Balance sind im Studio. Mit niemand Geringerem als Dirk Burke an den Reglern nehmen wir gerade unsere ersten Songs auf. Es knarzt, es hämmert, es atmet. Der Sound? Roh, direkt, ohne Bullshit. Wie es sich gehört. Ihr könnt euch also schon mal warmzittern – da kommt was. Stay tuned.</p>"},"id":"b269a65d-3524-42a5-b97e-1462a95aa008","isHidden":false,"type":"text"}],"id":"0ec42db3-f4a1-43ce-8771-747f4dcfbd3c","width":"1/3"},{"blocks":[{"content":{"images":["file://9FfAsmzKzRGYgUFX","file://ZdLY0KEXl0yNf711","file://aCE1Wax22ty6Fo3l","file://RKtjDsxyVM3JFRE8","file://c0GjUUDbq9xae6Hj","file://p9Sx2YZ5Xv6mp3Uh","file://ukqdSZ5KxUjsdaAg","file://OvOHm33A6lqMYpOI","file://zev7DtKAapzNk7xC","file://1lcKwmfktreoLzd3","file://SRSPJ1uE2QhmAvH4","file://r0p9BE0ivpfqF00w","file://9GxP1hSilJr6jXK4","file://KT8ZYPkXjAem3u29","file://vyOhc4Pyz8M6qn0f","file://JMMigdqhOHipQT6O","file://4y1Ek3EOoIM4lakk"],"caption":"","ratio":"","crop":"false"},"id":"0ba89cff-1778-4f85-a28d-a230c2a9ae3b","isHidden":false,"type":"gallery"}],"id":"154f4f9f-0f4b-404a-a727-17a83911430b","width":"2/3"}],"id":"20738ba9-fc1f-4cd4-a99b-219591a7ee34"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Blocks:
+
+[
+    {
+        "content": {
+            "text": "<p>Berlin, Lakeside Studios – Es passiert. Punk Life Balance sind im Studio. Mit niemand Geringerem als Dirk Burke an den Reglern nehmen wir gerade unsere ersten Songs auf. Es knarzt, es hämmert, es atmet. Der Sound? Roh, direkt, ohne Bullshit. Wie es sich gehört. Ihr könnt euch also schon mal warmzittern – da kommt was. Stay tuned.</p>"
+        },
+        "id": "3d2e41f3-7870-46a9-a8c0-c503a43d02c4",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Uuid: S8U6TUKodVfKea1b

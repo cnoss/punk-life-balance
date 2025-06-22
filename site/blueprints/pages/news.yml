@@ -22,7 +22,7 @@ columns:
         search: true
         columns:
           date: true
-        template: news-entry
+        template: blocks
 
 
   sidebar:

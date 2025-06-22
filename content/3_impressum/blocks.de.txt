@@ -10,6 +10,30 @@ Teaserimage:
 
 ----
 
+Date: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Angaben gem. § 5 TMG<br></strong>Punk-Life Balance, vertreten durch Christian Baack</p><p><strong>Anschrift<br></strong>Vierkotter Feld 4<br>51503 Rösrath</p><p><strong>Kontakt</strong><br>hello@punklifebalance.de<br></p>"},"id":"fdf06a67-6941-412f-b867-f125a97392dd","isHidden":false,"type":"text"}],"id":"449b63bb-1af0-45a9-9b8b-a0a44d09b2c3","width":"2/3"},{"blocks":[],"id":"dc9d0bc5-a93e-41ff-b06e-c1aca8c36b42","width":"1/3"}],"id":"70b21ba5-d623-4d4a-b978-ba725d6e8cbb"}]
+
+----
+
+Backgroundvideourl: videos/impressum-piano.mp4
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
 Blocks:
 
 [
@@ -82,22 +106,6 @@ Blocks:
         "type": "text"
     }
 ]
-
-----
-
-Backgroundvideourl: videos/impressum-piano.mp4
-
-----
-
-Startofbackgroundvideo: 
-
-----
-
-Durationofbackgroundvideo: 
-
-----
-
-Videooptions: 
 
 ----
 

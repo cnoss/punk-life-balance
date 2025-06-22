@@ -83,3 +83,17 @@ body[data-template="home"] > main > * {
   animation-timing-function: linear;
   view-timeline-name: --appear-in-viewport;
 }
+
+/* Rotate
+############################################################################ */
+
+.has-rotation{
+  animation-delay: calc(var(--fluid-space-s) * -1);
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: wobble;
+  animation-range: cover 0% cover 100%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: ease-in-out;
+  view-timeline-name: --appear-in-viewport;
+}
