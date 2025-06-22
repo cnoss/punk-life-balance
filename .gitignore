@@ -59,6 +59,7 @@ Icon
 # ---------------
 
 /media/*
+/static-media/*
 !/media/index.html
 
 # Lock files
