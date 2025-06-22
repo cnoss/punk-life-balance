@@ -180,9 +180,12 @@
 ############################################################################ */
 
 .has-grid {
-  display: grid;
-  gap: var(--fluid-space-l);
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  @media screen and (width >=600px) {
+    display: grid;
+    gap: var(--fluid-space-l);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
 
   &[data-cols="2"] {
     @media screen and (width >=160ch) {

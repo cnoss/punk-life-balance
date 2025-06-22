@@ -1,0 +1,44 @@
+/* News
+###########################################################################  */
+
+
+.news{
+  .news-overview{
+    display: grid;
+    gap: var(--fluid-space-m);
+    grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
+
+    h3{
+      margin-bottom: 0;
+      line-height: var(--lh-loose);
+    }
+
+    figure{
+      overflow: hidden;
+      transition: all var(--tr-fast);
+
+      &:hover{
+        img{
+          transform: scale(2);
+        }
+      }
+    }
+
+    img{
+      z-index: var(--z-level-back);
+      display: block;
+      width: 100%;;
+      height: auto;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      object-position: center center;
+      transition: all var(--tr-fast);
+    }
+
+    figcaption{
+      position: relative;
+      z-index: var(--z-level-middle);
+      background-color: var(--darkest);
+    }
+  }
+}

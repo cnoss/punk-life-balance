@@ -11,12 +11,19 @@
   &>* {
     margin-bottom: var(--s);
   }
+
+  p {
+    color: var(--lightest);
+  }
 }
 
 /* Funky Links
 ###########################################################################  */
 
-.funky-link, em {
+.funky-link,
+em {
+  transition: all var(--tr-fast) ease-in-out;
+
   a {
     display: inline-block;
     padding: 0.2em 0.4em;
@@ -30,13 +37,21 @@
     animation-timing-function: linear;
     text-decoration: none;
 
+
     /* Create View Timeline */
     view-timeline-name: --appear-in-viewport;
+
+    &::after {
+      transition: all var(--tr-fast) ease-in-out;
+    }
   }
 
   &:hover a {
     background-color: var(--color-accent);
 
+    &::after {
+      padding-left: var(--s);
+    }
   }
 }
 
@@ -49,7 +64,8 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l);
-  background-color: var(--color-accent);
+  background-image: linear-gradient(-45deg, rgb(83 34 153 / 90%), rgb(83 34 153 / 90%)),
+    url("/assets/images/bg-ground.webp");
 
 
   * {
@@ -61,18 +77,105 @@
   padding-right: var(--xs);
   font-weight: var(--fw-black);
 
-  
+
   a {
     color: var(--lightest);
     text-decoration: none;
   }
 
-  @container (min-inline-size: 80ch) {
-    font-size: 2vw;
-  }
 }
 
 .page-tagline {
   padding-left: var(--xs);
 }
 
+/* Gallery
+###########################################################################  */
+
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Zusätzliche Animations-Variante */
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  70% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.masonry-animation {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+  animation-name: fade-in-up;
+  animation-range: entry 0% cover 30%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: ease-out;
+  view-timeline-name: --appear-in-viewport;
+}
+
+/* Alternative Animation (kann per Klasse zugewiesen werden) */
+.masonry-animation-pop {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+  animation-name: pop-in;
+  animation-range: entry 0% cover 30%;
+  animation-timeline: --appear-in-viewport;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  view-timeline-name: --appear-in-viewport;
+}
+
+/* Versetzte Animation für die einzelnen Elemente */
+.masonry-animation:nth-child(2n) {
+  animation-delay: 0.1s;
+}
+
+.masonry-animation:nth-child(3n) {
+  animation-delay: 0.2s;
+}
+
+.masonry-animation:nth-child(4n) {
+  animation-delay: 0.3s;
+}
+
+.image-gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--border-width-l);
+
+  .gallery-grid-item {
+    height: 50vw;
+    flex-grow: 1;
+    margin-bottom: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--border-radius-m);
+      object-fit: cover;
+    }
+
+    @media screen and (width >=600px) {
+      height: 20vw;
+    }
+  }
+}

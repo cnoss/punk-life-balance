@@ -12,7 +12,10 @@ $musikerItems = collection('musiker');
 </div>
 
 <main id="main-content" class="has-torn-edge line-edge">
-  <h1 class="title"><?= $page->title() ?></h1>
+
+  <?php snippet('breadcrumb'); ?>
+  
+  <h1 class="title"><a data-js-back class="back"></a><?= $page->title() ?></h1>
   <section class="intro-text">
     <?= $page->copytext()->kt() ?>
   </section>

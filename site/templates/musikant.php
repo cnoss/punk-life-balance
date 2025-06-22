@@ -19,21 +19,15 @@ $mediathekpages = collection('musiker');
 
 <main id="main-content">
 
-<?php snippet('breadcrumb'); ?>
-  <h1 class="title"><?= $page->title() ?></h1>
-  <h2 class="subtitle"><?= $page->role()->kt() ?></h2>
+  <?php snippet('breadcrumb'); ?>
   
+  <h1 class="title"><a data-js-back class="back"></a><?= $page->title() ?></h1>
+  <h2 class="subtitle"><?= $page->role()->kt() ?></h2>
 
-
-<article class="has-grid">
-  <?= $page->copytext()->kt() ?>
-
-  <figure class="media is-small"><?= $teaserImage ?></figure>
-
-
-
-</article>
-
+  <article class="has-grid">
+    <?= $page->copytext()->kt() ?>
+    <figure class="media is-small"><?= $teaserImage ?></figure>
+  </article>
 
 </main>
 

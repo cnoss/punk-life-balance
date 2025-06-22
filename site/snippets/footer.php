@@ -6,7 +6,7 @@
       <?php endforeach?>
     </ul>
     <div class="footer-social">
-      <?php snippet('social') ?>
+      
     </div>
 
 </footer>

@@ -11,5 +11,6 @@ return [
     'debug' => true,
     'languages' => false,
     'schnti.cachebuster.active' => false,
-    'languages.detect' => false
+    'languages.detect' => false,
+    'locale' => 'de_DE.utf8'
 ];

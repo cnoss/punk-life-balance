@@ -10,11 +10,15 @@ Headof: Punk Life Balance
 
 ----
 
-Headofemail: hello@punklifebalance.com
+Headofemail: hello@punklifebalance.de
 
 ----
 
-Adress: Alte Hofstraße
+Adress:
+
+Christian Baack
+Vierkotter Feld 4
+51503 Rösrath
 
 ----
 
@@ -70,5 +74,3 @@ Cover:
   type: image
   url: >
     http://localhost:3000/media/site/baa1508d8d-1703746842/lia-im-kleid.jpg
-
-----

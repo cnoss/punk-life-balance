@@ -1,1 +1,1 @@
-<?= $block->text();
+<?= $block->text()->kt();

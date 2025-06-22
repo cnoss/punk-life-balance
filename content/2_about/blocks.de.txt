@@ -10,6 +10,30 @@ Teaserimage:
 
 ----
 
+Date: 2025-06-15
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[],"id":"34ec6b5d-bf58-44f2-a7b1-a61de7571126","width":"1/3"},{"blocks":[{"content":{"text":"Wir können nicht über die Köln-Berliner Indie-Rockband Punk Live Balance sprechen, ohne einen kurzen Moment über Ian Maxwell zu sprechen. Der nordirische Sänger war eine Lichtgestalt der Kölner Indie-Szene, mit seiner Band Keegan hat er sechs Alben aufgenommen, nicht zuletzt war Maxwell ein Fixpunkt, um den sich die verschiedensten Leute gruppierten."},"id":"3dfd18f7-ad2b-4b1f-b801-e8b5dcb3ad73","isHidden":false,"type":"hero"}],"id":"9f4f1865-8de3-414b-984d-8ba78db6e974","width":"2/3"}],"id":"ebc923bb-55ca-410e-b082-900cf57e5543"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"web","image":[],"src":"https://www.keegan-music.com/wp-content/uploads/Ian_Maxwell-2048x1365.jpg","alt":"Ian Maxwell ","caption":"Ian Maxwell","link":"","ratio":"","crop":"false"},"id":"df9091d8-7b4b-463d-9513-f4fb63828bb6","isHidden":false,"type":"image"}],"id":"cb7c3175-375c-4119-b18e-23de8be188bd","width":"2/3"},{"blocks":[],"id":"dd8a8984-aad2-4e59-88e2-32783f644294","width":"1/3"}],"id":"700e03d0-6189-42b9-bc59-76b1aee3d2a6"},{"attrs":[],"columns":[{"blocks":[],"id":"a4629d1d-25ce-4643-b6c3-8567c2721158","width":"1/3"},{"blocks":[{"content":{"text":"<p>Das gilt auch für Guido Leicht (Gesang, Gitarre), Christian Baack (Bass) und Michael Hanschmidt (Schlagzeug) von der wunderbaren neuen Kölner Indierock-Band Punk Life Balance. „Wir kannten uns seit Jahren lose, weil wir bis auf Rob alle irgendwann mal mit Ian eine Band hatten“, sagt Baack, „nur nie zusammen.“ Rob ist der zweite Punk-Life-Balance-Gitarrist Robert Mudge. Christian hatte einst bei Keegan gespielt und der Anlass, bei dem er einige Mitstreiter von damals wieder traf, war zunächst ein tragischer: Ian Maxwell war nach langer Krankheit verstorben, sein Tod brachte die alte Szene wieder zusammen, die sich über die Jahre im Keegan-Umfeld vernetzt hatte. Ein gemeinsamer Freund hat dann im Spätsommer 2022 eine weihevolle Trauerfeier im alten Proberaum von Keegan ausgerichtet. So kamen alte und neue Freunde zusammen, tranken Bier, erzählten Geschichten von früher, lernten sich teilweise erst kennen. Zum Schluss kam der Sohn des Verstorbenen und teilte dessen Schallplattensammlung feierlich unter den Gästen auf. Es war tragisch, es war zum Heulen, es war wunderschön.</p><p>Anderthalb Jahre nach diesem traurig-schönen Tag von Köln war aus einer Aneinanderkettung von Zufällen, einmaligen Gelegenheiten und der Erkenntnis, dass das Leben jeden Augenblick vorbei sein kann, etwas Neues, Kreatives entstanden: Unter den Gästen, die damals im Proberaum standen, waren auch Guido Leicht und Christian Baack. Die beiden hatten sich ein bisschen aus den Augen verloren, freuten sich über das Wiedersehen. Man kennt ja solche Gespräche: „Du kannst dich ja mal melden, können ja mal was zusammen machen, schick doch mal was von deinen Ideen“ – in neun von zehn Fällen wird nichts daraus, weil ja immer viel zu viel Leben parallel passiert. Nicht so hier: „Guido war für mich immer eine Ikone der Kölner Szene“, sagt Baack, „ich habe ihn den kölschen Costello genannt, und für mich war klar, dass ich irgendwann noch mal mit ihm Musik machen wollte. Also rief ich ihn an.“</p><p>Damit sind wir in der Gegenwart: Nach einigem Hin und Her trafen sich Christian und Guido damals mit Rob und Michael im Proberaum und legten einfach mal los. <strong>„Es war auf Anhieb klar, dass in dieser Konstellation ein besonderer Zauber liegt“</strong>, erinnert sich Guido an die erste Probe, „so was passiert einem als Musiker nicht besonders oft, da muss man zugreifen.“ In Blitzgeschwindigkeit haben Punk Life Balance fünf Songs geschrieben und aufgenommen, erste Konzerte sind in Planung, es ist ein kleines Wunder. Denn es ist ja nun mal so: Wenn man sich in dem Alter noch mal auf so einen herrlichen Quatsch wie eine Bandgründung einlässt, sucht man den direkten Weg, es ging hier also auch darum, auf den Punkt zu kommen.</p><p>Und auf den Punk: Wobei die Band nicht Punk Life Balance heißt, weil sie eine Punkband ist, sondern es geht hier natürlich um die überaus interessante und immens wichtige Antwort auf die Frage, wie man sich nicht komplett verliert in einem normalen Erwachsenenleben, sondern sich idealerweise eine Spur Radikalität, Freiheit, Leidenschaft bewahrt, ohne in einer albernen Berufsjugendlichkeitspose zu verharren und sich lächerlich zu machen. Es geht in dieser Musik also darum, wofür man im Leben stehen will, um eine Standortbestimmung ohne Rücksicht auf Verluste. Und weil man ja manchmal die gewohnten Bahnen verlassen muss, um ein bisschen klarer zu sehen und dem Bullshitbingo-Cathphrase-Hashtag-Dauerrauschen unserer Zeit etwas Aufrichtiges entgegenzusetzen, braucht man eben eine gesunde Punk Life Balance.</p><p>Der Punk-Life-Balance-Song, der das am grimmigsten, womöglich auch deutlichsten auf den Punkt bringt, ist das raffiniert verschlungene, dynamisch vorbildliche „Nicht aller Tage Abend“. Man denkt an die Wipers und deren Album „Youth of America“, wenn die Gitarren von Guido und Rob umeinander her tänzeln, sich ineinander verkeilen, um dann effektvoll wieder loslassen, aufeinander zumarschieren und zickige kleine Salven abschießen, während Guido bellt: „Wer hat, der hat, der hat.“ Es nimmt einen ebenso gefangen, wie das lebenskluge „Immer“, zudem ein Beleg für die beinahe reporterhafte Beobachtungsgabe des Texters Guido Leicht. Der Song klingt wie das Produkt von abertausenden abgelauschten Kneipengesprächen und dem sich daraus ergebenden Verdruss: „Immer redet einer, nur Stuss/Immer macht noch einer, Schluss“, singt Guido, und dann, herrlich angewidert: „Immer war schon einer vor dir da, immer macht dir einer, alles nach.“</p><p>Punk Life Balance sind eine geradlinige Band, die indes stupende, leicht tänzelnde Melodien beherrscht, wie in „Ikarus“. „Du willst es, du siehst es, du nimmst es“ – die Kunstfertigkeit in diesen dialogischen Texten liegt in ihrer Offenheit, sie alle spiegeln eine Seite eines Gesprächs und sind folglich auch Angebote zu einem solchen. Punk Life Balance machen eine Musik, die zu gleichen Teilen schöpft aus Indie-Rock, Post-Punk, Deutschrock, Hamburger Schule und Grunge, und wenn wir hier so viele unterschiedliche Genres aufzählen, wird natürlich gleich klar, wie sinnlos das eigentlich ist.</p><p>Es geht in diesen Liedern um lichtscheue Gesellen und Scheinheiligkeit, wie in dem wütenden Manifest „Nicht aller Tage Abend“. Die Songs sind kurz, atemlos, auf den Punkt, akzentuiert und von einem vortrefflichen Umgang mit Dynamik erfüllt. Auch „Authentischer Autist“ hat diese ganz spezielle Dringlichkeit und souveräne Lässigkeit, wie sie sich erst mit den Jahren einstellen kann und für diese Band typisch ist. Eine bukolische Energie durchströmt schließlich das zackig startende „Du spielst auf Zeit“, das im weiteren Verlauf in eine Elegie überführt wird. Es geht um die Zeit, die vergeht, die Spielchen, die wir spielen und die Charaktere, die wir behaupten zu sein, während unser Leben vorbeizieht.</p><p>Gewagter Gedanke, aber nehmen wir doch mal kurz an, es ginge ausnahmsweise nicht ausschließlich um vermeintliche Regeln, um Style, Jugend, Followerzahlen, TikTok-Fame, Zeitgeist, sondern, nun ja: um Musik.</p>"},"id":"f73efd9b-4ed3-45d5-9d96-5354a0db72c1","isHidden":false,"type":"text"}],"id":"c8a74d9c-9b33-43f2-891f-8d7fbee286ac","width":"2/3"}],"id":"19eb5d42-ef0a-4b2e-9d94-df5ed88bb61d"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: grayscale, lighten
+
+----
+
 Blocks:
 
 [
@@ -109,22 +133,6 @@ Blocks:
         "type": "text"
     }
 ]
-
-----
-
-Backgroundvideourl: 
-
-----
-
-Startofbackgroundvideo: 
-
-----
-
-Durationofbackgroundvideo: 
-
-----
-
-Videooptions: grayscale, lighten
 
 ----
 

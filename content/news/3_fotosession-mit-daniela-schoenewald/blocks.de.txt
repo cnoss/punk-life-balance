@@ -1,0 +1,37 @@
+Title: Fotosession mit Daniela Schönewald
+
+----
+
+Teasertext: An einem dieser raren Frühlingstage, an denen selbst der Beton weich wirkt, haben wir uns vor die Linse von Daniela Schönewald gewagt. Die Kulisse: Guidos Hof irgendwo zwischen Köln und Weltflucht. Schön war’s. Staub, Scheune, Schatten – passt alles. Bald gibt’s mehr zu sehen.
+
+----
+
+Teaserimage: - file://E6t4WwrynfT8m53u
+
+----
+
+Date: 2025-04-12
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://E6t4WwrynfT8m53u","file://WiVKmWQDZSEBKX4B","file://ihFmJ4pk87b1WtAu"],"caption":"","ratio":"","crop":"false"},"id":"fca5078f-0328-4b86-87a3-63d0146110e9","isHidden":false,"type":"gallery"}],"id":"22289feb-2b49-4fd0-beb3-afb5170eb62b","width":"1/2"},{"blocks":[{"content":{"text":""},"id":"2bb69caf-65d1-4ff7-bd7b-3f33591e91f2","isHidden":false,"type":"text"},{"content":{"text":"<p>An einem dieser raren Frühlingstage, an denen selbst der Beton weich wirkt, haben wir uns vor die Linse von Daniela Schönewald gewagt. Die Kulisse: Guidos Hof irgendwo zwischen Köln und Weltflucht. Staub, Scheune, Schatten – passt alles. Und weil Punk auch Frühstück kann, gab’s vorher noch Kaffee, Brötchen und Kichererbsenquatsch. Bald gibt’s mehr zu sehen.</p>"},"id":"b15e2944-0872-4e0a-96c1-4b2a48550140","isHidden":false,"type":"text"}],"id":"9a3f10ba-a3d6-4ddc-853d-8cb784037b67","width":"1/2"}],"id":"41672717-31d5-455a-b6e7-375c740b22a9"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: Vdqm9MKGCuHtYKwT
