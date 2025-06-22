@@ -5,15 +5,15 @@ $teaserImage = $teaserImageSrc ? "<img src=\"{$teaserImageSrc->toFile()->resize(
 
 ?>
 
-<article>
 
-    <div class="media">
-      <a href="<?= $item->url() ?>" class="simple-link">
-        <?= $teaserImage ?>
-      </a>
-    </div>
-    <div class="funky-link">
-      <a href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a>
-    </div>
+<figure class="media">
+  <a href="<?= $item->url() ?>" class="simple-link">
+    <?= $teaserImage ?>
   </a>
-</article>
+
+  <figcaption class="funky-link">
+    <a href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a>
+</figcaption>
+</figure>
+
+
