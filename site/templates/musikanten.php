@@ -29,4 +29,5 @@ $musikerItems = collection('musiker');
   </ul>
 </main>
 
+<?php snippet('title-group'); ?>
 <?php snippet('footer') ?>

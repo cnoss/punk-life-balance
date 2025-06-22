@@ -31,4 +31,5 @@ $mediathekpages = collection('musiker');
 
 </main>
 
+<?php snippet('title-group'); ?>
 <?php snippet('footer') ?>
