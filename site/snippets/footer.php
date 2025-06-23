@@ -4,6 +4,7 @@
       <?php foreach ($site->children()->listed() as $item): ?>
         <li class="funky-link wobble"><a <?php e($item->isOpen(), 'aria-current="page"')?> href="<?=$item->url()?>"><?=$item->title()->esc()?></a></li>
       <?php endforeach?>
+      <li class="funky-link wobble"><a href="/de/impressum">Impressum</a></li>
     </ul>
     <div class="footer-social">
       
