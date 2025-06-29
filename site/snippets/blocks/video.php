@@ -16,7 +16,7 @@
 <figure>
   <div class="video">
     <iframe width="560" height="315" src="<?= $block->url() ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>";
+  </div>
   <?php if ($block->caption()->isNotEmpty()): ?>
   <figcaption class="video-caption"><?= $block->caption() ?></figcaption>
   <?php endif ?>

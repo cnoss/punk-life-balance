@@ -58,6 +58,7 @@
 ############################################################################ */
 .sticky-video-wrap{
   position: sticky;
+  z-index: var(--z-level-back);
   top: 0;
   display: flex;
   width: 100%;

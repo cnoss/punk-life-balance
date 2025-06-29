@@ -1,0 +1,41 @@
+Title: Musik
+
+----
+
+Teasertext:
+
+Ein paar Videos, ein paar Schnipsel – mehr braucht’s nicht. Wer’s hört, weiß Bescheid: Post-Punk mit Kante, deutschsprachig, aber ohne Pathos. Mal treibend, mal zäh wie Alltag. Musik für Zwischenräume – Bahnsteig, Büro, Bar.
+
+Im Herbst kommt das Album. Bis dahin: reinhören, mitwippen, warten. Oder auch nicht.
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[],"id":"0ca5c6bb-3895-40f1-88f5-1370201ff244","width":"1/3"},{"blocks":[{"content":{"text":"Zwischen Bahnsteig und Bildschirmflimmern, zwischen zu laut und nie laut genug: Punk Life Balance bringt den Soundtrack für Tage, die nicht enden wollen – und Nächte, die man lieber nicht erinnert. Deutschsprachiger Post-Punk mit Haltung, ohne Heldenpose. Mal schneidend, mal stoisch. Texte, die stechen – und hängen bleiben."},"id":"14b6b82f-87f9-4c42-9a79-7c424470b057","isHidden":false,"type":"hero"}],"id":"7c58e78d-05de-4bcc-b8be-05ab0295962d","width":"2/3"}],"id":"4192e4dc-a3f9-4a71-97f0-1c90933206b0"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Die ersten Videos und Song-Schnipsel sind draußen. Kein großes Tamtam. Kein Marketing-Overkill. Nur Musik, die das sagt, was viele denken – aber keiner so aufschreibt. Im Herbst kommt das Album. Bis dahin: Hören. Fühlen. Vielleicht auch ein bisschen stolpern.</p>"},"id":"d78daaea-c461-4378-b111-399d9c6ff6bd","isHidden":false,"type":"text"}],"id":"4f1bb7cb-df4f-423e-808b-584e338844a2","width":"1/3"},{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/embed/wqzFyIEuO3c?si=eV3zADiG7UGkPTLo","video":[],"poster":[],"caption":"Video Snippet von «Sicher Micha»","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"0b84b738-e7f9-4818-b45d-0722eab4de89","isHidden":false,"type":"video"}],"id":"0093b70d-422d-4183-a976-012f13d4a75a","width":"1/3"},{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/embed/BZR_TqXFUxk?si=jSI1xC2vXqBtNJHu","video":[],"poster":[],"caption":"Video Snippet von «Hätte»","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"2992cd39-7ff8-4fde-bfbc-f977f4c478aa","isHidden":false,"type":"video"}],"id":"8767b880-3b00-4e20-88b0-8d6c21e9a6cd","width":"1/3"}],"id":"a58c438f-b660-4996-a131-8bd405ce09b1"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: nMfr7XWpVd8XSfea

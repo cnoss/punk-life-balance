@@ -12,5 +12,8 @@ return [
     'languages' => false,
     'schnti.cachebuster.active' => false,
     'languages.detect' => false,
-    'locale' => 'de_DE.utf8'
+    'locale' => 'de_DE.utf8',
+    'panel' => [
+    'install' => true
+  ]
 ];

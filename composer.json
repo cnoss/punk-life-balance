@@ -22,12 +22,15 @@
     "source": "https://github.com/getkirby/starterkit"
   },
   "require": {
-    "php": ">=8.0.0 <8.3.0",
-    "getkirby/cms": "^3.8"
+    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+    "getkirby/cms": "^4.0"
   },
   "config": {
     "allow-plugins": {
       "getkirby/composer-installer": true
+    },
+    "platform": {
+      "php": "8.2.28"
     },
     "optimize-autoloader": true
   },

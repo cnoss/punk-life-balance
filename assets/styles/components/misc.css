@@ -60,6 +60,7 @@ em {
 
 .title-group {
   position: relative;
+  z-index: var(--z-level-middle);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

@@ -25,6 +25,7 @@
       }
     }
 
+    /* stylelint-disable-next-line no-descending-specificity */
     img{
       z-index: var(--z-level-back);
       display: block;

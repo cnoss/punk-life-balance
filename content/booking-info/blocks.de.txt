@@ -1,0 +1,37 @@
+Title: Booking Info
+
+----
+
+Teasertext: 
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Bandprofil"},"id":"51fc389d-c6a6-4e67-83bd-588c5b136628","isHidden":false,"type":"heading"}],"id":"ca2a75ef-72b3-4cc5-b63b-d7127c3a77e6","width":"1/3"},{"blocks":[{"content":{"text":"<p>Punk Life Balance ist ein deutschsprachiger Independent-Rock‑Act aus Deutschland, bestehend aus vier erfahrenen Musikschaffenden (Gitarre, Bass, Schlagzeug, Gesang &amp; Gitarre). Die Band besteht seit etwa zwei Jahren – mit Pause während personeller Umstrukturierung – und bietet einen Sound, geprägt von spürbarer Intensität, klugen deutschen Texten und anarchischem Punk‑Geist.</p>"},"id":"a10a8fdf-5536-41de-8b82-b471d0168a86","isHidden":false,"type":"text"}],"id":"45c3490e-fc86-40b2-a9e9-7c8bfbff1f3b","width":"2/3"}],"id":"3e70a669-baae-429c-97b7-02067ea9f602"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Sound &amp; Texte"},"id":"10c8528c-b78c-473e-b6ce-4e49daeb6a21","isHidden":false,"type":"heading"}],"id":"02d2f1f2-14fa-4e0d-b1be-92482b2ecbac","width":"1/3"},{"blocks":[{"content":{"text":"<p>Punk Life Balance spielen deutschsprachigen Indie-Rock mit Wucht, Haltung und Intelligenz. Ihr Sound bewegt sich zwischen Post-Punk, Hamburger Schule und Grunge – direkt, dynamisch und auf den Punkt.</p><p>Die Texte sind klar, kritisch und zugleich offen – sie erzählen vom echten Leben, vom Zweifeln, Streiten, Hoffen und Weitermachen. Kein Posing, keine Pose: Punk Life Balance setzen musikalisch wie textlich auf Substanz statt Style.</p>"},"id":"b6b5bd41-0e04-4ab6-9b35-840c625619b2","isHidden":false,"type":"text"}],"id":"0d2b899b-c847-4cc2-8e93-8c3ad6efd9a1","width":"2/3"}],"id":"8c1c5fd0-af4a-41a7-b733-83ec1ca43288"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Background"},"id":"7a381588-0123-4bcb-a9f5-e1908ea9989f","isHidden":false,"type":"heading"}],"id":"351b22a4-0773-4bd5-a10f-c9ce001ed8d3","width":"1/3"},{"blocks":[{"content":{"text":"<ul><li>15 eigene Songs, Settime von über 60 Minuten</li><li>Studioaufnahmen derzeit im Mixing, mit Hörproben bald verfügbar</li><li>Die Mitglieder der Band haben in verschiedenen früheren Formationen&nbsp;<strong>über 100 Gigs</strong>&nbsp;gespielt – deutschlandweit und im europäischen Ausland</li><li>Voll ausgestattet mit eigener Backline, PA und Bühnen-Equipment – sofort performbereit</li></ul>"},"id":"1f76f270-c7db-41ef-bae2-dfa7389e92bb","isHidden":false,"type":"list"}],"id":"32e5c9dc-df0f-4318-a290-16f9d5d9f4d0","width":"2/3"}],"id":"34e243ef-25c6-4ed8-bcbd-639fc0f1a024"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Ziele"},"id":"f7393824-76af-4de3-a9b4-53444c6ae7f2","isHidden":false,"type":"heading"}],"id":"f623bcb2-3696-4776-8568-c33717d17a17","width":"1/3"},{"blocks":[{"content":{"text":"<p>Wir planen noch in 2025 Jahr den Release unseres Albums – mit Release-Party als Live-Event. Für 2026 streben wir&nbsp;<strong>12–15 Gigs</strong>&nbsp;an: Clubs, regionale Indie-Festivals und Support-Shows für Bands mit ähnlichem Mindset. Ihr würdet uns eine Plattform bieten, auf der unsere kritischen Texte und unser eigener Sound zwischen Independent-Rock und Punk nicht nur Wellen schlagen, sondern Strukturen infrage stellen.</p>"},"id":"ce5bf74d-f409-4dc6-af46-d205f99cc06c","isHidden":false,"type":"text"}],"id":"89c41eda-a511-4419-81ce-be7f945a8d68","width":"2/3"}],"id":"f1d1bd6b-4f43-4f18-a0ac-f665fd44795c"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Warum wir zu euch passen?"},"id":"ab8adaa6-ab09-42ad-a31b-b0baf26ffbea","isHidden":false,"type":"heading"}],"id":"3501b376-9b57-41b0-91e9-c6aec1e7c15a","width":"1/3"},{"blocks":[{"content":{"text":"<ul><li>Authentischer Ton, DIY-Mentalität, kluge Texte in deutscher Sprache</li><li>Große Live-Erfahrung, eigene Technik und professionelles Auftreten</li><li>Echte Haltung: kritisch-künstlerische Perspektive statt Mainstream-Politur</li><li>Bereit für&nbsp;<strong>Clubshow, Release-Event oder Support-Slot</strong></li></ul>"},"id":"d4f5ae0c-c536-42bc-b0cd-931ec9779a69","isHidden":false,"type":"list"}],"id":"ab06f93d-ca14-444c-b12d-b19c86c941b6","width":"2/3"}],"id":"933898ff-63ae-4750-bf88-acbc4e8aab97"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Kontakt &amp; Hörproben"},"id":"73f110fb-2c91-48bd-a4b9-6a9f99d7efe4","isHidden":false,"type":"heading"}],"id":"7deda126-9ea5-40cb-a398-9f6de1429dcc","width":"1/3"},{"blocks":[{"content":{"text":"<p>[Link zu Mix/Demo] <br> Mehr Infos unter [punklifebalance.de] <br> Unsere vollständige Bio, Fotos &amp; Logo als ZIP/Download-Link für Press-Kit</p>"},"id":"739dc634-171a-4d51-bd09-c3d6f8953505","isHidden":false,"type":"text"}],"id":"594a8ad3-e26e-43cf-bd5a-3ab6c1511d7f","width":"2/3"}],"id":"a91053f5-65db-4532-973f-19220bf2c478"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://JU2gJF55nU0Nzra6","file://XKgGz4h749Li76M6","file://1iJX2A0O7G0jhz4R"],"caption":"","ratio":"","crop":"false"},"id":"cba4490f-b358-4fe6-8faf-1fc69b8d9bd7","isHidden":false,"type":"gallery"}],"id":"d78a6538-78d3-4c77-b498-f7d632189208","width":"1/1"}],"id":"f59d3781-4f2b-414b-ae5b-e2832011f1da"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Uuid: yslIWEn2ryZ2uWzb
