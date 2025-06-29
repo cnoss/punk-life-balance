@@ -20,7 +20,7 @@ $bodyCssClass = isset($bodyCssClass) ? $bodyCssClass : $page->id();
   ]) ?>
 
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('assets/icons/favicons/favicon.ico') ?>">
-
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="1ad97170-6376-46f7-b7ba-72121c611ed2"></script>
   
   <meta property="og:title" content="<?= $title ?>">
   <meta name="twitter:title" content="<?= $title ?>">
