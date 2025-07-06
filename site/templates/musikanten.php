@@ -15,7 +15,7 @@ $musikerItems = collection('musiker');
 
   <?php snippet('breadcrumb'); ?>
 
-  <h1 class="title"><a data-js-back class="back"></a><?= $page->title() ?></h1>
+  <h1 class="title"><?= $page->title() ?></h1>
   <section class="intro-text">
     <?= $page->copytext()->kt() ?>
   </section>

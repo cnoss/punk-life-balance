@@ -11,5 +11,13 @@ ul.breadcrumb-list{
       color: var(--lighten-strong);
       content: "//";
     }
+
+    .back-button::after{
+      display: inline-block;
+      padding-right: var(--quat);
+      color: var(--color-highlight);
+      content: "←";
+
+    }
   }
 }

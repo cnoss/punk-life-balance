@@ -21,7 +21,7 @@ $mediathekpages = collection('musiker');
 
   <?php snippet('breadcrumb'); ?>
   
-  <h1 class="title"><a data-js-back class="back"></a><?= $page->title() ?></h1>
+  <h1 class="title"><?= $page->title() ?></h1>
   <h2 class="subtitle"><?= $page->role()->kt() ?></h2>
 
   <article class="has-grid">

@@ -8,7 +8,7 @@
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'debug'                       => false,
+    'debug'                       => true,
     'languages'                   => false, // Or remove the languages section entirely
     'default.language'            => 'de',
     'schnti.cachebuster.active'   => false,

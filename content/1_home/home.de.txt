@@ -10,6 +10,10 @@ Die nerdige kleine Schwester der Work-Life-Balance fragt Dich nach Deiner Haltun
 
 ----
 
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://TT81FDWAntpUaNUB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e1fd7658-7808-4eb4-b51c-9c8026fc2653","isHidden":false,"type":"image"}],"id":"e6c6937d-3911-4b29-84d3-06e15f7d6712","width":"1/1"}],"id":"194ecc6d-d055-4372-a732-3b9fcfd1793f"}]
+
+----
+
 Backgroundvideourl: https://plb.klickmeister.de/static-media/pbl-studio-trailer_web.mp4
 
 ----

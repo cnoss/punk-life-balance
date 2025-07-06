@@ -21,6 +21,16 @@
     }
   }
 
+  .block-type-image{
+    width: 100%;
+    margin-bottom: 0;
+    box-shadow: var(--shadow-l);
+  }
+
+  .layout-grid{
+    margin-bottom: 0;
+  }
+
 }
 
 /* Preview Section
