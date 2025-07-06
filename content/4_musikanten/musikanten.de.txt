@@ -22,4 +22,56 @@ Videooptions:
 
 ----
 
+Metatemplate: 
+
+----
+
+Metadescription: Lerne die Musiker von Punk Life Balance kennen: Post‑Punk aus Köln mit Haltung, Geschichte und Charakter. Keine Rockstars – echte Menschen mit Kante.
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary_large_image
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Socialmediaaccounts: 
+
+----
+
 Uuid: MRQbwx6uwUZ4j3Jg

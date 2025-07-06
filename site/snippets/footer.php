@@ -16,6 +16,6 @@
   'assets/scripts/main.js',
   '@auto'
 ]) ?>
-
+    <?php snippet('seo/schemas'); ?>
 </body>
 </html>

@@ -8,12 +8,17 @@
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'debug' => true,
-    'languages' => false,
-    'schnti.cachebuster.active' => false,
-    'languages.detect' => false,
-    'locale' => 'de_DE.utf8',
-    'panel' => [
-    'install' => true
-  ]
+    'debug'                       => false,
+    'languages'                   => false, // Or remove the languages section entirely
+    'default.language'            => 'de',
+    'schnti.cachebuster.active'   => false,
+    'languages.detect'            => false,
+    'locale'                      => 'de_DE.utf8',
+    'panel'                       => [
+        'install' => false,
+    ],
+    'tobimori.seo.sitemap.active' => true, // Enable the Tob
+
+    'tobimori.seo.canonicalBase'  => 'https://punklifebalance.de',
+    'tobimori.seo.robots.active'  => false,
 ];
