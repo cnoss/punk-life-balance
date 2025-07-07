@@ -32,6 +32,14 @@
 
   <?php endif; ?>
 
+  <div class="is-large is-dark textbox is-sticky">
+    <p class="textbox-content">
+      <span class="text-wrapper">
+        <span class="letters">Versuch in einem Satz zu formulieren, was Du verändern willst!</span>
+      </span>
+    </p>
+  </div>
+
   <?php foreach ($page->layout()->toLayouts() as $layout): ?>
   <section class="layout-grid<?php echo $layout->attrs()->class() ?>" id="<?php echo $layout->id() ?>" data-grid="6">
     <?php foreach ($layout->columns() as $column): ?>

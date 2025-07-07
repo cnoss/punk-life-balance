@@ -97,3 +97,4 @@ body[data-template="home"] > main > * {
   animation-timing-function: ease-in-out;
   view-timeline-name: --appear-in-viewport;
 }
+

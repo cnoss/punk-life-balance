@@ -5,7 +5,7 @@
 .main-footer {
   position: sticky;
   z-index: var(--z-level-middle);
-  bottom: 0;
+  top: 0;
   background-image:
     linear-gradient(45deg, rgb(0 0 0 / 70%), rgb(255 255 255 / 10%)),
     url("/assets/images/bg-amp-2.webp");

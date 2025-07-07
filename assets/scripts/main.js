@@ -12,7 +12,7 @@ const addCookieConsentGUI = () => {
   window.addEventListener('cc:onModalHide', ({detail}) => {
     window.location.reload();
   });
-  
+
   const cookieButton = document.querySelector("[data-js-cookies]");
 
   if (!cookieButton) return;
@@ -61,7 +61,7 @@ const addBottomBackButton = () => {
 /* Add YouTube Video ------------------------------------------------------ */
 
 const addCookieConsentForVideo = (videoId) => {
-    
+
   const cookieButton = document.querySelector("[data-js-change-cookie-settings='" + videoId + "']");
   if (!cookieButton) return;
 
@@ -78,10 +78,10 @@ const addVideo = (videoItem) => {
   const cookieContent = CookieConsent.getCookie();
 
   if (!cookieContent || !cookieContent.categories){ addCookieConsentForVideo(videoId); return; }
-  
+
   const cookieNecessary = cookieContent.categories.includes('necessary');
   const cookieFunctionality = cookieContent.categories.includes('functionality');
-  
+
   if (!cookieFunctionality){
     const cookieRequiredInfo = videoItem.querySelector("[data-js-cookie-required-info='" + videoId + "']");
 
@@ -107,7 +107,7 @@ const addVideo = (videoItem) => {
 
 const addYouTubeVideo = () => {
   const videoItems = document.querySelectorAll("[data-js-add-youtube-video]");
-  
+
   if (!videoItems.length === 0) return;
 
   videoItems.forEach((videoItem) => {
@@ -115,6 +115,7 @@ const addYouTubeVideo = () => {
   });
 
 };
+
 
 
 /* Main

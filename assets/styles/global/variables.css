@@ -7,7 +7,7 @@
 
   /* Sizes and Spacing
   ----------------------------------------------------------------------- */
-  --bfs: 0.9rem;
+  --bfs: 1.1rem;
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -71,10 +71,10 @@
 
   /* Fonts
   ----------------------------------------------------------------------- */
-  --ff-normal: jetbrains, sans-serif;
-  --ff-serif: jetbrains, serif;
-  --ff-code: jetbrains, monospace;
-  --ff-headline: jetbrains, monospace;
+  --ff-normal: atkinson, sans-serif;
+  --ff-serif: atkinson, serif;
+  --ff-code: atkinson, monospace;
+  --ff-headline: atkinson, monospace;
   --ff-icons: "MaterialIcons", serif;
   --fw-normal: 400;
   --fw-medium: 500;

@@ -41,7 +41,7 @@
 /* Backgrounds
 ############################################################################ */
 .is-dark {
-  background-color: var(--dark);
+  background-color: #000;
 
   --text-color: var(--light);
   --headline-color: var(--light);
@@ -112,6 +112,14 @@
   align-items: left;
   justify-content: center;
 }
+
+/* Is large
+############################################################################ */
+
+.is-large {
+  height: 100vh;
+}
+
 
 /* Sticky
 ############################################################################ */
