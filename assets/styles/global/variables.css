@@ -41,6 +41,7 @@
   --max-width-navigation: calc(var(--m) * 20);
   --max-width-aside: calc(var(--m) * 20);
   --menu-button-width: 4rem;
+  --max-width-page: 100rem;
 
   /* Colors
   ----------------------------------------------------------------------- */
@@ -53,7 +54,7 @@
   --lighten: rgb(255 255 255 / 50%);
   --lighten-strong: rgb(255 255 255 / 80%);
   --dark: hsl(236deg 05 30/ 100%);
-  --darker: hsl(236deg 5 20/ 100%); 
+  --darker: hsl(236deg 5 20/ 100%);
   --darkest: #000;
   --darken: rgb(0 0 0 / 10%);
   --darken-strong: rgb(0 0 0 / 30%);

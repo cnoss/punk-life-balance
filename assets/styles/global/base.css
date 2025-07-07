@@ -19,7 +19,10 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
   background-color: var(--darkest);
+  background-image: url("../../images/bg-immer-geht-dir-einer.webp");
+  background-position: top right;
   color: var(--color-text);
   font-family: var(--ff-normal);
   font-size: var(--m);

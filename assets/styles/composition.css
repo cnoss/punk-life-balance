@@ -6,7 +6,9 @@ body {
   main,
   footer {
     z-index: var(--z-level-front);
+    max-width: var(--max-width-page);
     flex-grow: 2;
+    box-shadow: var(--shadow-l);
     container-type: inline-size;
     transition: all var(--tr-fast);
   }

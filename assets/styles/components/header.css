@@ -6,6 +6,7 @@
   z-index: var(--z-level-middle);
   top: 0;
   display: flex;
+  max-width: var(--max-width-page);
   height: 100%;
   flex-direction: column;
   justify-content: center;
