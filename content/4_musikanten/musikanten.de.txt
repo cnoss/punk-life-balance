@@ -2,7 +2,7 @@ Title: Musiker
 
 ----
 
-Copytext: Wer wir sind? Vier Leute, die zu viel Krach im Kopf haben, um still zu bleiben. Also machen wir Musik. Manchmal laut, manchmal schräg, manchmal sogar fast schön. Aber immer echt. Hier sind die Gestalten hinter Punk Life Balance.
+Copytext: 
 
 ----
 
@@ -50,6 +50,10 @@ Twittercardtype: summary_large_image
 
 ----
 
+Socialmediaaccounts: 
+
+----
+
 Robotsindex: true
 
 ----
@@ -67,10 +71,6 @@ Robotsimageindex: true
 ----
 
 Robotssnippet: true
-
-----
-
-Socialmediaaccounts: 
 
 ----
 
