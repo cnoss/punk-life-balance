@@ -1,0 +1,1734 @@
+   %svg% %header%
+
+   Loading...
+
+     * (BUTTON) {{item.title | ucfirst}}
+     * (BUTTON) CLOSE
+
+   %footer%
+
+   %pageMarkup% %templates%
+
+   %footer%
+                                    Symbols
+
+   Example usage:
+<svg><use xlink:href="icons.svg#svg-logo"></use></svg>
+
+svg-bin
+
+svg-block
+
+svg-book
+
+svg-bug
+
+svg-circle-delete
+
+svg-circle-minus
+
+svg-circle-ok
+
+svg-circle-pause
+
+svg-circle-play
+
+svg-circle-plus
+
+svg-code
+
+svg-cog
+
+svg-devices
+
+svg-github
+
+svg-globe
+
+svg-help
+
+svg-home
+
+svg-imac
+
+svg-jh
+
+svg-list
+
+svg-list2
+
+svg-logo-word
+
+svg-logo
+
+svg-newtab
+
+svg-pen
+
+svg-pencil
+
+svg-plug
+
+svg-repeat
+
+svg-square-add
+
+svg-square-up
+
+svg-sync-browser
+
+svg-sync
+
+svg-syncall
+
+svg-target
+
+svg-terminal
+
+svg-time
+
+svg-trash
+
+svg-twitter
+
+svg-wifi
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Plugins
+
+   [X]
+
+   Rewrite Rules
+
+   (BUTTON) Add Rewrite Rule
+
+   Current Replacements
+   Rule 1 id: rewrite-1
+     * Match string
+       <script async=""
+       src="/browser-sync/browser-sync-client.2.7.12.js"></script><script
+       async=""
+       (BUTTON) (BUTTON) (BUTTON)
+     * Replacefunction
+       function (match) { return "localhost:3003" + namespace; }
+
+     * Match regex
+       /skin/default/assets/(.+?)
+       (BUTTON) (BUTTON) (BUTTON)
+     * Replacestring
+       <link rel="apple-touch-icon" sizes="114x114"
+       href="http://www.sunspel.com/skin/frontend/sunspel/default/assets/i
+       mg/114x114.png"> <link rel="apple-touch-icon" sizes="144x144"
+       href="http://www.sunspel.com/skin/frontend/sunspel/default/assets/i
+       mg/144x144.png">
+
+   [X]
+
+   HTML Injector
+
+   Default behaviour is to compare the entire page. You can also restrict
+   the comparisons for localized edits.
+   New Restriction ____________________
+
+   Current Restrictions:
+     * #main
+       (BUTTON)
+     * #header
+     * #footer
+
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Network Throttle
+
+   Speed
+   ( ) DSL (2Mbps, 5ms RTT)
+   ( ) 3G (750kbs, 100ms RTT)
+   ( ) EDGE (250kbs, 300ms RTT)
+   ( ) GPRS (50kbs, 500ms RTT)
+   (*) None
+
+   Port
+   (*) Auto Detection
+   ( ) User specified
+   ____________________
+   (BUTTON) Create Server
+
+Your Servers
+
+     * 1.
+       3G
+       https://localhost:3001
+       https://192.136.1.0:3001
+       (BUTTON) (BUTTON) (BUTTON)
+     * 2.
+       GPRS
+       https://localhost:3002
+       https://192.136.1.0:3002
+       (BUTTON) (BUTTON) (BUTTON)
+
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Help / About
+
+   Browsersync is an open-source project created by Shane Osbourne
+
+   Originally supported by JH.
+
+Help
+
+   Why isn’t Browsersync connecting with my project?
+          99% of the time, it's because your web page doesn't have a body
+          tag. In order for Browsersync to connect properly the body tag
+          must be present in your website (we add a script tag just after
+          it). Alternatively you can provide a custom rule for the snippet
+          using snippetOptions
+
+   Which mode should I be running in?
+
+          + If you have simple HTML, CSS & JavaScript files, you need the
+            server option.
+          + If you already have an existing server setup (such as an
+            Express app, Mamp, Rails etc, then you need the proxy option.
+          + If you intend to copy/paste the snippet into your website
+            manually, you use the snippet mode. This is the default mode
+            and is achieved by omitting both the server & proxy options
+
+   Where can I report an issue?
+          If you have found an issue with the Browsersync UI, please use
+          our issue tracker
+     __________________________________________________________________
+
+   Need more assistance? Please try our documentation for user guides or
+   our stackoverflow tag for answers to common problems.
+
+Contribute
+
+   We'd love for you to contribute to Browsersync and help make it even
+   better than it is today! Please read our contributor guidelines.
+
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Server Info
+
+   Local
+
+   http://localhost:3000
+   new tab sync all
+
+   External
+
+   http://192.168.0.1:3000
+   new tab sync all
+
+   Tunnel
+
+   http://14frwed.localtunnel.me
+   new tab sync all
+
+   Serving files from
+     * /Users/shakyshane/Sites/browser-sync-modules/browser-sync-cp/test/f
+       ixtures
+     * /Users/shakyshane/Sites/browser-sync-modules/browser-sync-cp/test/f
+       ixtures
+     * /Users/shakyshane/Sites/browser-sync-modules/browser-sync-cp/test/f
+       ixtures
+
+   © 2021 - Browsersync.io
+   Crossbow WARNING: Include not found:
+   ../../public/img/icons/svg/symbols.svg
+
+Browsersync UI Components
+
+   Also, you can view static representations of each section:
+     * Overview |
+     * Sync Options |
+     * History |
+     * Plugins |
+     * Remote Debug |
+     * Network Throttle |
+     * Help / About
+     __________________________________________________________________
+
+Typography
+
+Heading 1
+
+Heading 2
+
+Heading 3
+
+   Lede paragraph. Lorem ipsum dolor sit amet.
+
+   Paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+   Libero esse molestias, itaque, quia sed laudantium laboriosam amet
+   aliquam ipsam, laborum asperiores quod obcaecati, maiores fugiat nihil
+   cum minus provident vitae.
+
+   Small paragraph. Lorem ipsum dolor sit amet.
+
+   Link | Another link
+
+   Inline tags. Lorem strong ipsum code dolar mark si em.
+     __________________________________________________________________
+
+     * Lorem ipsum dolor sit amet.
+     * Ratione dolore veritatis voluptas consequuntur!
+     * Odit quis, pariatur ipsum vel.
+          + Lorem ipsum dolor sit amet.
+          + Ratione dolore veritatis voluptas consequuntur!
+          + Odit quis, pariatur ipsum vel.
+          + Suscipit laudantium, quam debitis tempore.
+          + Nobis vero nesciunt suscipit porro.
+     * Suscipit laudantium, quam debitis tempore.
+     * Nobis vero nesciunt suscipit porro.
+
+    1. Lorem ipsum dolor sit amet.
+    2. Ratione dolore veritatis voluptas consequuntur!
+    3. Odit quis, pariatur ipsum vel.
+         1. Lorem ipsum dolor sit amet.
+         2. Ratione dolore veritatis voluptas consequuntur!
+         3. Odit quis, pariatur ipsum vel.
+         4. Suscipit laudantium, quam debitis tempore.
+         5. Nobis vero nesciunt suscipit porro.
+    4. Suscipit laudantium, quam debitis tempore.
+    5. Nobis vero nesciunt suscipit porro.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+     __________________________________________________________________
+
+   CAPTION: The Very Best Eggnog
+
+            Ingredients           Serves 12 Serves 24
+   Milk                           1 quart   2 quart
+   Cloves                         5         10
+   Egg Yolks                      12        24
+   Cups Sugar                     1 ½ cups  3 cups
+   Dark Rum                       1 ½ cups  3 cups
+   Freshly grated nutmeg to taste
+     __________________________________________________________________
+
+Buttons
+
+   Default button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+
+   Subtle button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+
+   Alternative Subtle button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+     __________________________________________________________________
+
+   Default buttons with icons
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   Subtle buttons with icons
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   Alternative Subtle button styles with icons
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+     __________________________________________________________________
+
+Button bars
+
+   (BUTTON) Website (BUTTON) Twitter (BUTTON) Github (BUTTON)
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+     __________________________________________________________________
+
+Form inputs
+
+   Grid Size 16px____________
+   Some input ____________________
+
+   Form label
+   Input + Button
+   __________rs (BUTTON)
+   New Restriction ____________________
+   (BUTTON) Add
+     __________________________________________________________________
+
+Lists
+
+Simple list
+
+     * Item 1
+     * Item 2
+     * Item 3
+     * Item 4
+     * Item 5
+
+Bordered list
+
+     * /gallery/new-item
+     * https://github.com/shakyShane/browser-sync/pull/400
+     * Item 3
+     * Item 4
+     * Item 5
+
+Bordered list with controls
+
+     * https://github.com/BrowserSync/browser-sync/
+       (BUTTON) (BUTTON)
+     * https://github.com/BrowserSync/browser-sync/issues
+       (BUTTON) (BUTTON)
+     * https://twitter.com/browsersync
+       (BUTTON) (BUTTON)
+     * https://browsersync.io
+       (BUTTON) (BUTTON)
+     * https://stackoverflow.com/questions/tagged/browser-sync
+       (BUTTON) (BUTTON)
+     * https://www.browsersync.io/docs/options/#option-snippetOptions
+       (BUTTON) (BUTTON)
+     * https://github.com/shakyShane/browser-sync/blob/master/CONTRIBUTING
+       .md
+       (BUTTON) (BUTTON)
+     * https://www.browsersync.io/docs/options
+       (BUTTON) (BUTTON)
+     * https://wearejh.com
+       (BUTTON) (BUTTON)
+
+Headings
+
+Server Info
+     __________________________________________________________________
+
+Panels
+
+   Page heading
+
+Overview
+     __________________________________________________________________
+
+Sync all
+
+   (BUTTON) Enable All (BUTTON) Disable all
+
+Overview
+     __________________________________________________________________
+
+Header
+
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+Switches
+
+   [X]
+
+   Css Grid Overlay
+
+   Some other content
+
+   Grid Size 16px____________
+   Grid Colour rgba(0, 0, 0, 0.2)__
+   Grid Selector body________________
+   Offset Top 0___________________
+   Offset Bottom 0___________________
+   [X] Vertical Axis
+   [X] Horizontal Axis
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Sync Options
+
+   (BUTTON) Enable All (BUTTON) Disable All
+   [ ]
+
+   Clicks
+
+   Mirrors click events across devices
+   [X]
+
+   Scroll
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Submit
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Toggles
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Inputs
+
+   Mirrors click events across devices
+   [X]
+
+   Clicks
+
+   Mirrors click events across devices
+   [X]
+
+   Scroll
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Submit
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Toggles
+
+   Mirrors click events across devices
+   [X]
+
+   Forms: Inputs
+
+   Mirrors click events across devices
+
+   © 2021 - Browsersync.io
+Help / About
+
+   Browsersync is an open-source project created by Shane Osbourne
+
+   Originally supported by JH.
+
+Help
+
+   Why isn’t Browsersync connecting with my project?
+          99% of the time, it's because your web page doesn't have a body
+          tag. In order for Browsersync to connect properly the body tag
+          must be present in your website (we add a script tag just after
+          it). Alternatively you can provide a custom rule for the snippet
+          using snippetOptions
+
+   Which mode should I be running in?
+
+          + If you have simple HTML, CSS & JavaScript files, you need the
+            server option.
+          + If you already have an existing server setup (such as an
+            Express app, Mamp, Rails etc, then you need the proxy option.
+          + If you intend to copy/paste the snippet into your website
+            manually, you use the snippet mode. This is the default mode
+            and is achieved by omitting both the server & proxy options
+
+   Where can I report an issue?
+          If you have found an issue with the Browsersync UI, please use
+          our issue tracker
+     __________________________________________________________________
+
+   Need more assistance? Please try our documentation for user guides or
+   our stackoverflow tag for answers to common problems.
+
+Contribute
+
+   We'd love for you to contribute to Browsersync and help make it even
+   better than it is today! Please read our contributor guidelines.
+   Default button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+
+   Subtle button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+
+   Alternative Subtle button styles
+
+   (BUTTON) Button (BUTTON) Button Small (BUTTON) Button Small
+     __________________________________________________________________
+
+   Default buttons with icons
+
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   Subtle buttons with icons
+
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+
+   Alternative Subtle button styles with icons
+
+   (BUTTON) Icon Left (BUTTON) Icon Right (BUTTON) (BUTTON)
+                                   Heading 1
+
+Heading 2
+
+  Heading 3
+
+   Lede paragraph. Lorem ipsum dolor sit amet.
+
+   Paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+   Libero esse molestias, itaque, quia sed laudantium laboriosam amet
+   aliquam ipsam, laborum asperiores quod obcaecati, maiores fugiat nihil
+   cum minus provident vitae.
+
+   Small paragraph. Lorem ipsum dolor sit amet.
+
+   Link | Another link
+
+   Inline tags. Lorem strong ipsum code dolar mark si em.
+     __________________________________________________________________
+
+     * Lorem ipsum dolor sit amet.
+     * Ratione dolore veritatis voluptas consequuntur!
+     * Odit quis, pariatur ipsum vel.
+          + Lorem ipsum dolor sit amet.
+          + Ratione dolore veritatis voluptas consequuntur!
+          + Odit quis, pariatur ipsum vel.
+          + Suscipit laudantium, quam debitis tempore.
+          + Nobis vero nesciunt suscipit porro.
+     * Suscipit laudantium, quam debitis tempore.
+     * Nobis vero nesciunt suscipit porro.
+
+    1. Lorem ipsum dolor sit amet.
+    2. Ratione dolore veritatis voluptas consequuntur!
+    3. Odit quis, pariatur ipsum vel.
+         1. Lorem ipsum dolor sit amet.
+         2. Ratione dolore veritatis voluptas consequuntur!
+         3. Odit quis, pariatur ipsum vel.
+         4. Suscipit laudantium, quam debitis tempore.
+         5. Nobis vero nesciunt suscipit porro.
+    4. Suscipit laudantium, quam debitis tempore.
+    5. Nobis vero nesciunt suscipit porro.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+
+   Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus, hic.
+     __________________________________________________________________
+
+   CAPTION: The Very Best Eggnog
+
+            Ingredients           Serves 12 Serves 24
+   Milk                           1 quart   2 quart
+   Cloves                         5         10
+   Egg Yolks                      12        24
+   Cups Sugar                     1 ½ cups  3 cups
+   Dark Rum                       1 ½ cups  3 cups
+   Freshly grated nutmeg to taste
+Server Info
+   Grid Size 16px____________
+
+   Some input ____________________
+
+   Form label
+
+   Input + Button
+   __________rs (BUTTON)
+
+   New Restriction ____________________
+   (BUTTON) Add
+Simple list
+
+     * Item 1
+     * Item 2
+     * Item 3
+     * Item 4
+     * Item 5
+
+Bordered list
+
+     * /gallery/new-item
+     * https://github.com/shakyShane/browser-sync/pull/400
+     * Item 3
+     * Item 4
+     * Item 5
+
+Bordered list with controls
+
+     * https://github.com/BrowserSync/browser-sync/
+       (BUTTON) (BUTTON)
+     * https://github.com/BrowserSync/browser-sync/issues
+       (BUTTON) (BUTTON)
+     * https://twitter.com/browsersync
+       (BUTTON) (BUTTON)
+     * https://browsersync.io
+       (BUTTON) (BUTTON)
+     * https://stackoverflow.com/questions/tagged/browser-sync
+       (BUTTON) (BUTTON)
+     * https://www.browsersync.io/docs/options/#option-snippetOptions
+       (BUTTON) (BUTTON)
+     * https://github.com/shakyShane/browser-sync/blob/master/CONTRIBUTING
+       .md
+       (BUTTON) (BUTTON)
+     * https://www.browsersync.io/docs/options
+       (BUTTON) (BUTTON)
+     * https://wearejh.com
+       (BUTTON) (BUTTON)
+Help Content
+
+   Browsersync is an open-source project created by Shane Osbourne
+
+   Originally supported by [JH](https://wearejh.com).
+
+Help
+
+   Why isn’t Browsersync connecting with my project?
+          99% of the time, it's because your web page doesn't have a
+          `body` tag. In order for Browsersync to connect properly the
+          `body` tag must be present in your website (we add a script tag
+          just after it). Alternatively you can provide a custom rule for
+          the snippet using
+          [snippetOptions](https://www.browsersync.io/docs/options/#option
+          -snippetOptions)
+
+   Which mode should I be running in?
+
+          + If you have simple HTML, CSS & JavaScript files, you need the
+            [server
+            option](https://www.browsersync.io/docs/options-server).
+          + If you already have an existing server setup (such as an
+            Express app, Mamp, Rails etc, then you need the [proxy
+            option](https://www.browsersync.io/docs/options-proxy).
+          + If you intend to copy/paste the snippet into your website
+            manually, you use the `snippet` mode. This is the default mode
+            and is achieved by omitting both the server & proxy options
+
+   Where can I report an issue?
+          If you have found an issue with the Browsersync UI, please use
+          our [issue
+          tracker](https://github.com/BrowserSync/browser-sync/issues)
+     __________________________________________________________________
+
+   Need more assistance? Please try our
+   [documentation](http://www.browsersync.io/docs/) for user guides or our
+   [stackoverflow](https://stackoverflow.com/questions/tagged/browser-sync
+   ) tag for answers to common problems.
+
+Contribute
+
+   We'd love for you to contribute to Browsersync and help make it even
+   better than it is today! Please read our [contributor
+   guidelines](https://github.com/shakyShane/browser-sync/blob/master/CONT
+   RIBUTING.md).
+   [X]
+
+   Css Grid Overlay
+
+   Some other content
+
+   Grid Size 16px____________
+   Grid Colour rgba(0, 0, 0, 0.2)__
+   Grid Selector body________________
+   Offset Top 0___________________
+   Offset Bottom 0___________________
+   [X] Vertical Axis
+   [X] Horizontal Axis
+   Page heading
+
+Overview
+     __________________________________________________________________
+
+Sync all
+
+   (BUTTON) Enable All (BUTTON) Disable all
+
+Overview
+     __________________________________________________________________
+   (BUTTON) Website (BUTTON) Twitter (BUTTON) Github (BUTTON)
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+
+   (BUTTON) Button (BUTTON) (BUTTON) Button Small (BUTTON) n/a (BUTTON)
+   Button Small
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+History
+
+   (BUTTON) Clear all
+     * /
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-product.php
+       Sync all
+     * /store-product.php?element=thisisit.php&color=we23
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+     * /store-home.php
+       Sync all
+
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Remote Debug
+
+   (BUTTON) Enable All (BUTTON) Disable All
+   [ ]
+
+   CSS Outlining
+
+   Some Awesome tagline here
+   [X]
+
+   Css Grid Overlay
+
+   Some other content
+   Grid Size 16px____________
+   Grid Colour rgba(0, 0, 0, 0.2)__
+   Grid Selector body________________
+   Offset Top 0___________________
+   Offset Bottom 0___________________
+   [X] Vertical Axis
+   [X] Horizontal Axis
+
+   © 2021 - Browsersync.io
+   v{{app.options.version}}
+
+   Reload all New Tab Scroll Top Reset All
+
+     * Overview
+     * Sync Options
+     * History
+     * Plugins
+     * Remote Debug
+     * Network Throttle
+     * Help / About
+     * (BUTTON) CLOSE
+
+   © 2021 - Browsersync.io
+
+Snippet Info
+
+   Place this snippet somewhere before the closing </body> tag in your
+   website
+<script type='text/javascript' id="__bs_script__">//<![CDATA[
+document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.
+1.8.2.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, locat
+ion.port));
+//]]></script>
+
+   © 2021 - Browsersync.io
+{{ctrl.section.title}}
+
+   (BUTTON) Enable All (BUTTON) Disable all
+
+   %pluginlist%
+
+   Sorry, no plugins were loaded
+
+   You can either write your own plugin (guide coming soon!) or Search NPM
+   for packages that contain the keywords browser sync plugin
+{{ctrl.section.title}}
+
+   (BUTTON) Enable All (BUTTON) Disable all
+     * {{connection.browser.name}} - ({{connection.browser.version}})
+{{section.title}}
+
+   Connected devices/browsers will be listed here. If you are not seeing
+   your device in the list, it's probably because the Browsersync script
+   tag is not being loaded on your page.
+
+   Browsersync works by injecting an asynchronous script tag (<script
+   async>...</script>) right after the <body> tag during initial request.
+   In order for this to work properly the <body> tag must be present.
+   Alternatively you can provide a custom rule for the snippet using
+   snippetOptions
+   Grid Size
+   ____________________
+   Grid Colour
+   ____________________
+   CSS Selector
+   ____________________
+   Offset Top
+   ____________________
+   Offset Left
+   ____________________
+   [ ] Vertical Axis
+   [ ] Horizontal Axis
+   {{ctrl.latency.rate | number:1}}s
+   [X]
+
+   {{ctrl.compression.title}}
+{{ctrl.section.title}}
+   [X]
+
+   {{ctrl.noCache.title}}
+     * {{url.path}}
+       Sync all
+{{ctrl.section.title}}
+
+   (BUTTON) Clear all
+
+   Pages you navigate to will appear here - making it easy to sync all
+   devices to a specific page
+{{ctrl.section.title}}
+
+   Sorry, Network Throttling is only available in Server or Proxy mode.
+
+   Speed
+   (*) {{item.title}}
+
+   Port
+   (*) Auto Detection
+   ( ) User specified (between 1024 & 65535)
+   ____________________
+   (BUTTON) Create Server
+
+Your Servers:
+
+Your Servers will appear here...
+
+     * {{$index + 1}}.
+       {{item.speed.id | uppercase}}
+       {{item.urls[0]}}
+       {{item.urls[1]}}
+       (BUTTON)
+   Creating a throttled server, please wait...
+     * {{url}}
+{{ctrl.section.title}}
+
+   Current Connections
+
+   Connected browsers will be listed here.
+   {{url.title}}
+
+   {{url.url}}
+   new tab sync all
+
+   Serving files from
+     * {{url}}
+
+   Proxying:
+
+   {{options.proxy.target}}
+   Place this snippet somewhere before the closing </body> tag in your
+   website
+{{options.snippet}}
+{{ctrl.section.title}}
+
+   Help page
+
+   [X]
+
+   {{item.title}}
+
+   {{item.tagline}}
+                                  A test page
+                  Browsersync, Webpack, and TypeScript Example
+                     Browsersync, Gulp + Ruby SASS Example
+                       Browsersync, Grunt + SASS Example
+                Browsersync Grunt, SASS & HTML injection Example
+
+   Any changes you make to the HTML will be injected
+                         Browsersync Browserify Example
+                Browsersync, Webpack, TypeScript + React example
+                Browsersync, Webpack + React Hot Loader Example
+                        Browsersync, Gulp + SASS Example
+                  Browsersync Server + Gzipped assets Example
+                           Browsersync Server Example
+                       Browsersync, Grunt + SASS Example
+                  Browsersync Middleware CSS injection Example
+                Browsersync, Webpack + Monkey Hot Loader Example
+
+   0 (BUTTON) Increase (BUTTON) Decrease
+                Browsersync, Webpack + React Hot Loader Example
+                      Browsersync HTML injection Examples
+
+   Any changes you make to the HTML will be injected
+   @include("app/header.html")
+
+                      Browsersync Server Includes Example
+
+   @include("app/footer.html")
+   Copyright
+                                  Some title!
+                  Browsersync, Gulp, SASS + Slow tasks example
+                       Browsersync, Gulp + Swig templates
+                           Browsersync Server Example
+                      Browsersync, Webpack + Babel Example
+
+   0 (BUTTON) Increase (BUTTON) Decrease
+                Browsersync, Webpack + Preact Hot Loader Example
+
+
+
+
+   ____________________
+
+~{linked-path}
+
+   {files}
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+   Die nerdige kleine Schwester der Work-Life-Balance fragt Dich nach
+   Deiner Haltung: Wogegen und wofür bist Du? Wofür stehst Du? Dort wo die
+   Zweifel nagen, trifft die Musik von Punk Life Balance ins Schwarze.
+
+   Kleine Bandgeschichte
+
+Was geht?
+
+   Gerade gar nicht mal so wenig. Neuwahlen, Ruck nach rechts und mehr und
+   mehr Leute in Positionen, wo sie besser nicht wären. Dagegen ist unser
+   kleiner Kosmos erschreckend vernünftig und liefert hoffentlich eine
+   Portion positive Energie. Inne halten – Klappe halten – Zuhören 🤓.
+     * PLB Live auf dem Brühler Kneipenfestival, 27. September 2025
+     * Fotosession mit Daniela Schönewald, 12. April 2025
+     * Aufnahme Session in Berlin, 1. März 2025
+     * Live im LO FI in Köln, 5. Dezember 2024
+
+   Versuch in einem Satz zu formulieren, was Du verändern willst!
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * Musiker
+
+                                   Christian
+
+   Schlagzeug
+
+   Christian hat früher Trommeln zum Tanzen gebracht. Über zehn Jahre Ska
+   in Köln – tight, tanzbar, immer ein bisschen schräg. Dann lange
+   Funkstille. Kein Proberaum, keine Bühne, nur das leise Ticken der Uhr.
+   Bis wir ihn gekriegt haben. Jetzt ist er wieder am Start – diesmal kein
+   Offbeat, sondern ordentlich nach vorn. Später eingestiegen, aber voll
+   im Takt. Micha ging, Christian kam – nicht als Kopie, sondern mit
+   eigenem Groove. Und der sitzt.
+   - file://wU7DdOM3quX5DJ2J
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * Musiker
+
+                               Christian (Krise)
+
+   Bass & Rückrat
+
+   Krise hält den Laden zusammen – mit Tiefgang und Tempo. Nicht nur
+   musikalisch, auch mental. Kommt aus Berlin, bringt die
+   Großstadt-Energie mit, aber ohne Großkotz-Attitüde. Spielt dort
+   nebenbei noch in einer anderen Band, weil Stillstand eh nie sein Ding
+   war. Hat den Bass fest im Griff und den Proberaum im Blick. Antreiber,
+   Anpacker, kein Laberkopf. Schon ewig mit Rob unterwegs – man merkt,
+   dass da was gewachsen ist. Krise kann was. Aber wichtiger: Er will was.
+   Und das merkt man in jedem Ton.
+   - file://1HsezuyOyShGRuZ8
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * Musiker
+
+                                     Guido
+
+   Gesang & Gitarre
+
+   Guido steht vorne und singt nicht, um zu gefallen. Er singt, weil’s
+   raus muss. Weil zwischen Zähneknirschen und Weltschmerz manchmal nur
+   ein Mikro steht. Seine Texte? Keine leeren Phrasen, sondern Splitter
+   aus Alltagswahn, Politik, Herz und Kopf. Mal wütend, mal resigniert,
+   mal messerscharf. Immer echt. Guido ist derjenige, der Ideen anstößt,
+   Dinge in Frage stellt und lieber einen Song schreibt als still zu
+   leiden. Kreativer Motor, Wortarbeiter, Rampensau wider Willen. Ohne ihn
+   gäb’s Punk Life Balance nicht. Nur Balance. Und das wär echt öde.
+   - file://bFKxs33gpUxOTJB4
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * Musiker
+
+                                      Rob
+
+   Gitarre & Songtuning
+
+   Rob redet nicht viel. Muss er auch nicht. Was aus seiner Gitarre kommt,
+   sagt mehr als genug. Keine Ahnung, wie er das macht, woher das kommt
+   oder ob er’s selbst weiß. Ist auch egal. Aus einem okay macht er ein
+   wow, aus einem Riff ein Gefühl. Meist der letzte Schliff, der das Ding
+   rund macht. Was er spielt, ist oft nicht das Lauteste, aber das, was
+   hängen bleibt. Töne, die unter die Haut kriechen. Flächen, die
+   plötzlich Tiefe schaffen. Harmonien, die keiner kommen sieht – und dann
+   nicht mehr wegdenken will. Wenn er sich reindreht, dann passiert was.
+   Dann wird aus einem Song ein Film. Aus Lärm eine Landschaft.
+   - file://nPspmH3VSHmf7Qlp
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+
+                             Kleine Bandgeschichte
+
+   von Torsten Groß
+   Radio 1 – Berlin
+
+   Wir können nicht über die Köln-Berliner Indie-Rockband Punk Live
+   Balance sprechen, ohne einen kurzen Moment über Ian Maxwell zu
+   sprechen. Der nordirische Sänger war eine Lichtgestalt der Kölner
+   Indie-Szene, mit seiner Band Keegan hat er sechs Alben aufgenommen,
+   nicht zuletzt war Maxwell ein Fixpunkt, um den sich die verschiedensten
+   Leute gruppierten.
+
+   Ian Maxwell Ian Maxwell
+
+   Das gilt auch für Guido Leicht (Gesang, Gitarre), Christian Baack
+   (Bass) und Michael Hanschmidt (Schlagzeug) von der wunderbaren neuen
+   Kölner Indierock-Band Punk Life Balance. „Wir kannten uns seit Jahren
+   lose, weil wir bis auf Rob alle irgendwann mal mit Ian eine Band
+   hatten“, sagt Baack, „nur nie zusammen.“ Rob ist der zweite
+   Punk-Life-Balance-Gitarrist Robert Mudge. Christian hatte einst bei
+   Keegan gespielt und der Anlass, bei dem er einige Mitstreiter von
+   damals wieder traf, war zunächst ein tragischer: Ian Maxwell war nach
+   langer Krankheit verstorben, sein Tod brachte die alte Szene wieder
+   zusammen, die sich über die Jahre im Keegan-Umfeld vernetzt hatte. Ein
+   gemeinsamer Freund hat dann im Spätsommer 2022 eine weihevolle
+   Trauerfeier im alten Proberaum von Keegan ausgerichtet. So kamen alte
+   und neue Freunde zusammen, tranken Bier, erzählten Geschichten von
+   früher, lernten sich teilweise erst kennen. Zum Schluss kam der Sohn
+   des Verstorbenen und teilte dessen Schallplattensammlung feierlich
+   unter den Gästen auf. Es war tragisch, es war zum Heulen, es war
+   wunderschön.
+
+   Anderthalb Jahre nach diesem traurig-schönen Tag von Köln war aus einer
+   Aneinanderkettung von Zufällen, einmaligen Gelegenheiten und der
+   Erkenntnis, dass das Leben jeden Augenblick vorbei sein kann, etwas
+   Neues, Kreatives entstanden: Unter den Gästen, die damals im Proberaum
+   standen, waren auch Guido Leicht und Christian Baack. Die beiden hatten
+   sich ein bisschen aus den Augen verloren, freuten sich über das
+   Wiedersehen. Man kennt ja solche Gespräche: „Du kannst dich ja mal
+   melden, können ja mal was zusammen machen, schick doch mal was von
+   deinen Ideen“ – in neun von zehn Fällen wird nichts daraus, weil ja
+   immer viel zu viel Leben parallel passiert. Nicht so hier: „Guido war
+   für mich immer eine Ikone der Kölner Szene“, sagt Baack, „ich habe ihn
+   den kölschen Costello genannt, und für mich war klar, dass ich
+   irgendwann noch mal mit ihm Musik machen wollte. Also rief ich ihn an.“
+
+   Damit sind wir in der Gegenwart: Nach einigem Hin und Her trafen sich
+   Christian und Guido damals mit Rob und Michael im Proberaum und legten
+   einfach mal los. „Es war auf Anhieb klar, dass in dieser Konstellation
+   ein besonderer Zauber liegt“, erinnert sich Guido an die erste Probe,
+   „so was passiert einem als Musiker nicht besonders oft, da muss man
+   zugreifen.“ In Blitzgeschwindigkeit haben Punk Life Balance fünf Songs
+   geschrieben und aufgenommen, erste Konzerte sind in Planung, es ist ein
+   kleines Wunder. Denn es ist ja nun mal so: Wenn man sich in dem Alter
+   noch mal auf so einen herrlichen Quatsch wie eine Bandgründung
+   einlässt, sucht man den direkten Weg, es ging hier also auch darum, auf
+   den Punkt zu kommen.
+
+   Und auf den Punk: Wobei die Band nicht Punk Life Balance heißt, weil
+   sie eine Punkband ist, sondern es geht hier natürlich um die überaus
+   interessante und immens wichtige Antwort auf die Frage, wie man sich
+   nicht komplett verliert in einem normalen Erwachsenenleben, sondern
+   sich idealerweise eine Spur Radikalität, Freiheit, Leidenschaft
+   bewahrt, ohne in einer albernen Berufsjugendlichkeitspose zu verharren
+   und sich lächerlich zu machen. Es geht in dieser Musik also darum,
+   wofür man im Leben stehen will, um eine Standortbestimmung ohne
+   Rücksicht auf Verluste. Und weil man ja manchmal die gewohnten Bahnen
+   verlassen muss, um ein bisschen klarer zu sehen und dem
+   Bullshitbingo-Cathphrase-Hashtag-Dauerrauschen unserer Zeit etwas
+   Aufrichtiges entgegenzusetzen, braucht man eben eine gesunde Punk Life
+   Balance.
+
+   Der Punk-Life-Balance-Song, der das am grimmigsten, womöglich auch
+   deutlichsten auf den Punkt bringt, ist das raffiniert verschlungene,
+   dynamisch vorbildliche „Nicht aller Tage Abend“. Man denkt an die
+   Wipers und deren Album „Youth of America“, wenn die Gitarren von Guido
+   und Rob umeinander her tänzeln, sich ineinander verkeilen, um dann
+   effektvoll wieder loslassen, aufeinander zumarschieren und zickige
+   kleine Salven abschießen, während Guido bellt: „Wer hat, der hat, der
+   hat.“ Es nimmt einen ebenso gefangen, wie das lebenskluge „Immer“,
+   zudem ein Beleg für die beinahe reporterhafte Beobachtungsgabe des
+   Texters Guido Leicht. Der Song klingt wie das Produkt von abertausenden
+   abgelauschten Kneipengesprächen und dem sich daraus ergebenden
+   Verdruss: „Immer redet einer, nur Stuss/Immer macht noch einer,
+   Schluss“, singt Guido, und dann, herrlich angewidert: „Immer war schon
+   einer vor dir da, immer macht dir einer, alles nach.“
+
+   Punk Life Balance sind eine geradlinige Band, die indes stupende,
+   leicht tänzelnde Melodien beherrscht, wie in „Ikarus“. „Du willst es,
+   du siehst es, du nimmst es“ – die Kunstfertigkeit in diesen
+   dialogischen Texten liegt in ihrer Offenheit, sie alle spiegeln eine
+   Seite eines Gesprächs und sind folglich auch Angebote zu einem solchen.
+   Punk Life Balance machen eine Musik, die zu gleichen Teilen schöpft aus
+   Indie-Rock, Post-Punk, Deutschrock, Hamburger Schule und Grunge, und
+   wenn wir hier so viele unterschiedliche Genres aufzählen, wird
+   natürlich gleich klar, wie sinnlos das eigentlich ist.
+
+   Es geht in diesen Liedern um lichtscheue Gesellen und Scheinheiligkeit,
+   wie in dem wütenden Manifest „Nicht aller Tage Abend“. Die Songs sind
+   kurz, atemlos, auf den Punkt, akzentuiert und von einem vortrefflichen
+   Umgang mit Dynamik erfüllt. Auch „Authentischer Autist“ hat diese ganz
+   spezielle Dringlichkeit und souveräne Lässigkeit, wie sie sich erst mit
+   den Jahren einstellen kann und für diese Band typisch ist. Eine
+   bukolische Energie durchströmt schließlich das zackig startende „Du
+   spielst auf Zeit“, das im weiteren Verlauf in eine Elegie überführt
+   wird. Es geht um die Zeit, die vergeht, die Spielchen, die wir spielen
+   und die Charaktere, die wir behaupten zu sein, während unser Leben
+   vorbeizieht.
+
+   Gewagter Gedanke, aber nehmen wir doch mal kurz an, es ginge
+   ausnahmsweise nicht ausschließlich um vermeintliche Regeln, um Style,
+   Jugend, Followerzahlen, TikTok-Fame, Zeitgeist, sondern, nun ja: um
+   Musik.
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+
+                                    Musiker
+
+   Wer wir sind? Vier Leute, die zu viel Krach im Kopf haben, um still zu
+   bleiben. Also machen wir Musik. Manchmal laut, manchmal schräg,
+   manchmal sogar fast schön. Aber immer echt. Hier sind die Gestalten
+   hinter Punk Life Balance.
+     * - file://bFKxs33gpUxOTJB4 Guido
+     * - file://1HsezuyOyShGRuZ8 Christian (Krise)
+     * - file://nPspmH3VSHmf7Qlp Rob
+     * - file://wU7DdOM3quX5DJ2J Christian
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+
+                                     Musik
+
+   Zwischen Bahnsteig und Bildschirmflimmern, zwischen zu laut und nie
+   laut genug: Punk Life Balance bringt den Soundtrack für Tage, die nicht
+   enden wollen – und Nächte, die man lieber nicht erinnert.
+   Deutschsprachiger Post-Punk mit Haltung, ohne Heldenpose. Mal
+   schneidend, mal stoisch. Texte, die stechen – und hängen bleiben.
+
+   Die ersten Videos und Song-Schnipsel sind draußen. Kein großes Tamtam.
+   Kein Marketing-Overkill. Nur Musik, die das sagt, was viele denken –
+   aber keiner so aufschreibt. Im Herbst kommt das Album. Bis dahin:
+   Hören. Fühlen. Vielleicht auch ein bisschen stolpern.
+
+   IFRAME: https://www.youtube.com/embed/wqzFyIEuO3c?si=eV3zADiG7UGkPTLo
+
+   Video Snippet von «Sicher Micha»
+
+   IFRAME: https://www.youtube.com/embed/BZR_TqXFUxk?si=jSI1xC2vXqBtNJHu
+
+   Video Snippet von «Hätte»
+
+   IFRAME:
+   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playl
+   ists/2044589037&color=%23ff5500&auto_play=false&hide_related=false&show
+   _comments=true&show_user=true&show_reposts=false&show_teaser=true
+
+   Punk Life Balance · PLB 2025 Rough Mixe Preview auf's Album
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+
+                                 News & Termine
+
+     *
+
+  PLB Live auf dem Brühler Kneipenfestival
+
+    27. September 2025
+     * Fotosession mit Daniela Schönewald
+
+  Fotosession mit Daniela Schönewald
+
+    12. April 2025
+     * Aufnahme Session in Berlin
+
+  Aufnahme Session in Berlin
+
+    1. März 2025
+     * Live im LO FI in Köln
+
+  Live im LO FI in Köln
+
+    5. Dezember 2024
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * News & Termine
+
+                           Aufnahme Session in Berlin
+
+   01. März 2025
+
+   Berlin, Lakeside Studios – Es passiert. Punk Life Balance sind im
+   Studio. Mit niemand Geringerem als Dirk Burke an den Reglern nehmen wir
+   gerade unsere ersten Songs auf. Es knarzt, es hämmert, es atmet. Der
+   Sound? Roh, direkt, ohne Bullshit. Wie es sich gehört. Ihr könnt euch
+   also schon mal warmzittern – da kommt was. Stay tuned.
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * News & Termine
+
+                       Fotosession mit Daniela Schönewald
+
+   12. April 2025
+
+     *
+     *
+     *
+
+   An einem dieser raren Frühlingstage, an denen selbst der Beton weich
+   wirkt, haben wir uns vor die Linse von Daniela Schönewald gewagt. Die
+   Kulisse: Guidos Hof irgendwo zwischen Köln und Weltflucht. Staub,
+   Scheune, Schatten – passt alles. Und weil Punk auch Frühstück kann,
+   gab’s vorher noch Kaffee, Brötchen und Kichererbsenquatsch. Bald gibt’s
+   mehr zu sehen.
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * News & Termine
+
+                    PLB Live auf dem Brühler Kneipenfestival
+
+   27. September 2025
+
+Live in Brühl – Kneipenfestival 2025
+
+   Am Samstag, den 27.09.2025, sind wir Teil des Brühler
+   Kneipenfestivals – und spielen live im Hollywood, einer Bar mit Charme,
+   Spiegelkugel und ausreichend Strom für unsere Verstärker.
+
+   📍 Hollywood Bar
+   Uhlstraße 72, 50321 Brühl
+   Einlass: 18:00 Uhr
+   Start: ab 19:00 Uhr
+   Eintritt? Wie sich’s gehört: frei.
+
+   Was euch erwartet? Kein gemütliches Akustikgedudel. Kein Coverset.
+   Sondern Post‑Punk mit Haltung. Laut, ehrlich, direkt. Zwischen
+   Melancholie und Wut, zwischen Kante und Klang.
+
+   Kommt rum, bringt Freund*innen mit, bestellt Bier, steht im Weg – wir
+   spielen trotzdem.
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+     * News & Termine
+
+                             Live im LO FI in Köln
+
+   05. Dezember 2024
+
+   Leute, streicht euch den 05.12. fett im Kalender an. Wir spielen ein
+   Instore-Gig im Lo-Fi Store Köln! Zwischen Vinyl, Shirts und anderem
+   coolen Kram gibt’s Post-Punk direkt auf die Ohren – roh, laut und ohne
+   Netz und doppelten Boden.
+
+   Kommt rum, stöbert, trinkt ein Bier und lasst euch von uns die Realität
+   aus dem Schädel pusten. Kein Schnickschnack. Nur Musik.
+
+     *
+     *
+     *
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+     * Nach Hause
+
+                                   Impressum
+
+   Angaben gem. § 5 TMG
+   Punk-Life Balance, vertreten durch Christian Baack
+
+   Anschrift
+   Vierkotter Feld 4
+   51503 Rösrath
+
+   Kontakt
+   hello@punklifebalance.de
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+   (BUTTON)
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+
+   Die nerdige kleine Schwester der Work-Life-Balance fragt Dich nach
+   Deiner Haltung: Wogegen und wofür bist Du? Wofür stehst Du? Dort wo die
+   Zweifel nagen, trifft die Musik von Punk Life Balance ins Schwarze.
+
+   Kleine Bandgeschichte
+
+Was geht?
+
+   Gerade gar nicht mal so wenig. Neuwahlen, Ruck nach rechts und mehr und
+   mehr Leute in Positionen, wo sie besser nicht wären. Dagegen ist unser
+   kleiner Kosmos erschreckend vernünftig und liefert hoffentlich eine
+   Portion positive Energie. Inne halten – Klappe halten – Zuhören 🤓.
+     * PLB Live auf dem Brühler Kneipenfestival, 27. September 2025
+     * Fotosession mit Daniela Schönewald, 12. April 2025
+     * Aufnahme Session in Berlin, 1. März 2025
+     * Live im LO FI in Köln, 5. Dezember 2024
+
+   Versuch in einem Satz zu formulieren, was Du verändern willst!
+
+   Punk Life Balance
+   //
+
+   Post-Punk Indie
+     * Nach Hause
+     * Musik
+     * Kleine Bandgeschichte
+     * Musiker
+     * Impressum
+
