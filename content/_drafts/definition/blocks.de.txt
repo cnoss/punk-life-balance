@@ -1,0 +1,69 @@
+Title: Definition
+
+----
+
+Teasertext: Der Begriff "Punk Life Balance" ist eine kreative Abwandlung des etablierten Konzepts der "Work-Life-Balance". Während "Work-Life-Balance" das Gleichgewicht zwischen Berufs- und Privatleben beschreibt, fügt "Punk Life Balance" eine zusätzliche Dimension hinzu, die von der Punk-Subkultur inspiriert ist.
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"Der Begriff \"Punk Life Balance\" ist eine kreative Abwandlung des etablierten Konzepts der \"Work-Life-Balance\". Während \"Work-Life-Balance\" das Gleichgewicht zwischen Berufs- und Privatleben beschreibt, fügt \"Punk Life Balance\" eine zusätzliche Dimension hinzu, die von der Punk-Subkultur inspiriert ist."},"id":"d1c44a93-9486-4bbe-ad6a-81b31e72e051","isHidden":false,"type":"hero"}],"id":"90776890-1201-4f66-a621-58bf90336ba3","width":"2/3"},{"blocks":[],"id":"fa001b2f-3291-4b98-bca0-fa093bc977b4","width":"1/3"}],"id":"65536953-764e-44f0-933a-5afdd601f395"},{"attrs":[],"columns":[{"blocks":[],"id":"12d07c5b-4a2c-4eba-8624-9e485114415e","width":"1/3"},{"blocks":[{"content":{"text":"<p>Im Kern geht es bei \"Punk Life Balance\" um die Frage nach der eigenen&nbsp;<strong>Haltung, wogegen und wofür man steht.</strong>&nbsp;Es ist eine Aufforderung, über die reine Trennung von Arbeit und Freizeit hinauszugehen und eine&nbsp;<strong>selbstbestimmte, authentische und oft rebellische Herangehensweise an das Leben</strong>&nbsp;zu finden.</p><p>Einige Aspekte, die in diesem Zusammenhang mitschwingen, sind:</p>"},"id":"472a4552-de72-49d5-8f5e-aa847c2680da","isHidden":false,"type":"text"}],"id":"a55410d1-cca9-42ab-b184-c4159ffc2fb8","width":"2/3"}],"id":"c805257f-8b09-42c5-9b0d-ae1255092f28"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Authentizität und Integrität</strong>"},"id":"042afd85-9fce-4a31-9fe7-cb444b71cc43","isHidden":false,"type":"heading"}],"id":"6f287c16-03dd-4135-9e1d-022774a3f54c","width":"1/3"},{"blocks":[{"content":{"text":"<p>Statt sich äußeren Erwartungen anzupassen, bleibt man den eigenen Überzeugungen und Werten treu.</p>"},"id":"d43908d0-4095-48bd-81ca-6da3f0a6757c","isHidden":false,"type":"text"}],"id":"a6790d9a-5464-4056-bc4d-c44385ac176a","width":"2/3"}],"id":"45259826-31c6-4138-82d9-16471d87d303"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>DIY (Do It Yourself)-Ethos</strong>"},"id":"8cea2304-71e6-4654-8711-c93344fcd5dc","isHidden":false,"type":"heading"}],"id":"7c4cbbc1-80b5-46c7-89aa-25e0d38cb133","width":"1/3"},{"blocks":[{"content":{"text":"<p>Eigeninitiative ergreifen, Dinge selbst in die Hand nehmen und kreativ Lösungen finden, anstatt sich auf etablierte Strukturen zu verlassen.</p>"},"id":"67392d6b-a394-4dda-a00f-41f5df716994","isHidden":false,"type":"text"}],"id":"3c51b954-1d14-4587-9b28-9a3f18519e21","width":"2/3"}],"id":"cc9b904c-8b8e-4897-9567-1a18a4b4039c"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Gemeinschaft und Zusammenarbeit</strong>"},"id":"387f0bf1-4b0d-4cec-9d1a-d463ae523bfc","isHidden":false,"type":"heading"}],"id":"9702e74d-ebbc-408f-b6c5-52caa4b5b08b","width":"1/3"},{"blocks":[{"content":{"text":"<p>Trotz des individuellen Ausdrucks spielt der Zusammenhalt in der Punk-Szene eine wichtige Rolle. Dies kann auch im Kontext der Lebensgestaltung bedeuten, sich mit Gleichgesinnten zu verbinden und sich gegenseitig zu unterstützen.</p>"},"id":"8f66adb4-83ce-40bc-9aed-a75e79fd940a","isHidden":false,"type":"text"}],"id":"71f2fbd9-b45f-408c-b30a-35fc265f08d9","width":"2/3"}],"id":"02c0e86e-4c60-4a56-8a9d-b4c9ccfd4be0"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Leidenschaft und Energie</strong>"},"id":"a81e1973-b1fd-4799-994d-ab5ab90771e3","isHidden":false,"type":"heading"}],"id":"6c7898eb-6c8f-4abe-b879-deaf48cd0e43","width":"1/3"},{"blocks":[{"content":{"text":"<p>Die Energie, die Punks in ihre Musik und ihren Aktivismus stecken, kann auf die Gestaltung des eigenen Lebens übertragen werden – mit Leidenschaft das tun, was einen erfüllt.</p>"},"id":"f477554b-ed7c-45d2-b973-142a22d4ce50","isHidden":false,"type":"text"}],"id":"8609139a-9590-49e2-8b79-d43343850060","width":"2/3"}],"id":"acd45812-ef1a-4c34-a291-6baaf947e376"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Ablehnung von Perfektion und sozialen Erwartungen</strong>"},"id":"f56156c3-0f04-4296-8def-d6ae3ec75f10","isHidden":false,"type":"heading"}],"id":"12386d07-2578-4ad6-8875-8a950391741b","width":"1/3"},{"blocks":[{"content":{"text":"<p>Im Gegensatz zum oft leistungsbezogenen Druck der \"Work-Life-Balance\" geht es bei \"Punk Life Balance\" darum, den Druck loszulassen, perfekt sein zu müssen, und sich stattdessen auf das zu konzentrieren, was persönlich erfüllend ist.</p>"},"id":"2cea8594-0e81-4d6d-9eb3-0ea8e3cf3d2d","isHidden":false,"type":"text"}],"id":"5383a0fc-0137-4469-b552-52ca9692f298","width":"2/3"}],"id":"5337ba16-b4ef-49b9-a0ac-45297b8a69f8"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Kritik an Konsum und Anpassung</strong>"},"id":"016596ac-ad97-4220-80c9-702bef62de0c","isHidden":false,"type":"heading"}],"id":"69d9407a-5508-4c6b-85e7-ad7d734b9b95","width":"1/3"},{"blocks":[{"content":{"text":"<p>Ähnlich wie die Punk-Bewegung bestehende Normen hinterfragt, kann \"Punk Life Balance\" eine kritische Haltung gegenüber gesellschaftlichen Erwartungen an Karriere und Konsum beinhalten.</p>"},"id":"1b91d294-4e67-47ee-bebf-462c100b099d","isHidden":false,"type":"text"}],"id":"1ef1a6fe-0eda-4388-b61f-2c6ff94233dc","width":"2/3"}],"id":"63e4a319-2562-41d0-9e51-581d69b38ae6"},{"attrs":[],"columns":[{"blocks":[],"id":"b691ea8c-bd2c-4a08-a495-7939a83e7731","width":"1/3"},{"blocks":[{"content":{"text":"<p>Es ist nicht nur ein theoretisches Konzept, sondern wird auch von einer Kölner Band namens «Punk Life Balance» verwendet, die diesen Gedanken in ihren deutschen Texten aufgreift und sich mit der Frage nach der persönlichen Haltung auseinandersetzt.</p><p>Zusammenfassend kann man sagen, dass «Punk Life Balance» eine&nbsp;<strong>erweiterte und persönlichere Sicht auf das Gleichgewicht im Leben</strong>&nbsp;darstellt, die über die bloße Arbeit-Freizeit-Trennung hinausgeht und eine&nbsp;<strong>Haltung der Selbstbestimmung, Authentizität und des kritischen Denkens</strong>&nbsp;integriert.</p>"},"id":"379912f6-a40f-48a7-91d2-6c02efcd2766","isHidden":false,"type":"text"}],"id":"22270c33-d44d-48f3-ba60-b09fca00694e","width":"2/3"}],"id":"71513139-c12e-4928-a823-0a3a23ee8923"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: WX0HWIaSrivNLt8z
