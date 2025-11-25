@@ -1,5 +1,14 @@
 <?php
+// Ziel-URL (neue Adresse)
+$neue_url = "https://punklifebalance.de/de";
 
-require __DIR__ . '/kirby/bootstrap.php';
+// Sende den 301-Header
+header("HTTP/1.1 301 Moved Permanently");
 
-echo (new Kirby)->render();
+// Sende die neue Location
+header("Location: " . $neue_url);
+
+// Beende das Skript, um sicherzustellen, dass keine weiteren Inhalte geladen werden
+exit();
+?>
+
