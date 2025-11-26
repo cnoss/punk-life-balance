@@ -77,6 +77,7 @@ table {
   display: grid;
   margin-bottom: var(--fluid-space-m);
   gap: var(--fluid-space-m);
+  grid-template-rows: auto;
 }
 
 @media screen and (width >=800px) {

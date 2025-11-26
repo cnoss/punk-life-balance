@@ -11,6 +11,58 @@ tabs:
           documentation:
             type: pages
             template: documentation
+          navigation:
+            type: fields
+            fields:
+              nav_headline:
+                label: Navigation
+                type: headline
+              navigation:
+                label: Navigationspunkte
+                type: structure
+                help: "Liste für die Hauptnavigation: Text + Sprungmarke oder URL"
+                fields:
+                  text:
+                    label: Link-Text
+                    type: text
+                    width: 1/2
+                    required: true
+                  type:
+                    label: Link-Typ
+                    type: select
+                    width: 1/2
+                    options:
+                      anchor: Sprungmarke (auf dieser Seite)
+                      url: Externe/Interne URL
+                    default: anchor
+                  anchor:
+                    label: Sprungmarke
+                    type: text
+                    width: 1/2
+                    placeholder: z.B. "#kontakt"
+                    when:
+                      type: anchor
+                  url:
+                    label: URL/Pfad
+                    type: text
+                    width: 1/2
+                    placeholder: /, /pfad oder https://…
+                    when:
+                      type: url
+                    help: Interner Pfad (z. B. / oder /kontakt) oder vollständige externe URL
+                  target:
+                    label: Ziel
+                    type: select
+                    width: 1/2
+                    options:
+                      _self: Im gleichen Tab
+                      _blank: In neuem Tab
+                    default: _self
+                  id:
+                    label: ID/Name
+                    type: text
+                    width: 1/2
+                    help: Optional eindeutige Kennung für CSS/Tracking
           owner:
             type: fields
             fields:
@@ -20,7 +72,7 @@ tabs:
               tagline:
                 label: Untertitel
                 type: text
-                required: true            
+                required: true
               headof:
                 label: Name
                 type: text
@@ -32,9 +84,9 @@ tabs:
               adress:
                 label: Anschrift
                 type: textarea
-                required: true 
+                required: true
       - width: 1/2
-        sections: 
+        sections:
           meta:
             type: fields
             fields:
@@ -59,7 +111,7 @@ tabs:
                 type: line
               socalmedia:
                 label: Social Media Daten und Accounts
-                type: headline        
+                type: headline
               socialimage: fields/social-share
               youtube:
                 label: YoutTube Kanal
@@ -72,6 +124,5 @@ tabs:
               instagram:
                 label: Instagram
                 help: Link zur Instagram Seite
-                type: url            
+                type: url
   seo: seo/site
-                

@@ -26,7 +26,7 @@ em {
 
   a {
     display: inline-block;
-    padding: 0.2em 0.4em;
+    padding: 0.2em 0;
 
     /* Attach animation, linked to the  View Timeline */
     animation-name: wobble;
@@ -47,6 +47,7 @@ em {
   }
 
   &:hover a {
+    padding: 0.2em 0.4em;
     background-color: var(--color-accent);
 
     &::after {
@@ -66,8 +67,7 @@ em {
   flex-direction: row;
   justify-content: flex-end;
   padding: var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l) var(--fluid-space-l);
-  background-image: linear-gradient(-45deg, rgb(83 34 153 / 90%), rgb(83 34 153 / 90%)),
-    url("/assets/images/bg-ground.webp");
+  background: linear-gradient(-45deg,rgb(81 124 140 / 90%),rgb(0 0 0 / 90%)),url("/assets/images/bg-ground.webp");
   box-shadow: var(--shadow-xl);
 
   * {
@@ -187,7 +187,7 @@ em {
 
 .textbox {
   position: relative;
-    z-index: var(--z-level-back);
+  z-index: var(--z-level-back);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,8 +197,9 @@ em {
   font-weight: 900;
   line-height: 10px;
 
-  .textbox-content{
-    line-height: var(--lh-tight);;
+  .textbox-content {
+    line-height: var(--lh-tight);
+    ;
   }
 
   .text-wrapper {
@@ -217,4 +218,11 @@ em {
     transform-origin: 0 100%;
   }
 
+}
+
+/* Soundcloud
+###########################################################################  */
+
+.sc-dark iframe {
+  filter: invert(1) hue-rotate(180deg);
 }

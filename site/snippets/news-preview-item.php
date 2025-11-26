@@ -42,5 +42,5 @@ if ($multiDates) {
 ?>
 
 <p>
-  <em><?= $item->title() ?></em>, <?= snippet('date', ['dateString' => $visibleDate ]) ?>
+  <?= snippet('date', ['dateString' => $visibleDate ]) ?>, <em><?= $item->title() ?></em>
 </p>

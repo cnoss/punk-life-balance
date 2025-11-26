@@ -2,6 +2,46 @@ Title: Punk Life Balance
 
 ----
 
+Navigation:
+
+- 
+  text: Nach Hause
+  type: url
+  anchor: ""
+  url: /
+  target: _self
+  id: home
+- 
+  text: Wieso?
+  type: anchor
+  anchor: about
+  url: ""
+  target: _self
+  id: about
+- 
+  text: Was geht ab?
+  type: anchor
+  anchor: was-geht-ab
+  url: ""
+  target: _self
+  id: was-geht-ab
+- 
+  text: Wer?
+  type: anchor
+  anchor: wer
+  url: ""
+  target: _self
+  id: wer
+- 
+  text: Musik
+  type: anchor
+  anchor: was
+  url: ""
+  target: _self
+  id: was
+
+----
+
 Tagline: Post-Punk Indie
 
 ----
@@ -74,6 +114,10 @@ Twittercardtype: summary_large_image
 
 ----
 
+Socialmediaaccounts: 
+
+----
+
 Robotsindex: true
 
 ----
@@ -91,10 +135,6 @@ Robotsimageindex: true
 ----
 
 Robotssnippet: true
-
-----
-
-Socialmediaaccounts: 
 
 ----
 

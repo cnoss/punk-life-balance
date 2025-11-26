@@ -12,7 +12,47 @@ tabs:
               text:
                 type: textarea
                 size: large
-              layout:
+              wer:
+                label: Wer wir sind
+                type: layout
+                layouts:
+                  - "1/1"
+                  - "1/2, 1/2"
+                  - "1/3, 1/3, 1/3"
+                  - "2/3, 1/3"
+                  - "1/3, 2/3"
+                fieldsets:
+                  text:
+                    label: Text
+                    type: group
+                    fieldsets:
+                      - heading
+                      - text
+                      - list
+                      - type: embedcode
+                        name: Embedcode
+                        icon: code
+                        preview: fields
+                        fields:
+                          text:
+                            type: textarea
+                      - type: hero
+                        name: Hero
+                        icon: text
+                        preview: fields
+                        fields:
+                          text:
+                            type: textarea
+
+                  media:
+                    label: Media
+                    type: group
+                    fieldsets:
+                      - image
+                      - video
+                      - gallery
+              was:
+                label: Was wir tun
                 type: layout
                 layouts:
                   - "1/1"

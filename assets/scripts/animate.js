@@ -6,6 +6,9 @@ import { animate, onScroll } from 'https://esm.sh/animejs';
 const addAnimateText = () => {
 
   const textWrapper = document.querySelector('.textbox-content .letters');
+
+  if(!textWrapper) return;
+
   const body = document.querySelector('body');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 

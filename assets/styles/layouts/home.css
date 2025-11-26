@@ -31,6 +31,10 @@
     margin-bottom: 0;
   }
 
+      section.layout-grid + section.layout-grid {
+      margin-top: var(--fluid-space-l);
+    }
+
 }
 
 /* Preview Section
@@ -39,7 +43,7 @@
 .preview-section {
   padding: var(--fluid-padding-m);
   padding-bottom: calc(var(--fluid-padding-m) * 2);
-  background-color: var(--color-highlight);
+
 
   h2 {
     margin-bottom: var(--fluid-space-m);
@@ -56,9 +60,12 @@
   }
 
   .preview-item {
+    margin-bottom: var(--s);
     transition: transform var(--tr-fast) ease-in-out;
 
-
+    p{
+      display: inline;
+    }
 
     em {
       font-style: normal;
@@ -68,5 +75,19 @@
     &:hover {
       transform: scale(1.05);
     }
+  }
+}
+
+/* Blocks Section
+###########################################################################  */
+
+.blocks-section {
+  min-height: 100dvh;
+  padding: var(--fluid-padding-m);
+  padding-bottom: calc(var(--fluid-padding-m) * 2);
+
+  &>* {
+    max-width: var(--max-width-content-l);
+    margin: 0 auto;
   }
 }

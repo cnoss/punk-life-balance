@@ -4,13 +4,17 @@ Title: Nach Hause
 
 Text:
 
-Musik ist Erinnerung. Und gute Musik ist zeitlos. Punk Life Balance ist beides. Aber das Kuriose an zeitloser Musik ist, dass **zeitlos** davon abhängt, wer zuhört, woher man kommt, was man gemacht hat.
+Gewagter Gedanke, aber nehmen wir doch mal kurz an, es ginge ausnahmsweise nicht ausschließlich um vermeintliche Regeln, um Style, Jugend, Followerzahlen, TikTok-Fame, Zeitgeist, sondern, nun ja: um Musik.
 
 *(link: page://swkT8j68euVapHIl text: Kleine Bandgeschichte)*
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://TT81FDWAntpUaNUB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e1fd7658-7808-4eb4-b51c-9c8026fc2653","isHidden":false,"type":"image"}],"id":"e6c6937d-3911-4b29-84d3-06e15f7d6712","width":"1/1"}],"id":"194ecc6d-d055-4372-a732-3b9fcfd1793f"}]
+Wer: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://nfCt5V5r2H5W33Sq"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e1fd7658-7808-4eb4-b51c-9c8026fc2653","isHidden":false,"type":"image"}],"id":"e6c6937d-3911-4b29-84d3-06e15f7d6712","width":"1/1"}],"id":"194ecc6d-d055-4372-a732-3b9fcfd1793f"}]
+
+----
+
+Was: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/embed/wqzFyIEuO3c?si=eV3zADiG7UGkPTLo","video":[],"poster":[],"caption":"Sicher Micha","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"0b84b738-e7f9-4818-b45d-0722eab4de89","isHidden":false,"type":"video"}],"id":"d416ed4d-1e00-4824-95aa-310a52541c29","width":"1/2"},{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/embed/BZR_TqXFUxk?si=jSI1xC2vXqBtNJHu","video":[],"poster":[],"caption":"Hätte","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"2992cd39-7ff8-4fde-bfbc-f977f4c478aa","isHidden":false,"type":"video"}],"id":"8ece47b4-9e8b-4566-b62c-bf159039d4c2","width":"1/2"}],"id":"3c414d66-535f-4a1d-9032-cb6560b4a65f"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<div class=\"sc-dark\"><iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2044589037&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/punk-life-balance\" title=\"Punk Life Balance\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Punk Life Balance</a> · <a href=\"https://soundcloud.com/punk-life-balance/sets/plb-2025-rough-mixe-preview-aufs-album\" title=\"PLB 2025 Rough Mixe Preview auf&#x27;s Album\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">PLB 2025 Rough Mixe Preview auf&#x27;s Album</a></div>"},"id":"f35a1bfc-0b83-4586-b31f-21613663d759","isHidden":false,"type":"embedcode"}],"id":"a9cc0d89-c14f-48bb-bbb1-2af75c9ad238","width":"1/1"}],"id":"01e36d1e-0d45-464d-a558-b3727dd68dad"}]
 
 ----
 

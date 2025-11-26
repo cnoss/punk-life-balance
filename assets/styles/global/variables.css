@@ -7,7 +7,7 @@
 
   /* Sizes and Spacing
   ----------------------------------------------------------------------- */
-  --bfs: 1.1rem;
+  --bfs: 1rem;
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -45,9 +45,9 @@
 
   /* Colors
   ----------------------------------------------------------------------- */
-  --purple: #532299;
-  --green:  #BED929;
-  --blue: #25A6D9;
+  --red: #D97941;
+  --blue:  #517C8C;
+  --red-2: #D95E32;
   --light: rgb(255 255 255 / 70%);
   --lighter: rgb(255 255 255 / 85%);
   --lightest: #fff;
@@ -62,8 +62,8 @@
   --darken-light: rgb(0 0 0 / 5%);
   --color-text: var(--lighter);
   --color-headline: var(--lightest);
-  --color-accent: var(--purple);
-  --color-highlight: var(--green);
+  --color-accent: var(--red);
+  --color-highlight: var(--lightest);
   --color-decoration: var(--light);
   --color-background: var(--darker);
   --color-seperator: var(--color-6);
@@ -71,10 +71,10 @@
 
   /* Fonts
   ----------------------------------------------------------------------- */
-  --ff-normal: atkinson, sans-serif;
-  --ff-serif: atkinson, serif;
-  --ff-code: atkinson, monospace;
-  --ff-headline: atkinson, monospace;
+  --ff-normal: inria, sans-serif;
+  --ff-serif: inria, serif;
+  --ff-code: inria, monospace;
+  --ff-headline: inria, monospace;
   --ff-icons: "MaterialIcons", serif;
   --fw-normal: 400;
   --fw-medium: 500;
