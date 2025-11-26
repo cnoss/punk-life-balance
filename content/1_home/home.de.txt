@@ -14,7 +14,7 @@ Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image
 
 ----
 
-Backgroundvideourl: https://plb.klickmeister.de/static-media/pbl-studio-trailer_web.mp4
+Backgroundvideourl: https://punklifebalance.de/static-media/pbl-studio-trailer_web.mp4
 
 ----
 
