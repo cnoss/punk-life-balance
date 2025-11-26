@@ -61,7 +61,7 @@
 .sticky-video-wrap {
   position: sticky;
   z-index: var(--z-level-back);
-  top: 0;
+  top: var(--fluid-space-l);
   display: flex;
   width: 100%;
   max-width: var(--max-width-page);
