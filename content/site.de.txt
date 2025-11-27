@@ -12,21 +12,21 @@ Navigation:
   target: _self
   id: home
 - 
-  text: Wieso?
+  text: Bandgeschichte
   type: anchor
   anchor: about
   url: ""
   target: _self
   id: about
 - 
-  text: Was geht ab?
+  text: Termine
   type: anchor
   anchor: was-geht-ab
   url: ""
   target: _self
   id: was-geht-ab
 - 
-  text: Wer?
+  text: Leute
   type: anchor
   anchor: wer
   url: ""

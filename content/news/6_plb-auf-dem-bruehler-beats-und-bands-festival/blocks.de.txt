@@ -1,0 +1,69 @@
+Title: PLB auf dem Brühler Beats und Bands Festival
+
+----
+
+Teasertext: PLB live auf dem Brühler Beats und Bands Festival am Rathaus Innenhof Brühl. Weitere Infos folgen.
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 2026-05-24
+
+----
+
+Layout: 
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: KEz3VVfhwJJsVFq9

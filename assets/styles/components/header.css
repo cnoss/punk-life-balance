@@ -28,11 +28,13 @@
   }
 
   @media screen and (width <=400px) {
+    &{
+      position: relative;
+    }
+
     .main-navigation {
       flex-direction: column;
       gap: 0;
-
-      li {}
     }
 
   }

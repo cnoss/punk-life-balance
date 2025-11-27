@@ -14,7 +14,7 @@ Date: 2025-09-27
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Live in Brühl – Kneipenfestival 2025</strong>"},"id":"4d6085e4-9760-434e-bb56-1d2a92a1d72e","isHidden":false,"type":"heading"}],"id":"5b687ef3-eb09-44a9-8bd1-33961976d835","width":"1/3"},{"blocks":[{"content":{"text":"<p>Am&nbsp;<strong>Samstag, den 27.09.2025</strong>, sind wir Teil des&nbsp;<strong>Brühler Kneipenfestivals</strong>&nbsp;– und spielen live im&nbsp;<strong>Hollywood</strong>, einer Bar mit Charme, Spiegelkugel und ausreichend Strom für unsere Verstärker.</p><p>📍&nbsp;<strong>Hollywood Bar</strong><br>Uhlstraße 72, 50321 Brühl<br>Einlass: <strong>18:00 Uhr</strong><br>Start:&nbsp;<strong>ab 19:00 Uhr</strong><br>Eintritt? Wie sich’s gehört:&nbsp;<strong>frei</strong>.</p><p>Was euch erwartet? Kein gemütliches Akustikgedudel. Kein Coverset. Sondern&nbsp;<strong>Post‑Punk mit Haltung</strong>. Laut, ehrlich, direkt. Zwischen Melancholie und Wut, zwischen Kante und Klang.</p><p>Kommt rum, bringt Freund*innen mit, bestellt Bier, steht im Weg – wir spielen trotzdem.</p>"},"id":"49f7d1bc-1076-48d9-90cf-76455d0fd247","isHidden":false,"type":"text"}],"id":"d902a7ed-79e9-4585-9195-f7f30056e6e5","width":"2/3"}],"id":"581323d8-000f-421f-9367-56feca8db8ca"}]
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Live in Brühl – Kneipenfestival 2025</strong>"},"id":"4d6085e4-9760-434e-bb56-1d2a92a1d72e","isHidden":false,"type":"heading"}],"id":"5b687ef3-eb09-44a9-8bd1-33961976d835","width":"1/3"},{"blocks":[{"content":{"text":"<p>Am&nbsp;<strong>Samstag, den 27.09.2025</strong>, sind wir Teil des&nbsp;<strong>Brühler Kneipenfestivals</strong>&nbsp;– und spielen live im&nbsp;<strong>Hollywood</strong>, einer Bar mit Charme, Spiegelkugel und ausreichend Strom für unsere Verstärker.</p><p>📍&nbsp;<strong>Hollywood Bar</strong><br>Uhlstraße 72, 50321 Brühl<br>Einlass: <strong>18:00 Uhr</strong><br>Start:&nbsp;<strong>ab 19:00 Uhr</strong><br>Eintritt? Wie sich’s gehört:&nbsp;<strong>frei</strong>.</p><p>Was euch erwartet? Kein gemütliches Akustikgedudel. Kein Coverset. Sondern&nbsp;<strong>Post‑Punk mit Haltung</strong>. Laut, ehrlich, direkt. Zwischen Melancholie und Wut, zwischen Kante und Klang.</p><p>Kommt rum, bringt Freund*innen mit, bestellt Bier, steht im Weg – wir spielen trotzdem.</p><p>Kleiner <a href=\"https://www.ksta.de/region/rhein-erft/bruehl/bruehl-kneipenfestival-mit-17-bands-in-elf-gaststaetten-1117370\">Artikel zum Gig in Kölner Stadt Anzeiger</a></p>"},"id":"49f7d1bc-1076-48d9-90cf-76455d0fd247","isHidden":false,"type":"text"}],"id":"d902a7ed-79e9-4585-9195-f7f30056e6e5","width":"2/3"}],"id":"581323d8-000f-421f-9367-56feca8db8ca"}]
 
 ----
 
@@ -62,6 +62,10 @@ Twittercardtype: summary
 
 ----
 
+Socialmediaaccounts: 
+
+----
+
 Robotsindex: default
 
 ----
@@ -79,10 +83,6 @@ Robotsimageindex: default
 ----
 
 Robotssnippet: default
-
-----
-
-Socialmediaaccounts: 
 
 ----
 

@@ -44,6 +44,28 @@
   }
 }
 
+@keyframes move-in {
+  from {
+    transform: translateY(50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-zoom-in {
+  from {
+    transform: translateY(50%) scale(0.6);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* Global Effects
 ############################################################################ */
 
@@ -62,7 +84,7 @@ body > main > * > *{
 
 body[data-template="home"] > main > * {
   /* Attach animation, linked to the View Timeline */
-  animation-name: zoom-in;
+  animation-name: move-zoom-in;
 
   /* Tweak range when effect should run */
   animation-range: entry 25% entry 75%;

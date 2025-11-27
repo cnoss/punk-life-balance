@@ -1,0 +1,69 @@
+Title: PLB Live in Bergheim
+
+----
+
+Teasertext: Weitere Infos folgen
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 2026-04-26
+
+----
+
+Layout: 
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: puGyxXMq5VtcwOti
