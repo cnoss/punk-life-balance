@@ -13,7 +13,7 @@ $bodyCssClass = isset($bodyCssClass) ? $bodyCssClass : $page->id();
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <title><?= $title ?></title>
-
+  
   <?= css([
     'assets/_compiled/styles/combined-styles.css',
     '@auto'

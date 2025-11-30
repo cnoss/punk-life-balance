@@ -14,7 +14,7 @@ if ($items && $items->isNotEmpty()):
         if ($type === 'anchor') {
             // akzeptiert Werte mit oder ohne führendes #
             $anchor = ltrim((string) $item->anchor()->value(), '#');
-            $href   = '#' . $anchor;
+            $href   = 'https://punklifebalance.de/#' . $anchor;
         } elseif ($type === 'url') {
             $href = (string) $item->url()->value();
         }
