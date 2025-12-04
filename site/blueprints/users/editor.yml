@@ -1,0 +1,9 @@
+title: Editor
+permissions:
+  site:
+    update: false
+  pages:
+    delete: false
+  users: false
+  user:
+    changeRole: false
