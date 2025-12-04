@@ -1,0 +1,69 @@
+Title: Presseinfo
+
+----
+
+Teasertext: 
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":""},"id":"19327872-6d7d-4a11-87a9-13df0ae23bac","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Punk Life Balance aus Köln</strong> verbinden lakonische Beobachtungen des Alltags mit einem  druckvollen, melodisch kantigen Sound zwischen Indie-Rock, Post-Punk, Hamburger Schule und Grunge. Nach ersten Konzerten nahm die Band 2025 mit Produzent Dirk Burke im Lakesidestudio ihre Debüt-EP auf, die im Frühling 2026 erscheint. Gemischt wurden die acht Songs von Olaf Gleba.</p><p>Entstanden ist eine Musik, die sich mit der Frage beschäftigt, wie man sich im Erwachsenenleben eine Spur Radikalität, Freiheit und Leidenschaft bewahrt, kurz: die eigene Punk Life Balance. Songs wie das eindringliche »Hätte«, das fiebrig getriebene »Bist du dir sicher, Micha?« oder das kraftvoll-elegische »Du spielst auf Zeit« zeigen die Band als scharf beobachtende Erzähler mit einem besonderen Gespür für Dynamik und pointierte Melodien.</p><p>Punk Life Balance klingen dringlich und lässig zugleich, jedoch immer unverstellt. Ab Sommer 2026 ist die Band auf ersten Festivals und bundesweit live zu erleben.</p><p><strong>Besetzung</strong><br> Guido Leicht: Gesang, Gitarre<br> Robert Mudge: Gitarre<br> Christian Baack: Bass<br> Christian Noss: Schlagzeug</p><p><strong>Kontakt<br> </strong>Christian Baack, <a href=\"mailto:hello@punklifebalance.de\">hello@punklifebalance.de</a><br> </p><p><a href=\"https://drive.google.com/drive/folders/1a9dpFl9IWa8BMZc4eQWNbeTyIOT8QpPC?usp=sharing\" target=\"_blank\">Pressemappe auf Google Drive</a><br> </p>"},"id":"637a0d0d-678b-47cd-a371-01ce186c5f8b","isHidden":false,"type":"text"}],"id":"dcaa8d41-0b99-4fb6-a3d9-8f0b8a7a3775","width":"1/2"},{"blocks":[{"content":{"text":""},"id":"c6d24dcb-976f-47fd-90fe-f0e2364866a3","isHidden":false,"type":"text"},{"content":{"text":"<p>Als sich Guido Leicht (Gesang, Gitarre) und Christian Baack (Bass) nach Jahren zufällig auf einer Trauerfeier wiedersehen, wird beiden schlagartig klar, dass das Leben zu kurz ist, um Kompromisse zu machen. Gemeinsam mit Gitarrist Robert Mudge gründen sie Punk Life Balance – eine Kölner Band, deren Name Programm ist. Später stößt der Schlagzeuger Professor Christian Noss dazu, die heutige Besetzung steht. »Es war sofort klar, dass darin ein besonderer Zauber liegt«, erinnert sich Baack an die erste Probe.</p><p>In rasantem Tempo spielt die Band ihre ersten Shows und nimmt 2025 im Lakesidestudio mit Produzent Dirk Burke ihre Debüt-EP auf. Sie erscheint im Frühling 2026, gemischt wurden die acht Songs von Olaf Gleba. Die Musik bewegt sich zwischen Indie-Rock, Post-Punk, Hamburger Schule, Grunge und klassischem Deutschrock – energiegeladen, melodisch klar, kantig, aber immer mit einem gewissen Understatement.</p><p>Im Zentrum steht die Frage, wie man sich im Erwachsenenleben eine Spur Radikalität, Freiheit und Leidenschaft bewahren kann: die eigene Punk Life Balance. Die Songs entspringen Alltagsbeobachtungen, oft aphoristisch, manchmal wütend, voller subtiler Komik – und immer mit einem Blick für die kleinen wie großen Absurditäten zwischen Selbstinszenierung, Überforderung und dem Versuch, sich nicht zu verlieren.</p><p>Es geht in dieser Musik also darum, wofür man im Leben stehen will – um eine Standortbestimmung ohne Rücksicht auf Verluste. Der Punk-Life-Balance-Song, der das am grimmigsten auf den Punkt bringt, ist das aufgeräumt-getragene »Hätte«. Die Lakonie im Gesang von Guido Leicht erinnert an Peter Hein (Fehlfarben), die Art, wie die Gitarren ein Gespräch zu führen scheinen, an die Wipers und deren Album »Youth of America«.</p><p>»Bist du dir sicher, Micha?« thematisiert dann mit fiebrigen Gitarren jene Vertreter des gefährlichen Halb- oder Garnichts-Wissens, denen man vornehmlich in den Kommentarspalten sozialer Medien begegnet – wie Guido Leicht überhaupt immer wieder an der Penetranz allzu eifrig Raum einnehmender Mitmenschen zu verzweifeln scheint, weil es ja ab und zu schön wäre, einmal einen winzigen Moment innezuhalten und sich, zum Beispiel, ein paar Gedanken zu machen.</p><p>Eine bukolische Energie durchströmt schließlich das zackig startende »Du spielst auf Zeit«, das im weiteren Verlauf in eine Elegie überführt wird. Der Song nimmt einen ebenso gefangen wie das lebenskluge »Immer«, zudem ein Beleg für die beinahe reporterhafte Beobachtungsgabe des Texters Guido Leicht.</p><p>Punk Life Balance sind eine geradlinige Band, die indes stupende, leicht tänzelnde Melodien beherrscht. Die Songs sind kurz, atemlos, auf den Punkt, akzentuiert und erfüllt von einem vortrefflichen Umgang mit Dynamik. Sie sind geprägt von einem ganz speziellen Mix aus Dringlichkeit und souveräner Lässigkeit.</p><p>Im Sommer 2026 spielen Punk Life Balance erste Festivals und treten bundesweit auf – man kann nun also Teil dieser Erwachsenenbewegung werden.</p>"},"id":"a0770cfd-d4ab-47d3-8a2e-5c3099bf5dc2","isHidden":false,"type":"text"}],"id":"bac94d8e-ba0a-4b42-b89b-30bcf8aa074a","width":"1/2"}],"id":"991f5f5a-e87c-45e1-aec2-0f393d7eb8c6"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://UkY4aaYXIEPAqbFH","file://DLQzHmjewuGXKyaH","file://fjdyEZsVOlvWb4Ht","file://NPZfFu4WTBICmdhW"],"caption":"","ratio":"","crop":"false"},"id":"d09645b5-7f7c-4ab3-a801-eb8149b1d67f","isHidden":false,"type":"gallery"}],"id":"8831d9ac-518d-4dc1-a22e-5f5ef35e07fc","width":"1/1"}],"id":"8caffc0c-ab89-4a58-bbbf-16b1a08a539f"}]
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: z5e7MQpW3sVTyFig

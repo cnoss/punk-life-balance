@@ -61,7 +61,7 @@
 .sticky-video-wrap {
   position: sticky;
   z-index: var(--z-level-back);
-  top: var(--fluid-space-l);
+  top: 0;;
   display: flex;
   width: 100%;
   max-width: var(--max-width-page);
@@ -69,6 +69,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--fluid-space-xl);
+  padding-top: var(--fluid-space-l);
   aspect-ratio: 16/9;
   background-color: var(--lightest);
 

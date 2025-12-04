@@ -39,6 +39,13 @@ Navigation:
   url: ""
   target: _self
   id: was
+- 
+  text: Presseinfo
+  type: url
+  anchor: ""
+  url: /presskit
+  target: _self
+  id: presskit
 
 ----
 
@@ -70,11 +77,11 @@ Desc: Musik ist Erinnerung. Und gute Musik ist zeitlos. Punk Life Balance ist be
 
 ----
 
-Socialimage: 
+Socialimage: - file://H6OZyZYO9LwnhBDX
 
 ----
 
-Youtube: 
+Youtube: https://www.youtube.com/@PunkLifeBalance
 
 ----
 
