@@ -7,8 +7,9 @@ $ratio   = $block->ratio()->or('auto');
 <figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
   <ul class="image-gallery-grid">
     <?php foreach ($block->images()->toFiles() as $image): ?>
+
     <li class="gallery-grid-item masonry-animation">
-      <?= $image ?>
+      <img src="<?= $image->thumb(['width' => 1200, 'height' => 1200, 'crop' => $crop])->url() ?>" data-orientation="<?= $image->dimensions()->orientation() ?>" alt="<?= esc($image->alt(), 'attr') ?>">
     </li>
     <?php endforeach ?>
   </ul>
