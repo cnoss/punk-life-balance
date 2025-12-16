@@ -37,10 +37,10 @@ $completeVideoUrl = $videoUrl . '#t=100,200'
 
 <script>
   const video = document.getElementById('fs-video');
-  // video.currentTime = <?= $videoStartTime ?>;
-  // video.play();
-  // video.onended = function() {
-  //   video.currentTime = <?= $videoStartTime ?>;
-  //   video.play();
-  // };
+  video.currentTime = <?= $videoStartTime ?>;
+  video.play();
+  video.onended = function() {
+    video.currentTime = <?= $videoStartTime ?>;
+    video.play();
+  };
 </script>
