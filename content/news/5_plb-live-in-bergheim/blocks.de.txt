@@ -1,4 +1,4 @@
-Title: PLB Live in Bergheim
+Title: Punk Life Balance Live in Bergheim
 
 ----
 
@@ -10,11 +10,11 @@ Teaserimage:
 
 ----
 
-Date: 2026-04-26
+Date: 2026-04-24
 
 ----
 
-Layout: 
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Weitere Infos folgen</p>"},"id":"259069a3-9088-4390-9356-2fba4c93c3ac","isHidden":false,"type":"text"}],"id":"008cc49f-a709-48da-9b30-2a92ae1b1ac5","width":"1/2"},{"blocks":[],"id":"04a0ad2f-83e8-4219-ad3b-8e0a7c754294","width":"1/2"}],"id":"0ad5a2e3-91bc-40c5-8f8f-db2b968c5461"}]
 
 ----
 

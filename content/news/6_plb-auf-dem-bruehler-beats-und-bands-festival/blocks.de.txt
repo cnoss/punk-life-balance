@@ -1,8 +1,8 @@
-Title: PLB auf dem Brühler Beats und Bands Festival
+Title: Punk Life Balance auf dem Brühler Beats und Bands Festival
 
 ----
 
-Teasertext: PLB live auf dem Brühler Beats und Bands Festival am Rathaus Innenhof Brühl. Weitere Infos folgen.
+Teasertext: Punk Life Balance live auf dem Brühler Beats und Bands Festival am Rathaus Innenhof Brühl. Weitere Infos folgen.
 
 ----
 
@@ -14,7 +14,7 @@ Date: 2026-05-24
 
 ----
 
-Layout: 
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Punk Life Balance live auf dem Brühler Beats und Bands Festival am Rathaus Innenhof Brühl. Weitere Infos folgen.</p>"},"id":"acf42e5b-47f1-4202-8176-73f1ee1af2e3","isHidden":false,"type":"text"}],"id":"3ccb5619-19f3-4307-a7cf-c164921e1fe7","width":"1/2"},{"blocks":[],"id":"16b3889a-072b-4616-8a25-0d0595f29575","width":"1/2"}],"id":"c3801955-90a2-4d76-9c49-fc8297185c73"}]
 
 ----
 
