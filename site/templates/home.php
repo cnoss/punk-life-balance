@@ -20,10 +20,12 @@
   <?php
   if ($pages->find('mediathek')): ?>
   <section class="preview-section">
-    <div class="preview-section-intro">
-      <h2><a class="has-no-link-style" href="<?php echo $pages->find('mediathek')->url() ?>"><?php echo I18n::translate('mediathek') ?></a></h2>
+    <div class="preview-section-wrap">
+      <div class="preview-section-intro">
+        <h2><a class="has-no-link-style" href="<?php echo $pages->find('mediathek')->url() ?>"><?php echo I18n::translate('mediathek') ?></a></h2>
+      </div>
+      <?php snippet('mediathek-preview'); ?>
     </div>
-    <?php snippet('mediathek-preview'); ?>
   </section>
 
   <?php endif; ?>
@@ -55,21 +57,23 @@
   </div>
 
   <div id="was" class="blocks-section">
-  <?php foreach ($page->was()->toLayouts() as $layout): ?>
-  <section class="layout-grid<?php echo $layout->attrs()->class() ?>" id="<?php echo $layout->id() ?>" data-grid="6">
-    <?php foreach ($layout->columns() as $column): ?>
-    <div class="column" data-column-span="<?php echo $column->span(6) ?>">
-      <div class="blocks">
-        <?php foreach ($column->blocks() as $block): ?>
-        <div class="block block-type-<?php echo $block->type() ?>">
-          <?php echo $block ?>
+    <div class="blocks-section-wrap">
+      <?php foreach ($page->was()->toLayouts() as $layout): ?>
+      <section class="layout-grid<?php echo $layout->attrs()->class() ?>" id="<?php echo $layout->id() ?>" data-grid="6">
+        <?php foreach ($layout->columns() as $column): ?>
+        <div class="column" data-column-span="<?php echo $column->span(6) ?>">
+          <div class="blocks">
+            <?php foreach ($column->blocks() as $block): ?>
+            <div class="block block-type-<?php echo $block->type() ?>">
+              <?php echo $block ?>
+            </div>
+            <?php endforeach?>
+          </div>
         </div>
         <?php endforeach?>
-      </div>
+      </section>
+      <?php endforeach?>
     </div>
-    <?php endforeach?>
-  </section>
-  <?php endforeach?>
   </div>  
 
   <?php snippet('title-group'); ?>
