@@ -7,12 +7,14 @@
   top: 0;
   max-width: var(--max-width-page);
   padding-top: var(--fluid-space-xs);
+  padding-bottom: var(--fluid-space-xs);
   background-color: var(--lightest);
+  box-shadow: var( --shadow-xl-light);
 
   .main-navigation {
     display: flex;
     flex-direction: row;
-    padding: 0 var(--fluid-space-xl);
+    padding: 0 var(--fluid-padding-m);
     margin: 0;
     background-color: var(--lightest);
     gap: var(--fluid-space-s);
@@ -20,10 +22,6 @@
 
     * {
       color: var(--darkest);
-
-      a:hover {
-        color: var(--lightest)
-      }
     }
   }
 

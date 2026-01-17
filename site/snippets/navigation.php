@@ -5,10 +5,10 @@ if ($items && $items->isNotEmpty()):
     ?>
 
     <?php foreach ($items as $item):
-        $text   = $item->text()->value();
-        $type   = $item->type()->value();
-        $target = $item->target()->or('_self')->value();
-        $id     = $item->text()->value();
+      $text   = (string) $item->text()->value();
+      $type   = $item->type()->value();
+      $target = $item->target()->or('_self')->value();
+      $id     = Str::slug($text);
 
         $href = '#';
         if ($type === 'anchor') {

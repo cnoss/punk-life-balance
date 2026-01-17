@@ -2,6 +2,27 @@
 
 $home = page('home');
 
+// Optional pro Seite: video | image | none
+$headerMedia = $page->headerMedia()->value();
+if ($headerMedia === 'none') {
+  return;
+}
+
+if ($headerMedia === 'image') {
+  if ($image = $page->headerImage()->toFile()) {
+    ?>
+    <img
+      class="fs-image"
+      src="<?= $image->resize(2000)->url() ?>"
+      alt="<?= esc($image->alt()->or($page->title()), 'attr') ?>"
+      loading="lazy"
+    >
+    <?php
+  }
+
+  return;
+}
+
 $videoUrl = !$page->Backgroundvideourl()->isEmpty() ? $page->Backgroundvideourl() : $home->Backgroundvideourl();
 $videoStartTime = !$page->Startofbackgroundvideo()->isEmpty() ? $page->Startofbackgroundvideo()->toInt() : 0;
 $videoDuration = !$page->Durationofbackgroundvideo()->isEmpty() ? $page->Durationofbackgroundvideo()->toInt() : 5;
@@ -27,8 +48,6 @@ $videoFilter = count($videoOptions) > 0
   : '';
 
 $endTime = intval($videoStartTime) + intval($videoDuration);
-
-$completeVideoUrl = $videoUrl . '#t=100,200'
 ?>
 
 <video id="fs-video" class="fs-video" style="<?= $videoFilter ?>" playsinline muted loop autoplay poster="<?= $posterImageSrc->resize(1600, 1200)->url() ?>">

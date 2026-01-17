@@ -18,7 +18,7 @@ Was: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"web","url":"http
 
 ----
 
-Backgroundvideourl: https://punklifebalance.de/static-media/pbl-studio-trailer_web.mp4#t=90
+Backgroundvideourl: https://punklifebalance.de/static-media/plb-studio-trailer-kurz.mp4
 
 ----
 

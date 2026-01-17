@@ -1,0 +1,14 @@
+/* Audio
+############################################################################ */
+
+.audio{
+  .audio-title{
+    margin-bottom: var(--fluid-space-xs);
+  }
+
+  audio{
+    width: 100%;
+  }
+
+  margin-bottom: var(--fluid-space-xs);
+}

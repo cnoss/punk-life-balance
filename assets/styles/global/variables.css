@@ -46,6 +46,7 @@
   /* Colors
   ----------------------------------------------------------------------- */
   --red: #D97941;
+  --yellow: #C4D929;
   --blue:  #517C8C;
   --red-2: #D95E32;
   --light: rgb(255 255 255 / 70%);
@@ -62,7 +63,7 @@
   --darken-light: rgb(0 0 0 / 5%);
   --color-text: var(--lighter);
   --color-headline: var(--lightest);
-  --color-accent: var(--red);
+  --color-accent: var(--yellow);
   --color-highlight: var(--lightest);
   --color-decoration: var(--light);
   --color-background: var(--darker);

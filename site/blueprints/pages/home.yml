@@ -49,6 +49,7 @@ tabs:
                     type: group
                     fieldsets:
                       - image
+                      - audio
                       - video
                       - gallery
               was:
@@ -88,6 +89,7 @@ tabs:
                     type: group
                     fieldsets:
                       - image
+                      - audio
                       - video
                       - gallery
       sidebar:

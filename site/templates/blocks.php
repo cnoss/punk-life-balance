@@ -1,6 +1,4 @@
 <?php snippet('page-header')?>
-
-<?php snippet('page-header')?>
 <?php snippet('header')?>
 
 <div class="sticky-video-wrap">
@@ -13,7 +11,8 @@ $formatter = new IntlDateFormatter('de_DE', IntlDateFormatter::LONG, IntlDateFor
 $formatter->setPattern('dd. MMMM yyyy');
 ?>
 
-<main id="main-content" class="has-torn-edge black-edge">
+<?php $mainScheme = $page->maincolorscheme()->isTrue() ? 'light' : 'dark'; ?>
+<main id="main-content" class="has-torn" data-color-scheme="<?= esc($mainScheme, 'attr') ?>">
   <?php snippet('breadcrumb'); ?>
   
   <h1 class="title"><?php echo $page->title() ?></h1>

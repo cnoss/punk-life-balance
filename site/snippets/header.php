@@ -8,7 +8,7 @@ $landSwitchUrl  = $page->url($newLanguage);
 <header class="main-header">
   <nav class="menu">
     <ul class="main-navigation">
-  <?php echo snippet('navigation')?>
+      <?php echo snippet('navigation')?>
     </ul>
   </nav>
 </header>

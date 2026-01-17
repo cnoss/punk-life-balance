@@ -1,0 +1,45 @@
+name: Audio
+icon: file-audio
+tabs:
+  main:
+    label: Audio
+    fields:
+      poster:
+        label: Cover (optional)
+        type: files
+        query: page.images
+        uploads:
+          template: image
+        multiple: false
+        width: 1/2
+      source:
+        label: Audio-Datei
+        type: files
+        query: page.files.filterBy('type', 'audio')
+        uploads:
+          template: audio
+        multiple: false
+        required: true
+        width: 1/2
+      title:
+        label: Titel
+        type: text
+        width: 1/2
+      caption:
+        label: Beschreibung
+        type: textarea
+        size: small
+        width: 1/2
+  settings:
+    label: Einstellungen
+    fields:
+      controls:
+        label: Player-Steuerung anzeigen?
+        type: toggle
+        default: true
+        width: 1/2
+      autoplay:
+        label: Autoplay
+        type: toggle
+        default: false
+        width: 1/2

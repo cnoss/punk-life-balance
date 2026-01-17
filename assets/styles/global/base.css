@@ -20,8 +20,10 @@ body {
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
-  background-color: var(--lighter);
+  background-color: var(--light);
+  background-image: url("/assets/images/plb-studio-bg.webp");
   background-position: top right;
+  background-size: contain;
   color: var(--color-text);
   font-family: var(--ff-normal);
   font-size: var(--m);
@@ -192,6 +194,21 @@ main {
   }
 }
 
+main[data-color-scheme="light"] {
+  background-color: #fff;
+
+  /* flip the existing palette locally inside main */
+  --lightest: var(--darkest);
+  --lighter: var(--darker);
+  --light: var(--dark);
+  --color-highlight: var(--dark);
+  --color-headline: var(--darkest);
+
+  *{
+    color: var(--darkest);
+  }
+
+
 footer {
   position: relative;
   z-index: var(--z-level-middle);
@@ -210,3 +227,4 @@ footer {
   }
 
 } */
+}
