@@ -24,8 +24,8 @@
 }
 
 .block-type-image{
-  width: 66.6%;
-  margin-bottom: calc(var(--fluid-space-xl) *2);
+  margin-top: calc(var(--fluid-space-l) * 2);
+  margin-bottom: calc(var(--fluid-space-xl) * 2);
 }
 
 
