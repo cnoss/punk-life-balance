@@ -5,12 +5,9 @@ ul.social{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: var(--fluid-space-s) 0;
   gap: var(--m);
 
   li{
-    margin-bottom: var(--half);
-
     svg{
       display: inline-block;
       max-width: var(--xl);
@@ -18,7 +15,7 @@ ul.social{
       margin-right: var(--quat);
       vertical-align: middle;
     }
-  
+
     .text{
       font-size: var(--s);
     }
@@ -30,9 +27,14 @@ ul.social{
       transition: all var(--tr-fast);
 
       &:hover{
-        background-color: var(--darker);
         color: var(--lightest);
+        scale: 1.5;
       }
     }
   }
+
+    @media screen and (width <=960px) {
+      padding-top: var(--fluid-space-xs);
+      padding-bottom: var(--fluid-space-s);
+    }
 }

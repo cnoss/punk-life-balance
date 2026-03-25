@@ -10,5 +10,8 @@ $landSwitchUrl  = $page->url($newLanguage);
     <ul class="main-navigation">
       <?php echo snippet('navigation')?>
     </ul>
+
+    <?php echo snippet('social')?>
+
   </nav>
 </header>

@@ -9,12 +9,17 @@
   padding-top: var(--fluid-space-xs);
   padding-bottom: var(--fluid-space-xs);
   background-color: var(--lightest);
-  box-shadow: var( --shadow-xl-light);
+  box-shadow: var(--shadow-xl-light);
+
+  .menu {
+    display: flex;
+    padding: 0 var(--fluid-padding-m);
+  }
 
   .main-navigation {
     display: flex;
     flex-direction: row;
-    padding: 0 var(--fluid-padding-m);
+    flex-grow: 2;
     margin: 0;
     background-color: var(--lightest);
     gap: var(--fluid-space-s);
@@ -25,15 +30,23 @@
     }
   }
 
-  @media screen and (width <=400px) {
-    &{
+  @media screen and (width <=960px) {
+    & {
       position: relative;
     }
 
     .main-navigation {
       flex-direction: column;
       gap: 0;
+
+      li{
+        text-align: center;
+      }
     }
 
+    .menu {
+      flex-direction: column;
+    }
   }
+
 }
