@@ -1,0 +1,73 @@
+Title: Songs in Progress
+
+----
+
+Teasertext: 
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 
+
+----
+
+Layout: 
+
+----
+
+Maincolorscheme: false
+
+----
+
+Headermedia: video
+
+----
+
+Headerimage: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: lblIMjR1hBM2Z6xm

@@ -14,7 +14,19 @@ Date: 2026-05-24
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Punk Life Balance live auf dem Brühler Beats und Bands Festival am Rathaus Innenhof Brühl. Weitere Infos folgen.</p>"},"id":"acf42e5b-47f1-4202-8176-73f1ee1af2e3","isHidden":false,"type":"text"}],"id":"3ccb5619-19f3-4307-a7cf-c164921e1fe7","width":"1/2"},{"blocks":[],"id":"16b3889a-072b-4616-8a25-0d0595f29575","width":"1/2"}],"id":"c3801955-90a2-4d76-9c49-fc8297185c73"}]
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"Wir spielen bei „Brühler Beats & Bands“, zusammen mit Donatella Bagpiper, MAK´s Trio, BUNTMOB, Appetite für Acoustic, X-pression, Die Enterbten, Alltag und Rory Gallaghar Experience.\n\nDas Ganze geht einen Tag lang, verschiedene Acts, wenig Abstand zwischen Bühne und Publikum. Eher Treffen als großes Tamtam.\n\nKommt vorbei, bleibt kurz oder länger."},"id":"fa88a4f7-b203-4251-a1d4-25e84dca4ee4","isHidden":false,"type":"hero"}],"id":"d658076b-3d8a-4c34-9647-e374a29ac82e","width":"1/1"}],"id":"bb83a57a-7710-4792-846e-fbe33a9bda90"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Tickets sowohl an der Tourist Information im Foyer des Rathauses, Steinweg 1, 50321 Brühl, Tel.&nbsp;<u><a href=\"https://www.bruehl.de/rp/news/Tel.%200223279345\" title=\"Anruf Tourist Information\">02232 79-345</a></u>, als auch online im Ticket-Webshop unter&nbsp;<u><a href=\"https://www.bruehl.de/ticketshop\" target=\"_blank\" title=\"Ticketshop\">www.bruehl.de/ticketshop</a></u></p>"},"id":"bdae41ed-7253-477f-a735-7a2afa462700","isHidden":false,"type":"text"}],"id":"943cbd60-0606-48f6-a80e-5758c6eca916","width":"1/2"},{"blocks":[],"id":"8a706349-c666-44ab-9e7c-29cbd3416091","width":"1/2"}],"id":"60a3a7ae-fb1c-4750-a691-1731f3595788"}]
+
+----
+
+Maincolorscheme: false
+
+----
+
+Headermedia: 
+
+----
+
+Headerimage: 
 
 ----
 

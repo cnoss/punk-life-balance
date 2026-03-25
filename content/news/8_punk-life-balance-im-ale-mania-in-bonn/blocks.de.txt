@@ -1,0 +1,85 @@
+Title: Punk Life Balance im Ale Mania in Bonn
+
+----
+
+Teasertext:
+
+Wir spielen zusammen mit den Enterbten im (link: https://www.alemaniabonn.de/event/livemusik-die-enterbten-punk-life/ text: Alemannia Bonn). Die Enterbten bringen Rock, ein bisschen Punk und dieses 80er-Gefühl, das man nicht ganz erklären kann. Macht Spaß, bleibt aber hängen.
+
+Zwei Bands, ein Abend. Das wird toll.
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 2026-05-08
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"Wir spielen zusammen mit den Enterbten im Alemannia Bonn. Die Enterbten bringen Rock, ein bisschen Punk und dieses 80er-Gefühl, das man nicht ganz erklären kann. Macht Spaß, bleibt aber hängen.\n\nZwei Bands, ein Abend. Das wird toll."},"id":"13d245bb-57d2-470d-8be1-d24f215d6b52","isHidden":false,"type":"hero"},{"content":{"text":"<p><br><strong>8. Mai, 19:30 Uhr</strong></p><p><a href=\"https://www.alemaniabonn.de/event/livemusik-die-enterbten-punk-life/\" target=\"_blank\">Ale Mania</a><br>Alaunbachweg 10<br>53229 Bonn</p>"},"id":"ff5759d9-2aef-43c1-99ca-57ee2ea728f6","isHidden":false,"type":"text"},{"content":{"text":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.842642028657!2d7.153191277152925!3d50.74140737164931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee12d5c8b1259%3A0xacbee83cbc8f02aa!2sAle-Mania%20Bonn!5e0!3m2!1sde!2sde!4v1773841382589!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"},"id":"f32902d2-3e39-4f2e-8143-5e7448f2e379","isHidden":false,"type":"embedcode"}],"id":"4b699b24-4e60-4b65-a42f-cdb5f8778907","width":"1/1"}],"id":"c126fa2f-090a-4405-af01-5ee589d129fb"}]
+
+----
+
+Maincolorscheme: false
+
+----
+
+Headermedia: video
+
+----
+
+Headerimage: 
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: ZRubotW9DMKSyazv
