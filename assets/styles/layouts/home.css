@@ -44,6 +44,24 @@
     }
   }
 
+
+  h2 {
+    padding-top: 0;
+    font-size: var(--xxl);
+  }
+
+  .block {
+    margin-bottom: var(--fluid-space-l);
+  }
+
+  p > a{
+    &::after{
+      margin-left: 0;
+      content: "";
+    }
+  }
+
+
 }
 
 /* Preview Section
@@ -95,8 +113,14 @@
   padding: var(--fluid-padding-m);
   padding-bottom: calc(var(--fluid-padding-m) * 2);
 
-  .blocks-section-wrap >* {
-    max-width: var(--max-width-content-l);
-    margin: 0 auto;
+  .blocks-section-wrap {
+    > section + section {
+      padding-top: var(--fluid-space-xxl);
+    }
+
+    &>* {
+      max-width: var(--max-width-content-l);
+      margin: 0 auto;
+    }
   }
 }
