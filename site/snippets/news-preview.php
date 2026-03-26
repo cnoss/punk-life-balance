@@ -42,7 +42,7 @@ $pastItems = $allItems->filter(function ($item) use ($effectiveDateField, $today
     return $effectiveDateField($item)->toDate();
 }, 'desc', SORT_NUMERIC);
 
-$futurePreview = $futureItems->limit(5);
+$futurePreview = $futureItems->limit(10);
 $remaining = 5 - $futurePreview->count();
 $pastPreview = $remaining > 0 ? $pastItems->limit($remaining) : $pastItems->limit(0);
 
