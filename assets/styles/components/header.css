@@ -9,7 +9,6 @@
   padding-top: var(--fluid-space-xs);
   padding-bottom: var(--fluid-space-xs);
   background-color: var(--lightest);
-  box-shadow: var(--shadow-xl-light);
 
   .menu {
     display: flex;
