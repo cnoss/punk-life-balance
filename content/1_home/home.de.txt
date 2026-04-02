@@ -18,6 +18,18 @@ Was: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Musik"}
 
 ----
 
+Bookingtext: Booking und Fragen via
+
+----
+
+Bookingemail: hello@punklifebalance.de
+
+----
+
+Kontakt: 
+
+----
+
 Backgroundvideourl: https://punklifebalance.de/static-media/plb-studio-trailer-kurz.mp4
 
 ----
@@ -63,6 +75,10 @@ Twittercardtype: summary_large_image
 ----
 
 Socialmediaaccounts: 
+
+----
+
+Booking: Booking und Fragen via (link: mailto:hello@punklifebalance.de text: hello@punklifebalance.de)
 
 ----
 

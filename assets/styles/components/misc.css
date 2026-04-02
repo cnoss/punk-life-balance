@@ -3,10 +3,8 @@
 /* Mission Statement
 ###########################################################################  */
 
-.mission-statement {
+.mission-statement, .booking-section {
   padding: var(--fluid-space-l) var(--fluid-space-xxl) var(--fluid-space-xl) var(--fluid-space-xxl);
-  background-image: linear-gradient(-45deg, rgb(0 0 0 / 90%), rgb(255 255 255 / 10%)),
-    url("/assets/images/bg-rusty.webp");
 
   &>* {
     margin-bottom: var(--s);
@@ -14,6 +12,17 @@
 
   p {
     color: var(--lightest);
+  }
+}
+
+.mission-statement {
+  background-image: linear-gradient(-45deg, rgb(0 0 0 / 90%), rgb(255 255 255 / 10%)),
+    url("/assets/images/bg-rusty.webp");
+}
+
+.booking-section{
+  .booking-info * {
+    display: inline;
   }
 }
 

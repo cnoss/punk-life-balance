@@ -12,12 +12,12 @@ Navigation:
   target: _self
   id: home
 - 
-  text: Bandgeschichte
+  text: Booking
   type: anchor
-  anchor: about
+  anchor: '#contact'
   url: ""
   target: _self
-  id: about
+  id: ""
 - 
   text: Termine
   type: anchor
@@ -25,6 +25,13 @@ Navigation:
   url: ""
   target: _self
   id: was-geht-ab
+- 
+  text: Bandgeschichte
+  type: anchor
+  anchor: about
+  url: ""
+  target: _self
+  id: about
 - 
   text: Leute
   type: anchor

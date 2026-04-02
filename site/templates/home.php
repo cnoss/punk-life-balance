@@ -8,6 +8,28 @@
 
 <main id="main-content">
 
+  <?php if ($page->bookingText()->isNotEmpty() || $page->kontakt()->isNotEmpty()): ?>
+  <div id="contact" class="booking-section">
+    <?php if ($page->bookingText()->isNotEmpty()): ?>
+    <div class="booking-info hero-text is-large ">
+      <p>
+        <?php echo $page->bookingText() ?>
+              <?php if ($page->bookingEmail()->isNotEmpty()): ?>
+        <?php echo Html::email($page->bookingEmail()->value()) ?>
+      <?php endif; ?>
+      </p>
+
+    </div>
+    <?php endif; ?>
+    
+    <?php if ($page->kontakt()->isNotEmpty()): ?>
+    <div class="kontakt-info">
+      <?php echo $page->kontakt()->kt() ?>
+    </div>
+    <?php endif; ?>
+  </div>
+  <?php endif; ?>
+
   <div id="about" class="mission-statement hero-text is-large has-full-width">
     <?php echo $page->text()->kt() ?>
   </div>
