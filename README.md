@@ -18,3 +18,12 @@
 - Angaben Impressum
 
 - Firefox nutzen!
+
+### Bandsintown CSV Export
+
+- URL: `/export/bandsintown.csv`
+- Exportiert kommende Termine (aus `news`-Unterseiten) als CSV im Bandsintown-Bulk-Upload-Format.
+- Empfohlene Pflege im Panel (bei `kind: termin`): `bitVenue`, `bitAddress`, `bitPostalCode`, `bitCity`, `bitRegion`, `bitCountry`, `bitTimezone`, `bitStartTime`.
+- Optional: Mehrere Termine pro Seite über die Structure `bandsintownEvents` (jede Zeile = ein Event/CSV-Row).
+
+Defaults können per Kirby-Optionen überschrieben werden (siehe Plugin `site/plugins/bandsintown-export`).

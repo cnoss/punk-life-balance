@@ -37,6 +37,214 @@ tabs:
                 required: false
                 width: 1/2
 
+              kind:
+                label: News oder Termin
+                type: radio
+                default: news
+                options:
+                  news: News
+                  termin: Termin
+                columns: 2
+
+              bitHeadline:
+                label: Bandsintown-Export (für Termine)
+                type: headline
+                when:
+                  kind: termin
+
+              bitVenue:
+                label: Venue (Name)
+                type: text
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitCity:
+                label: Stadt
+                type: text
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitAddress:
+                label: Adresse (Straße + Nr.)
+                type: text
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitPostalCode:
+                label: PLZ
+                type: text
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitRegion:
+                label: Region/Bundesland
+                type: text
+                width: 1/2
+                help: "Für Deutschland z.B. NRW, Bayern, Berlin"
+                when:
+                  kind: termin
+
+              bitCountry:
+                label: Land
+                type: text
+                width: 1/2
+                placeholder: Germany
+                when:
+                  kind: termin
+
+              bitTimezone:
+                label: Zeitzone
+                type: text
+                width: 1/2
+                placeholder: Europe/Berlin
+                when:
+                  kind: termin
+
+              bitStartTime:
+                label: Startzeit
+                type: time
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitEndDate:
+                label: Enddatum (optional)
+                type: date
+                calendar: true
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitEndTime:
+                label: Endzeit (optional)
+                type: time
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitTicketLink:
+                label: Ticket-Link
+                type: url
+                width: 1/2
+                when:
+                  kind: termin
+
+              bitTicketType:
+                label: Ticket-Typ
+                type: text
+                width: 1/2
+                placeholder: Tickets
+                when:
+                  kind: termin
+
+              bitStreamingLink:
+                label: Streaming-Link (optional)
+                type: url
+                when:
+                  kind: termin
+
+              bitEventName:
+                label: Event-Name (optional)
+                type: text
+                when:
+                  kind: termin
+
+              bitEventDisplayFormat:
+                label: Event Display Format (optional)
+                type: text
+                when:
+                  kind: termin
+
+              bitDescription:
+                label: Beschreibung (optional)
+                type: textarea
+                size: small
+                when:
+                  kind: termin
+
+              bitDoNotAnnounce:
+                label: Nicht ankündigen (Do Not Announce)
+                type: toggle
+                text:
+                  - "Nein"
+                  - "Ja"
+                default: false
+                when:
+                  kind: termin
+
+              bitEventImage:
+                label: Event Image (optional, URL)
+                type: url
+                when:
+                  kind: termin
+
+              bitMultipleHeadline:
+                label: Mehrere Termine (optional)
+                type: headline
+                when:
+                  kind: termin
+
+              bandsintownEvents:
+                label: Bandsintown-Termindaten (jede Zeile = 1 Event)
+                type: structure
+                when:
+                  kind: termin
+                fields:
+                  startDate:
+                    label: Startdatum
+                    type: date
+                    calendar: true
+                    placeholder: "{{ page.date }}"
+                  startTime:
+                    label: Startzeit
+                    type: time
+                    placeholder: "{{ page.bitStartTime }}"
+                  venue:
+                    label: Venue (Name)
+                    type: text
+                    placeholder: "{{ page.bitVenue }}"
+                  address:
+                    label: Adresse
+                    type: text
+                    placeholder: "{{ page.bitAddress }}"
+                  city:
+                    label: Stadt
+                    type: text
+                    placeholder: "{{ page.bitCity }}"
+                  region:
+                    label: Region
+                    type: text
+                    placeholder: "{{ page.bitRegion }}"
+                  postalCode:
+                    label: PLZ
+                    type: text
+                    placeholder: "{{ page.bitPostalCode }}"
+                  country:
+                    label: Land
+                    type: text
+                    placeholder: "{{ page.bitCountry }}"
+                  timezone:
+                    label: Zeitzone
+                    type: text
+                    placeholder: "{{ page.bitTimezone }}"
+                  ticketLink:
+                    label: Ticket-Link
+                    type: url
+                    placeholder: "{{ page.bitTicketLink }}"
+                  ticketType:
+                    label: Ticket-Typ
+                    type: text
+                    placeholder: "{{ page.bitTicketType }}"
+                  description:
+                    label: Beschreibung
+                    type: textarea
+                    size: small
+                    placeholder: "{{ page.bitDescription }}"
+
               ContentData:
                 label: Content
                 type: headline

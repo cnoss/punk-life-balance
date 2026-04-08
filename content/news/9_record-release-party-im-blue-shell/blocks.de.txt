@@ -20,6 +20,34 @@ Date: 2026-06-03
 
 ----
 
+Kind: termin
+
+----
+
+Bitvenue: Blue Shell
+
+----
+
+Bitaddress: Luxemburger Straße 32
+
+----
+
+Bitpostalcode: 50674
+
+----
+
+Bitcity: Köln
+
+----
+
+Bitstarttime: 19:30
+
+----
+
+Bitticketlink: http://www.blue-shell.de/
+
+----
+
 Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"Endlich ist es soweit! Unsere erste Platte ist fertig. Wirklich fertig. Keine Ausreden mehr. Keine „fast“. Hat gedauert, aber jetzt ist sie da.\n\nDas feiern wir mit unserer Record Release Party am 03. Juni 2026 im Blue Shell in Köln. Wir spielen die Songs, die wir lange genug mit uns rumgetragen haben. Ein oder zwei weitere Bands laden wir noch ein. Wer das ist, sagen wir bald. Pflichttermin. Für Freunde, Bekannte, Familie – und alle, die es noch werden wollen.\n\nDas wird ein guter Abend."},"id":"fa88a4f7-b203-4251-a1d4-25e84dca4ee4","isHidden":false,"type":"hero"}],"id":"d658076b-3d8a-4c34-9647-e374a29ac82e","width":"1/1"}],"id":"bb83a57a-7710-4792-846e-fbe33a9bda90"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>03. Juni 2026, 19:30 Uhr</strong></p><p><a href=\"http://www.blue-shell.de/\">Blue Shell</a><br>Luxemburger Straße 32<br>50674 Köln</p>"},"id":"bdae41ed-7253-477f-a735-7a2afa462700","isHidden":false,"type":"text"}],"id":"943cbd60-0606-48f6-a80e-5758c6eca916","width":"1/2"},{"blocks":[],"id":"8a706349-c666-44ab-9e7c-29cbd3416091","width":"1/2"}],"id":"60a3a7ae-fb1c-4750-a691-1731f3595788"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.781074512548!2d6.937327877478425!3d50.92776667168726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf24ff698a7a47%3A0x1d35468982575e3d!2sBlue%20Shell!5e0!3m2!1sde!2sde!4v1774467511949!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"},"id":"6e33414e-462c-4532-89da-923b70ee5fda","isHidden":false,"type":"embedcode"}],"id":"362def1b-9311-4002-be01-74a40c92b0bc","width":"1/1"}],"id":"01d02ef3-b7f3-4acb-b2bc-73a15caa4e78"}]
 
 ----

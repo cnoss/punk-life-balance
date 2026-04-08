@@ -10,7 +10,7 @@ columns:
             label: Angezeigtes Datum
             type: date
             calendar: true
-            required: true            
+            required: true
           text:
             label: Mengentext
             type: textarea
@@ -28,7 +28,7 @@ columns:
             type: line
           furtherFields:
             label: Optionale Inhalte
-            type: headline            
+            type: headline
           subtitle:
             label: Zweite Überschrift
             type: text
@@ -56,12 +56,46 @@ columns:
           venue:
             label: Ort des Termins
             type: text
+          bitCity:
+            label: Stadt
+            type: text
+            width: 1/2
+          bitPostalCode:
+            label: PLZ
+            type: text
+            width: 1/2
+          bitAddress:
+            label: Adresse (Straße + Nr.)
+            type: text
+            width: 1/2
+          bitRegion:
+            label: Region/Bundesland
+            type: text
+            width: 1/2
+          bitCountry:
+            label: Land
+            type: text
+            width: 1/2
+            placeholder: Germany
+          bitTimezone:
+            label: Zeitzone
+            type: text
+            width: 1/2
+            placeholder: Europe/Berlin
           price:
             label: Eintritt
-            type: text    
+            type: text
           begin:
             label: Beginn
-            type: time       
+            type: time
+
+          bitTicketLink:
+            label: Ticket-Link
+            type: url
+          bitTicketType:
+            label: Ticket-Typ
+            type: text
+            placeholder: Tickets
 
           line3:
             type: line
@@ -92,7 +126,47 @@ columns:
               begin:
                 label: Beginn
                 type: time
-                placeholder: "{{page.begin}}"                                  
+                placeholder: "{{page.begin}}"
+
+              bitCity:
+                label: Stadt
+                type: text
+                placeholder: "{{ page.bitCity }}"
+
+              bitPostalCode:
+                label: PLZ
+                type: text
+                placeholder: "{{ page.bitPostalCode }}"
+
+              bitAddress:
+                label: Adresse
+                type: text
+                placeholder: "{{ page.bitAddress }}"
+
+              bitRegion:
+                label: Region
+                type: text
+                placeholder: "{{ page.bitRegion }}"
+
+              bitCountry:
+                label: Land
+                type: text
+                placeholder: "{{ page.bitCountry }}"
+
+              bitTimezone:
+                label: Zeitzone
+                type: text
+                placeholder: "{{ page.bitTimezone }}"
+
+              bitTicketLink:
+                label: Ticket-Link
+                type: url
+                placeholder: "{{ page.bitTicketLink }}"
+
+              bitTicketType:
+                label: Ticket-Typ
+                type: text
+                placeholder: "{{ page.bitTicketType }}"
 
   - width: 1/2
     sections:

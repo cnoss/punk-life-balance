@@ -14,6 +14,15 @@ return [
     'schnti.cachebuster.active'   => false,
     'languages.detect'            => false,
     'locale'                      => 'de_DE.utf8',
+
+    // Bandsintown CSV export defaults
+    'plb.bandsintown-export.artistName' => 'Punk Life Balance',
+    'plb.bandsintown-export.defaults'   => [
+        'country'  => 'Germany',
+        'region'   => 'NRW',
+        'timezone' => 'Europe/Berlin',
+    ],
+
     'panel'                       => [
         'install' => false,
     ],
