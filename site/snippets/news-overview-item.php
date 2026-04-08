@@ -1,6 +1,8 @@
 <?php
 $type = $item->kind() == 'termin' ? 'termin' : 'news';
-$visibleDate = $type === 'termin' ? $item->dateOfGig() : $item->date();
+$visibleDate = $type === 'termin'
+  ? $item->dateOfGig()->or($item->date())
+  : $item->date();
 ?>
 
 <figure class="has-rotation">

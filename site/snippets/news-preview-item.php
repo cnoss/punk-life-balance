@@ -2,7 +2,9 @@
 
 $subTitle = !$item->subTitle()->isEmpty() ? "<h4 class=\"subtitle\">{$item->subTitle()}</h4>" : '';
 $type = $item->kind() == 'termin' ? 'termin' : 'news';
-$visibleDate = $type === 'termin' ? $item->dateOfGig() : $item->date();
+$visibleDate = $type === 'termin'
+  ? $item->dateOfGig()->or($item->date())
+  : $item->date();
 $multiDates = $item->fieldsForMultipeDates()->toStructure()->count() > 1 ? $item->fieldsForMultipeDates()->toStructure() : false;
 
 if ($multiDates) {
