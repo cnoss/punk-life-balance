@@ -8,6 +8,26 @@
 
 <main id="main-content">
 
+  <?php if ($page->homeTopEnabled()->isTrue() && $page->homeTop()->isNotEmpty()): ?>
+  <div class="home-top" id="home-top">
+    <?php foreach ($page->homeTop()->toLayouts() as $layout): ?>
+    <section class="layout-grid<?php echo $layout->attrs()->class() ?>" id="<?php echo $layout->id() ?>" data-grid="6">
+      <?php foreach ($layout->columns() as $column): ?>
+      <div class="column" data-column-span="<?php echo $column->span(6) ?>">
+        <div class="blocks">
+          <?php foreach ($column->blocks() as $block): ?>
+          <div class="block block-type-<?php echo $block->type() ?>">
+            <?php echo $block ?>
+          </div>
+          <?php endforeach?>
+        </div>
+      </div>
+      <?php endforeach?>
+    </section>
+    <?php endforeach?>
+  </div>
+  <?php endif; ?>
+
   <?php if ($page->bookingText()->isNotEmpty() || $page->kontakt()->isNotEmpty()): ?>
   <div id="contact" class="booking-section">
     <?php if ($page->bookingText()->isNotEmpty()): ?>

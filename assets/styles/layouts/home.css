@@ -31,6 +31,10 @@
     margin-bottom: 0;
   }
 
+  .home-top{
+    padding: var(--fluid-space-l);
+  }
+
   section.layout-grid+section.layout-grid {
     margin-top: var(--fluid-space-l);
   }
