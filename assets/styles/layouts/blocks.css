@@ -16,6 +16,16 @@
   }
 }
 
+.block-type-embedcode{
+    iframe{
+    display: block;
+    aspect-ratio: 4 / 3 !important;
+    block-size: auto;
+    inline-size: 100% !important;
+    max-inline-size: 100% !important;
+  }
+}
+
 .block-type-hero{
   max-width: var(--max-width-content);
   padding-bottom: calc(var(--fluid-space-xl) *2);
