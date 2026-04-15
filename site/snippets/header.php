@@ -7,11 +7,17 @@ $landSwitchUrl  = $page->url($newLanguage);
 
 <header class="main-header">
   <nav class="menu">
-    <ul class="main-navigation">
-      <?php echo snippet('navigation')?>
-    </ul>
+    <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false">
+      <span class="menu-toggle__icon" aria-hidden="true"></span>
+      <span class="menu-toggle__text">Menü</span>
+    </button>
 
-    <?php echo snippet('social')?>
+    <div class="menu-panel" id="menu-panel">
+      <ul class="main-navigation" id="main-navigation">
+        <?php echo snippet('navigation')?>
+      </ul>
 
+      <?php echo snippet('social')?>
+    </div>
   </nav>
 </header>
