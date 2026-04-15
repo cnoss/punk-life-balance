@@ -3,5 +3,13 @@
   "extends": [
       "stylelint-config-standard",
       "stylelint-config-idiomatic-order"
-  ]
+  ],
+  "rules": {
+    "selector-class-pattern": [
+      "^[a-z0-9]+(?:-[a-z0-9]+)*(?:__(?:[a-z0-9]+(?:-[a-z0-9]+)*))?(?:--(?:[a-z0-9]+(?:-[a-z0-9]+)*))?$",
+      {
+        "message": "Class selector should be kebab-case (with optional BEM: block__element--modifier)"
+      }
+    ]
+  }
 }
