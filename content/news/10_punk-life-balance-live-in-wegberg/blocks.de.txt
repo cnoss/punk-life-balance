@@ -1,0 +1,161 @@
+Title: Punk Life Balance Live in Wegberg
+
+----
+
+Teasertext: Wir spielen in der alten Post im schönen Wegberg. Weitere Infos folgen.
+
+----
+
+Teaserimage: 
+
+----
+
+Date: 2026-09-26
+
+----
+
+Kind: termin
+
+----
+
+Bitvenue: Zur alten Post
+
+----
+
+Bitcity: Wegberg
+
+----
+
+Bitaddress: Karmelitergasse 6
+
+----
+
+Bitpostalcode: 41844
+
+----
+
+Bitregion: NRW
+
+----
+
+Bitcountry: Deutschland
+
+----
+
+Bittimezone: 
+
+----
+
+Bitstarttime: 20:00:00
+
+----
+
+Bitenddate: 2026-09-26
+
+----
+
+Bitendtime: 
+
+----
+
+Bitticketlink: 
+
+----
+
+Bittickettype: 
+
+----
+
+Bitstreaminglink: 
+
+----
+
+Biteventname: 
+
+----
+
+Biteventdisplayformat: 
+
+----
+
+Bitdescription: Wir spielen in der alten Post im schönen Wegberg. Weitere Infos folgen.
+
+----
+
+Bitdonotannounce: false
+
+----
+
+Biteventimage: 
+
+----
+
+Bandsintownevents: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Wir spielen in der alten Post im schönen Wegberg. Weitere Infos folgen.</p>"},"id":"443c2aea-4788-4990-b94a-8567658c62eb","isHidden":false,"type":"text"}],"id":"92c35d44-20d8-43c0-aff6-6e81dd43d634","width":"1/2"},{"blocks":[],"id":"7e020199-b873-41c1-b6a4-41407f36a786","width":"1/2"}],"id":"5e5bbaae-c14a-42ec-8dd5-23e42fdbdd02"}]
+
+----
+
+Maincolorscheme: false
+
+----
+
+Headermedia: video
+
+----
+
+Headerimage: 
+
+----
+
+Backgroundvideourl: 
+
+----
+
+Startofbackgroundvideo: 
+
+----
+
+Durationofbackgroundvideo: 
+
+----
+
+Videooptions: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }}
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: {{ site.title }}
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Uuid: AWAsZVZwHBnSeQ71
