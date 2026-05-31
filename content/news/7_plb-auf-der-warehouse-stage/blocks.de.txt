@@ -7,7 +7,7 @@ Teasertext:
 Am 23. Mai spielen wir bei der Warehouse Stage. Ein Konzertformat mit echter Bühne, vielen Kameras, kleinem Publikum – und Livestream. Start ist 20 Uhr.
 
 Wer dabei sein will, klickt rein:
-(link: https://warehousestage.de text: https://warehousestage.de)
+(link: https://www.youtube.com/live/Hn1fVdUPUM0 text: Ab zum Stream)
 
 ----
 
@@ -31,7 +31,43 @@ Bitcity: Online
 
 ----
 
-Bitstarttime: 20:00
+Bitaddress: 
+
+----
+
+Bitpostalcode: 
+
+----
+
+Bitregion: 
+
+----
+
+Bitcountry: 
+
+----
+
+Bittimezone: 
+
+----
+
+Bitstarttime: 20:00:00
+
+----
+
+Bitenddate: 
+
+----
+
+Bitendtime: 
+
+----
+
+Bitticketlink: 
+
+----
+
+Bittickettype: 
 
 ----
 
@@ -39,7 +75,43 @@ Bitstreaminglink: https://warehousestage.de
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am 23. Mai spielen wir bei der Warehouse Stage. Ein Konzertformat mit echter Bühne, vielen Kameras, kleinem Publikum – und Livestream. Start ist 20 Uhr.</p><p>Wer dabei sein will, klickt rein: <a href=\"https://warehousestage.de\">https://warehousestage.de</a></p>"},"id":"55293b04-d619-445d-a488-cd3e3e7cef14","isHidden":false,"type":"text"}],"id":"91292287-6436-4f01-a179-1b050e8d21ab","width":"1/2"},{"blocks":[],"id":"71002ead-77a2-4dec-a1d1-44e145a090ba","width":"1/2"}],"id":"fd16f991-e4fa-4366-913b-d92761a59118"}]
+Biteventname: 
+
+----
+
+Biteventdisplayformat: 
+
+----
+
+Bitdescription: 
+
+----
+
+Bitdonotannounce: false
+
+----
+
+Biteventimage: 
+
+----
+
+Bandsintownevents: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am 23. Mai spielen wir bei der Warehouse Stage. Ein Konzertformat mit echter Bühne, vielen Kameras, kleinem Publikum – und Livestream. Start ist 20 Uhr. Kommentieren und Liken nicht vergessen 🎉</p><p>Hier geht es zum <a href=\"https://www.youtube.com/live/Hn1fVdUPUM0\">Punk Life Balance Stream</a></p><p></p>"},"id":"55293b04-d619-445d-a488-cd3e3e7cef14","isHidden":false,"type":"text"}],"id":"91292287-6436-4f01-a179-1b050e8d21ab","width":"1/2"},{"blocks":[],"id":"71002ead-77a2-4dec-a1d1-44e145a090ba","width":"1/2"}],"id":"fd16f991-e4fa-4366-913b-d92761a59118"}]
+
+----
+
+Maincolorscheme: false
+
+----
+
+Headermedia: 
+
+----
+
+Headerimage: 
 
 ----
 

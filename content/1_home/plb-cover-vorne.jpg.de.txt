@@ -1,0 +1,9 @@
+Caption: 
+
+----
+
+Uuid: raeyan35zpoKrOpl
+
+----
+
+Template: blocks/image

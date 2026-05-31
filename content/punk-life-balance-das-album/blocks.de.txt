@@ -18,6 +18,86 @@ Date:
 
 ----
 
+Kind: 
+
+----
+
+Bitvenue: 
+
+----
+
+Bitcity: 
+
+----
+
+Bitaddress: 
+
+----
+
+Bitpostalcode: 
+
+----
+
+Bitregion: 
+
+----
+
+Bitcountry: 
+
+----
+
+Bittimezone: 
+
+----
+
+Bitstarttime: 
+
+----
+
+Bitenddate: 
+
+----
+
+Bitendtime: 
+
+----
+
+Bitticketlink: 
+
+----
+
+Bittickettype: 
+
+----
+
+Bitstreaminglink: 
+
+----
+
+Biteventname: 
+
+----
+
+Biteventdisplayformat: 
+
+----
+
+Bitdescription: 
+
+----
+
+Bitdonotannounce: false
+
+----
+
+Biteventimage: 
+
+----
+
+Bandsintownevents: 
+
+----
+
 Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Kontakt<br></strong>Christian Baack, <a href=\"mailto:hello@punklifebalance.de\">hello@punklifebalance.de</a></p><p><a href=\"https://punklifebalance.de/de/presskit\" title=\"Bandinfo\">Bandinfo</a></p>"},"id":"ffd800c0-338d-4d0b-91fb-06d08cb22c8d","isHidden":false,"type":"text"}],"id":"0ca5c6bb-3895-40f1-88f5-1370201ff244","width":"1/3"},{"blocks":[{"content":{"text":"<p>Punk Life Balance verbinden lakonische Beobachtungen des Alltags mit einem druckvollen, melodisch kantigen Sound zwischen Indie-Rock, Post-Punk und Hamburger Schule.</p><p><br>Recording: Dirk Burke, Lakeside Studios Berlin <br>Mix und zusätzliche Aufnahmen: Olaf Gleba, Köln<br>Mastering Kai Blankenberg, Skyline Tonfabrik Düsseldorf</p>"},"id":"6d1aab22-0a62-494c-ab38-e94dbf820cbc","isHidden":false,"type":"text"}],"id":"7c58e78d-05de-4bcc-b8be-05ab0295962d","width":"2/3"}],"id":"4192e4dc-a3f9-4a71-97f0-1c90933206b0"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"A"},"id":"33aa2790-590e-4068-a44f-23b224c40f0f","isHidden":false,"type":"heading"}],"id":"7748b142-6dc4-448d-8c99-c4e347c5605e","width":"1/3"},{"blocks":[{"content":{"poster":[],"source":["file://TxjlTpM50zACdDIF"],"title":"Sicher Micha?","caption":"","controls":"true","autoplay":"false"},"id":"5a6727a5-0417-4aa6-bd0e-895085fc4061","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://YYgzsBpGAmra2JsK"],"title":"Immer","caption":"","controls":"true","autoplay":"false"},"id":"f8a5f821-da95-4c8a-b2ed-d346fed4dedc","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://ukEAzcPfIRFRkbp0"],"title":"Die Zeit, die Zeit","caption":"","controls":"true","autoplay":"false"},"id":"5106c65f-ef1f-41a9-83cd-3c311b324fe2","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://1QkxKPC7c2HRn59U"],"title":"Hätte","caption":"","controls":"true","autoplay":"false"},"id":"33503692-7709-4e49-8746-507b6ed062ac","isHidden":false,"type":"audio"}],"id":"d7c6fa0e-549b-4d07-9a53-bbe8944203a4","width":"2/3"}],"id":"29c4a3dc-5d91-405b-b2a3-12edf73d0d86"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"B"},"id":"52c95ec8-a720-4621-9ed6-1beb417badee","isHidden":false,"type":"heading"}],"id":"fcd2eeb0-8ca4-492f-8ddc-ff152d814ef3","width":"1/3"},{"blocks":[{"content":{"poster":[],"source":["file://TD7dmR9bMZo6sE0a"],"title":"Authentischer Autist","caption":"","controls":"true","autoplay":"false"},"id":"286291b5-b169-481e-9119-53e885065bce","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://WDkR2MSTusAqHzV9"],"title":"Veränderungsziel","caption":"","controls":"true","autoplay":"false"},"id":"dc9ffc7b-a4e2-453a-8f94-8a4dceae60ea","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://YMNm977W6MgfWFY0"],"title":"Der Mann","caption":"","controls":"true","autoplay":"false"},"id":"8df85466-59be-4bc2-b54c-23195d8ee730","isHidden":false,"type":"audio"},{"content":{"poster":[],"source":["file://1NDh9yNcRcZzgiqP"],"title":"Du spielst auf Zeit","caption":"","controls":"true","autoplay":"false"},"id":"560abbfe-ab3a-4f5f-b867-3ab779849e01","isHidden":false,"type":"audio"}],"id":"2f90ccf8-9e37-452e-9135-a9d04598b4bf","width":"2/3"}],"id":"415c5043-c432-4fe0-9a46-8941d8526e2c"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://OWWJsOcttada7blk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"82771998-9070-4486-8a8b-bd109602e91c","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Guido Leicht </strong>Gesang, Gitarre\u2028<br><strong>Rob Mudge</strong> Gitarre\u2028<br><strong>Christian Baack </strong>Bass\u2028<br><strong>Christian Noss </strong>Schlagzeug</p>"},"id":"84e58995-ed3b-40f6-9bbd-0d3d0480366a","isHidden":false,"type":"text"}],"id":"9b25a0a2-1702-4cec-aa2e-b71d5117fb5b","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://Hy3EG38q5EFNFKAz"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b29c7ae0-3274-48ae-8709-f7f2a3f9eb85","isHidden":false,"type":"image"}],"id":"03440445-99b1-45bf-9139-fcb157338b97","width":"1/2"}],"id":"b2222673-47fc-47de-91b3-35c495a1d1e2"}]
 
 ----
@@ -30,7 +110,7 @@ Headermedia: image
 
 ----
 
-Headerimage: - file://3yuL7Yakcnt1Qpsk
+Headerimage: - file://K9d9ihbIDPlMbMnv
 
 ----
 
